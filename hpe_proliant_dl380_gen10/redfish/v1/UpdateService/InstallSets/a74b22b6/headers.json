@@ -1,0 +1,1 @@
+{"GET":{"allow":"GET, HEAD, POST, PATCH, DELETE","cache-control":"no-cache","content-type":"application/json; charset=utf-8","date":"Mon, 10 Jun 2019 10:31:00 GMT","etag":"W/\"298E1A70\"","link":"</redfish/v1/SchemaStore/en/HpeComponentInstallSet.json>; rel=describedby","odata-version":"4.0","x-frame-options":"sameorigin","x_hp-chrp-service-version":"1.0.3"}}

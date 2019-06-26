@@ -1,0 +1,1 @@
+{"GET":{"allow":"GET, HEAD, POST, PUT, PATCH","cache-control":"no-cache","content-type":"application/json; charset=utf-8","date":"Mon, 10 Jun 2019 10:34:56 GMT","etag":"W/\"D0E915957596FFFFFF189759677F7D02\"","link":"</redfish/v1/schemastore/en/bios.v1_0_0.bios/>; rel=describedby","odata-version":"4.0","x-frame-options":"sameorigin","x_hp-chrp-service-version":"1.0.3"}}

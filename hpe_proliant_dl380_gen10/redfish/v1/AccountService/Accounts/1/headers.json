@@ -1,0 +1,1 @@
+{"GET":{"allow":"GET, HEAD, PATCH, DELETE","cache-control":"no-cache","content-type":"application/json; charset=utf-8","date":"Mon, 10 Jun 2019 10:30:27 GMT","etag":"W/\"226E6C7B\"","link":"</redfish/v1/SchemaStore/en/ManagerAccount.json>; rel=describedby","odata-version":"4.0","x-frame-options":"sameorigin","x_hp-chrp-service-version":"1.0.3"}}

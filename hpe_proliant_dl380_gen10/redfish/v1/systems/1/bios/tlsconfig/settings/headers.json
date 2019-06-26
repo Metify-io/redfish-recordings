@@ -1,0 +1,1 @@
+{"GET":{"allow":"GET, HEAD, PUT, PATCH","cache-control":"no-cache","content-type":"application/json; charset=utf-8","date":"Mon, 10 Jun 2019 10:35:12 GMT","etag":"W/\"9A81E96B70612E2E2E91C95F74D50A25\"","link":"</redfish/v1/schemastore/en/hpetlsconfig.v1_0_0.hpetlsconfig/>; rel=describedby","odata-version":"4.0","x-frame-options":"sameorigin","x_hp-chrp-service-version":"1.0.3"}}
