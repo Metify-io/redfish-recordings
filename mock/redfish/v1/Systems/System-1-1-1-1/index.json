@@ -12,6 +12,9 @@
       "target": "/redfish/v1/Systems/System-1-1-1-1/Actions/ComputerSystem.Reset"
     }
   },
+  "Bios": {
+    "@odata.id":"/redfish/v1/Systems/System-1-1-1-1/Bios"
+  },
   "Boot": {
     "BootOrder": [
       "Hdd",

@@ -13,6 +13,9 @@
       "target": "/redfish/v1/Systems/System-1-2-1-1/Actions/ComputerSystem.Reset"
     }
   },
+  "Bios": {
+    "@odata.id":"/redfish/v1/Systems/System-1-2-1-1/Bios"
+  },
   "Boot": {
     "BootSourceOverrideEnabled": "Disabled",
     "BootSourceOverrideMode": "Legacy",
