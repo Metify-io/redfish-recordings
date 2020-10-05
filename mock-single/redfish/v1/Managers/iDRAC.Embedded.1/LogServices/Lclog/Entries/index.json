@@ -1,0 +1,10 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntryCollection.LogEntryCollection",
+  "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries",
+  "@odata.type": "#LogEntryCollection.LogEntryCollection",
+  "Description": "LC Logs for this manager",
+  "Members": [],
+  "Members@odata.count": 0,
+  "Members@odata.nextLink": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries?$skip=50",
+  "Name": "Log Entry Collection"
+}
