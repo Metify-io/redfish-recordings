@@ -1,1 +1,21 @@
-{"@odata.context":"/redfish/v1/$metadata#Job.Job","@odata.id":"/redfish/v1/JobService/Jobs/RID_911764324299","@odata.type":"#Job.v1_0_0.Job","Description":"Represent a job in Redfish","Id":"RID_911764324299","Name":"Reboot3","JobState":"Completed","JobStatus":"OK","PercentComplete":100,"EndTime":"2020-06-03T04:27:31-05:00","Messages":[{"Message":"Reboot is complete.","MessageId":"RED030","MessageArgs":[],"MessageArgs@odata.count":0}],"Messages@odata.count":1}
+{
+  "@odata.context": "/redfish/v1/$metadata#Job.Job",
+  "@odata.id": "/redfish/v1/JobService/Jobs/RID_911764324299",
+  "@odata.type": "#Job.v1_0_0.Job",
+  "Description": "Represent a job in Redfish",
+  "Id": "RID_911764324299",
+  "Name": "Reboot3",
+  "JobState": "Completed",
+  "JobStatus": "OK",
+  "PercentComplete": 100,
+  "EndTime": "2020-06-03T04:27:31-05:00",
+  "Messages": [
+    {
+      "Message": "Reboot is complete.",
+      "MessageId": "RED030",
+      "MessageArgs": [],
+      "MessageArgs@odata.count": 0
+    }
+  ],
+  "Messages@odata.count": 1
+}

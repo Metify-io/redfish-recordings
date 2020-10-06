@@ -1,1 +1,34 @@
-{"$ref":"#/definitions/DellManager","$schema":"/redfish/v1/Schemas/redfish-schema-v1.json","copyright":"Copyright 2014-2019 Dell, Inc. or its subsidiaries. All Rights Reserved.","definitions":{"DellManager":{"anyOf":[{"$ref":"/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/idRef"},{"$ref":"/redfish/v1/Schemas/DellManager.v1_0_0.json#/definitions/DellManager"}],"description":"This is the schema definition for the additional OEM properties to complement DMTF Manager Schema.","longDescription":"This resource shall be used to represent an OEM Manager for a Redfish implementation."},"ResetType":{"enum":["All","ResetAllWithRootDefaults","Default"],"enumDescriptions":{"All":"All configuration is set to default.","Default":"All configuration is set to default except users and network settings are preserved.","ResetAllWithRootDefaults":"All configuration including network is set to default exception root user password set to calvin."},"type":"string"}},"title":"#DellManager.DellManager","@odata.id":"/redfish/v1/Schemas/DellManager.json"}
+{
+  "$ref": "#/definitions/DellManager",
+  "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+  "copyright": "Copyright 2014-2019 Dell, Inc. or its subsidiaries. All Rights Reserved.",
+  "definitions": {
+    "DellManager": {
+      "anyOf": [
+        {
+          "$ref": "/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/idRef"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/DellManager.v1_0_0.json#/definitions/DellManager"
+        }
+      ],
+      "description": "This is the schema definition for the additional OEM properties to complement DMTF Manager Schema.",
+      "longDescription": "This resource shall be used to represent an OEM Manager for a Redfish implementation."
+    },
+    "ResetType": {
+      "enum": [
+        "All",
+        "ResetAllWithRootDefaults",
+        "Default"
+      ],
+      "enumDescriptions": {
+        "All": "All configuration is set to default.",
+        "Default": "All configuration is set to default except users and network settings are preserved.",
+        "ResetAllWithRootDefaults": "All configuration including network is set to default exception root user password set to calvin."
+      },
+      "type": "string"
+    }
+  },
+  "title": "#DellManager.DellManager",
+  "@odata.id": "/redfish/v1/Schemas/DellManager.json"
+}

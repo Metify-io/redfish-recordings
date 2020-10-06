@@ -1,1 +1,35 @@
-{"@odata.context":"/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory","@odata.id":"/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_802__Diagnostics.Embedded.1:LC.Embedded.1","@odata.type":"#DellSoftwareInventory.v1_1_0.DellSoftwareInventory","BuildNumber":0,"Classifications":["Firmware"],"Classifications@odata.count":1,"ComponentID":"25806","ComponentType":"APAC","DeviceID":null,"ElementName":"Dell 64 Bit uEFI Diagnostics, version 4301, 4301A42, 4301.43","HashValue":null,"Id":"DCIM:INSTALLED_0x23_802__Diagnostics.Embedded.1:LC.Embedded.1","IdentityInfoType":["OrgID:ComponentType:ComponentID"],"IdentityInfoType@odata.count":1,"IdentityInfoValue":["DCIM:firmware:25806"],"IdentityInfoValue@odata.count":1,"InstallationDate":"2020-06-03T04:13:03Z","IsEntity":true,"MajorVersion":0,"MinorVersion":0,"RevisionNumber":0,"RevisionString":null,"Status":"Installed","SubDeviceID":null,"SubVendorID":null,"VendorID":null,"impactsTPMmeasurements":false}
+{
+  "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+  "@odata.id": "/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_802__Diagnostics.Embedded.1:LC.Embedded.1",
+  "@odata.type": "#DellSoftwareInventory.v1_1_0.DellSoftwareInventory",
+  "BuildNumber": 0,
+  "Classifications": [
+    "Firmware"
+  ],
+  "Classifications@odata.count": 1,
+  "ComponentID": "25806",
+  "ComponentType": "APAC",
+  "DeviceID": null,
+  "ElementName": "Dell 64 Bit uEFI Diagnostics, version 4301, 4301A42, 4301.43",
+  "HashValue": null,
+  "Id": "DCIM:INSTALLED_0x23_802__Diagnostics.Embedded.1:LC.Embedded.1",
+  "IdentityInfoType": [
+    "OrgID:ComponentType:ComponentID"
+  ],
+  "IdentityInfoType@odata.count": 1,
+  "IdentityInfoValue": [
+    "DCIM:firmware:25806"
+  ],
+  "IdentityInfoValue@odata.count": 1,
+  "InstallationDate": "2020-06-03T04:13:03Z",
+  "IsEntity": true,
+  "MajorVersion": 0,
+  "MinorVersion": 0,
+  "RevisionNumber": 0,
+  "RevisionString": null,
+  "Status": "Installed",
+  "SubDeviceID": null,
+  "SubVendorID": null,
+  "VendorID": null,
+  "impactsTPMmeasurements": false
+}

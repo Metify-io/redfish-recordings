@@ -1,1 +1,19 @@
-{"@odata.context":"/redfish/v1/$metadata#DellJob.DellJob","@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/Jobs/JID_911764213597","@odata.type":"#DellJob.v1_0_2.DellJob","CompletionTime":"2020-06-03T04:33:52","Description":"Job Instance","EndTime":"TIME_NA","Id":"JID_911764213597","JobState":"Completed","JobType":"FirmwareUpdate","Message":"The specified job has completed successfully.","MessageArgs":[],"MessageArgs@odata.count":0,"MessageId":"PR19","Name":"update:DCIM:INSTALLED#741__BIOS.Setup.1-1","PercentComplete":100,"StartTime":"TIME_NOW","TargetSettingsURI":null}
+{
+  "@odata.context": "/redfish/v1/$metadata#DellJob.DellJob",
+  "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/Jobs/JID_911764213597",
+  "@odata.type": "#DellJob.v1_0_2.DellJob",
+  "CompletionTime": "2020-06-03T04:33:52",
+  "Description": "Job Instance",
+  "EndTime": "TIME_NA",
+  "Id": "JID_911764213597",
+  "JobState": "Completed",
+  "JobType": "FirmwareUpdate",
+  "Message": "The specified job has completed successfully.",
+  "MessageArgs": [],
+  "MessageArgs@odata.count": 0,
+  "MessageId": "PR19",
+  "Name": "update:DCIM:INSTALLED#741__BIOS.Setup.1-1",
+  "PercentComplete": 100,
+  "StartTime": "TIME_NOW",
+  "TargetSettingsURI": null
+}

@@ -1,1 +1,21 @@
-{"@odata.context":"/redfish/v1/$metadata#Job.Job","@odata.id":"/redfish/v1/JobService/Jobs/JID_911764213597","@odata.type":"#Job.v1_0_0.Job","Description":"Represent a job in Redfish","Id":"JID_911764213597","Name":"update:DCIM:INSTALLED#741__BIOS.Setup.1-1","JobState":"Completed","JobStatus":"OK","PercentComplete":100,"EndTime":"2020-06-03T04:33:52-05:00","Messages":[{"Message":"The specified job has completed successfully.","MessageId":"PR19","MessageArgs":[],"MessageArgs@odata.count":0}],"Messages@odata.count":1}
+{
+  "@odata.context": "/redfish/v1/$metadata#Job.Job",
+  "@odata.id": "/redfish/v1/JobService/Jobs/JID_911764213597",
+  "@odata.type": "#Job.v1_0_0.Job",
+  "Description": "Represent a job in Redfish",
+  "Id": "JID_911764213597",
+  "Name": "update:DCIM:INSTALLED#741__BIOS.Setup.1-1",
+  "JobState": "Completed",
+  "JobStatus": "OK",
+  "PercentComplete": 100,
+  "EndTime": "2020-06-03T04:33:52-05:00",
+  "Messages": [
+    {
+      "Message": "The specified job has completed successfully.",
+      "MessageId": "PR19",
+      "MessageArgs": [],
+      "MessageArgs@odata.count": 0
+    }
+  ],
+  "Messages@odata.count": 1
+}

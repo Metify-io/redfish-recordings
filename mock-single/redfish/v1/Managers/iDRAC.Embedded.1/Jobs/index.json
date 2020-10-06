@@ -1,1 +1,20 @@
-{"@odata.context":"/redfish/v1/$metadata#DellJobCollection.DellJobCollection","@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/Jobs","@odata.type":"#DellJobCollection.DellJobCollection","Description":"Collection of Job Instances","Id":"JobQueue","Members":[{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/Jobs/JID_911764213597"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/Jobs/RID_911764324299"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/Jobs/JID_911768981302"}],"Members@odata.count":3,"Name":"JobQueue"}
+{
+  "@odata.context": "/redfish/v1/$metadata#DellJobCollection.DellJobCollection",
+  "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/Jobs",
+  "@odata.type": "#DellJobCollection.DellJobCollection",
+  "Description": "Collection of Job Instances",
+  "Id": "JobQueue",
+  "Members": [
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/Jobs/JID_911764213597"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/Jobs/RID_911764324299"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/Jobs/JID_911768981302"
+    }
+  ],
+  "Members@odata.count": 3,
+  "Name": "JobQueue"
+}

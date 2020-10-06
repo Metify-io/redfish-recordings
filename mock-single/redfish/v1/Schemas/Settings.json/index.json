@@ -1,1 +1,97 @@
-{"$schema":"/redfish/v1/Schemas/redfish-schema-v1.json","copyright":"Copyright 2014-2018 DMTF. For the full DMTF copyright policy, see http://www.dmtf.org/about/policies/copyright","definitions":{"MaintenanceWindow":{"anyOf":[{"$ref":"/redfish/v1/Schemas/Settings.v1_2_0.json#/definitions/MaintenanceWindow"},{"$ref":"/redfish/v1/Schemas/Settings.v1_2_1.json#/definitions/MaintenanceWindow"}]},"OperationApplyTime":{"enum":["Immediate","OnReset","AtMaintenanceWindowStart","InMaintenanceWindowOnReset"],"enumDescriptions":{"AtMaintenanceWindowStart":"Apply the requested operation during a maintenance window as specified by an administrator.","Immediate":"Apply the requested operation immediately.","InMaintenanceWindowOnReset":"Apply the requested operation after a reset but within maintenance window as specified by an adminstrator.","OnReset":"Apply the requested operation on a reset."},"enumLongDescriptions":{"AtMaintenanceWindowStart":"This OperationApplyTime value shall be used to indicate the requested Create, Delete, or Action operation is applied during the maintenance window specified by the MaintenanceWindowStartTime and MaintenanceWindowDurationInSeconds properties.  A service may perform resets during this maintenance window.","Immediate":"This OperationApplyTime value shall be used to indicate the requested Create, Delete, or Action operation is applied immediately.","InMaintenanceWindowOnReset":"This OperationApplyTime value shall be used to indicate the requested Create, Delete, or Action operation is applied during the maintenance window specified by the MaintenanceWindowStartTime and MaintenanceWindowDurationInSeconds properties, and if a reset occurs within the maintenance window.","OnReset":"This OperationApplyTime value shall be used to indicate the requested Create, Delete, or Action operation is applied when the system or service is reset."},"type":"string"},"OperationApplyTimeSupport":{"anyOf":[{"$ref":"/redfish/v1/Schemas/Settings.v1_2_0.json#/definitions/OperationApplyTimeSupport"},{"$ref":"/redfish/v1/Schemas/Settings.v1_2_1.json#/definitions/OperationApplyTimeSupport"}]},"PreferredApplyTime":{"anyOf":[{"$ref":"/redfish/v1/Schemas/Settings.v1_1_0.json#/definitions/PreferredApplyTime"},{"$ref":"/redfish/v1/Schemas/Settings.v1_1_1.json#/definitions/PreferredApplyTime"},{"$ref":"/redfish/v1/Schemas/Settings.v1_2_0.json#/definitions/PreferredApplyTime"},{"$ref":"/redfish/v1/Schemas/Settings.v1_2_1.json#/definitions/PreferredApplyTime"}]},"Settings":{"anyOf":[{"$ref":"/redfish/v1/Schemas/Settings.v1_0_0.json#/definitions/Settings"},{"$ref":"/redfish/v1/Schemas/Settings.v1_0_2.json#/definitions/Settings"},{"$ref":"/redfish/v1/Schemas/Settings.v1_0_3.json#/definitions/Settings"},{"$ref":"/redfish/v1/Schemas/Settings.v1_0_4.json#/definitions/Settings"},{"$ref":"/redfish/v1/Schemas/Settings.v1_0_5.json#/definitions/Settings"},{"$ref":"/redfish/v1/Schemas/Settings.v1_1_0.json#/definitions/Settings"},{"$ref":"/redfish/v1/Schemas/Settings.v1_1_1.json#/definitions/Settings"},{"$ref":"/redfish/v1/Schemas/Settings.v1_2_0.json#/definitions/Settings"},{"$ref":"/redfish/v1/Schemas/Settings.v1_2_1.json#/definitions/Settings"}]}},"owningEntity":"DMTF","title":"#Settings","@odata.id":"/redfish/v1/Schemas/Settings.json"}
+{
+  "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+  "copyright": "Copyright 2014-2018 DMTF. For the full DMTF copyright policy, see http://www.dmtf.org/about/policies/copyright",
+  "definitions": {
+    "MaintenanceWindow": {
+      "anyOf": [
+        {
+          "$ref": "/redfish/v1/Schemas/Settings.v1_2_0.json#/definitions/MaintenanceWindow"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/Settings.v1_2_1.json#/definitions/MaintenanceWindow"
+        }
+      ]
+    },
+    "OperationApplyTime": {
+      "enum": [
+        "Immediate",
+        "OnReset",
+        "AtMaintenanceWindowStart",
+        "InMaintenanceWindowOnReset"
+      ],
+      "enumDescriptions": {
+        "AtMaintenanceWindowStart": "Apply the requested operation during a maintenance window as specified by an administrator.",
+        "Immediate": "Apply the requested operation immediately.",
+        "InMaintenanceWindowOnReset": "Apply the requested operation after a reset but within maintenance window as specified by an adminstrator.",
+        "OnReset": "Apply the requested operation on a reset."
+      },
+      "enumLongDescriptions": {
+        "AtMaintenanceWindowStart": "This OperationApplyTime value shall be used to indicate the requested Create, Delete, or Action operation is applied during the maintenance window specified by the MaintenanceWindowStartTime and MaintenanceWindowDurationInSeconds properties.  A service may perform resets during this maintenance window.",
+        "Immediate": "This OperationApplyTime value shall be used to indicate the requested Create, Delete, or Action operation is applied immediately.",
+        "InMaintenanceWindowOnReset": "This OperationApplyTime value shall be used to indicate the requested Create, Delete, or Action operation is applied during the maintenance window specified by the MaintenanceWindowStartTime and MaintenanceWindowDurationInSeconds properties, and if a reset occurs within the maintenance window.",
+        "OnReset": "This OperationApplyTime value shall be used to indicate the requested Create, Delete, or Action operation is applied when the system or service is reset."
+      },
+      "type": "string"
+    },
+    "OperationApplyTimeSupport": {
+      "anyOf": [
+        {
+          "$ref": "/redfish/v1/Schemas/Settings.v1_2_0.json#/definitions/OperationApplyTimeSupport"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/Settings.v1_2_1.json#/definitions/OperationApplyTimeSupport"
+        }
+      ]
+    },
+    "PreferredApplyTime": {
+      "anyOf": [
+        {
+          "$ref": "/redfish/v1/Schemas/Settings.v1_1_0.json#/definitions/PreferredApplyTime"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/Settings.v1_1_1.json#/definitions/PreferredApplyTime"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/Settings.v1_2_0.json#/definitions/PreferredApplyTime"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/Settings.v1_2_1.json#/definitions/PreferredApplyTime"
+        }
+      ]
+    },
+    "Settings": {
+      "anyOf": [
+        {
+          "$ref": "/redfish/v1/Schemas/Settings.v1_0_0.json#/definitions/Settings"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/Settings.v1_0_2.json#/definitions/Settings"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/Settings.v1_0_3.json#/definitions/Settings"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/Settings.v1_0_4.json#/definitions/Settings"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/Settings.v1_0_5.json#/definitions/Settings"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/Settings.v1_1_0.json#/definitions/Settings"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/Settings.v1_1_1.json#/definitions/Settings"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/Settings.v1_2_0.json#/definitions/Settings"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/Settings.v1_2_1.json#/definitions/Settings"
+        }
+      ]
+    }
+  },
+  "owningEntity": "DMTF",
+  "title": "#Settings",
+  "@odata.id": "/redfish/v1/Schemas/Settings.json"
+}

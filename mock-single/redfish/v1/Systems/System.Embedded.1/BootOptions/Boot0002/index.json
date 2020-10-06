@@ -1,1 +1,12 @@
-{"@odata.context":"/redfish/v1/$metadata#BootOption.BootOption","@odata.id":"/redfish/v1/Systems/System.Embedded.1/BootOptions/Boot0002","@odata.type":"#BootOption.v1_0_1.BootOption","BootOptionEnabled":true,"BootOptionReference":"Boot0002","Description":"Current settings of the UEFI Boot option","DisplayName":"Unavailable: CentOS","Id":"Boot0002","Name":"Uefi Boot Option","UefiDevicePath":"HD(1,GPT,90FB40C2-4AAC-4334-B5D2-2BBE723C49BF,0x800,0x64000)/\\EFI\\centos\\shimx64.efi"}
+{
+  "@odata.context": "/redfish/v1/$metadata#BootOption.BootOption",
+  "@odata.id": "/redfish/v1/Systems/System.Embedded.1/BootOptions/Boot0002",
+  "@odata.type": "#BootOption.v1_0_1.BootOption",
+  "BootOptionEnabled": true,
+  "BootOptionReference": "Boot0002",
+  "Description": "Current settings of the UEFI Boot option",
+  "DisplayName": "Unavailable: CentOS",
+  "Id": "Boot0002",
+  "Name": "Uefi Boot Option",
+  "UefiDevicePath": "HD(1,GPT,90FB40C2-4AAC-4334-B5D2-2BBE723C49BF,0x800,0x64000)/\\EFI\\centos\\shimx64.efi"
+}

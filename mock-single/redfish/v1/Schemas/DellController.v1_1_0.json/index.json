@@ -1,1 +1,705 @@
-{"$ref":"#/definitions/DellController","$schema":"/redfish/v1/Schemas/redfish-schema-v1.json","copyright":"Copyright 2014-2019 Dell, Inc. or its subsidiaries. All Rights Reserved.","definitions":{"AlarmState":{"enum":["AlarmDisabled","AlarmEnabled","AlarmNotPresent","AlarmNotSupported"],"enumDescriptions":{"AlarmDisabled":"Alarm disabled","AlarmEnabled":"Alarm enabled","AlarmNotPresent":"Alarm Not present","AlarmNotSupported":"Alarm Not supported"},"enumLongDescriptions":{"AlarmDisabled":"Alarm disabled","AlarmEnabled":"Alarm enabled","AlarmNotPresent":"Alarm Not present","AlarmNotSupported":"Alarm Not supported"},"type":"string"},"CachecadeCapability":{"enum":["NotSupported","Supported"],"enumDescriptions":{"NotSupported":"Cachecade Virtual Disk not supported","Supported":"Cachecade Virtual Disk supported"},"enumLongDescriptions":{"NotSupported":"Cachecade Virtual Disk not supported","Supported":"Cachecade Virtual Disk supported"},"type":"string"},"DellController":{"additionalProperties":false,"description":"An instance of DellController will have RAID Controller specific data.","longDescription":"An instance of DellController will have RAID Controller specific data.","patternProperties":{"^([a-zA-Z_][a-zA-Z0-9_]*)?@(odata|Redfish|Message)\\.[a-zA-Z_][a-zA-Z0-9_.]+$":{"description":"This property shall specify a valid odata or Redfish property.","type":["array","boolean","integer","number","null","object","string"]}},"properties":{"@odata.context":{"$ref":"/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/context"},"@odata.etag":{"$ref":"/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/etag"},"@odata.id":{"$ref":"/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/id"},"@odata.type":{"$ref":"/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/type"},"AlarmState":{"anyOf":[{"$ref":"#/definitions/AlarmState"},{"type":"null"}],"description":"This property represents the state of Alarm if it is present.","longDescription":"This property represents the state of Alarm if it is present.","readonly":true},"BootVirtualDiskFQDD":{"description":"This property indicates FQDD of BootVD. If no VD is set as BootVD in the controller, this property is an empty string.","longDescription":"This property indicates FQDD of BootVD. If no VD is set as BootVD in the controller, this property is an empty string.","readonly":true,"type":["string","null"]},"CacheSizeInMB":{"description":"This property shall represent the controller cache size in MB.","longDescription":"This property shall represent the controller cache size in MB.","readonly":true,"type":["integer","null"],"units":"MB"},"CachecadeCapability":{"anyOf":[{"$ref":"#/definitions/CachecadeCapability"},{"type":"null"}],"description":"The property shall represent the controllers support of cachecade virtual disk creation.","longDescription":"The property shall represent the controllers support of cachecade virtual disk creation.","readonly":true},"ConnectorCount":{"description":"This property represents the count of SAS connectors.","longDescription":"This property represents the count of SAS connectors.","readonly":true,"type":["integer","null"]},"ControllerFirmwareVersion":{"description":"This property gives information about the Firmware Version installed on the Controller.","longDescription":"This property gives information about the Firmware Version installed on the Controller.","readonly":true,"type":["string","null"]},"Description":{"anyOf":[{"$ref":"/redfish/v1/Schemas/Resource.json#/definitions/Description"},{"type":"null"}],"readonly":true},"Device":{"description":"This property represents the PCI device.","longDescription":"This property represents the PCI device.","readonly":true,"type":["string","null"]},"DeviceCardDataBusWidth":{"description":"This property represents the bus width.","longDescription":"This property represents the bus width.","readonly":true,"type":["string","null"]},"DeviceCardSlotLength":{"anyOf":[{"$ref":"#/definitions/DeviceCardSlotLength"},{"type":"null"}],"description":"This property represents the controller slot length.","longDescription":"This property represents the controller slot length.","readonly":true},"DeviceCardSlotType":{"description":"The property shall represent the the controller slot type. Example the string value will be Unknown, PCI Express x8, PCI Express Gen 3, PCI Express Gen 3x1,  PCI Express Gen 3x2, PCI Express Gen 3x4, PCI Express Gen 3x8, PCI Express Gen 3x16.","longDescription":"The property shall represent the the controller slot type. Example the string value will be Unknown, PCI Express x8, PCI Express Gen 3, PCI Express Gen 3x1,  PCI Express Gen 3x2, PCI Express Gen 3x4, PCI Express Gen 3x8, PCI Express Gen 3x16.","readonly":true,"type":["string","null"]},"DriverVersion":{"description":"This property shall represent the controller driver version.","longDescription":"This property shall represent the controller driver version.","readonly":true,"type":["string","null"]},"EncryptionCapability":{"anyOf":[{"$ref":"#/definitions/EncryptionCapability"},{"type":"null"}],"description":"The property shall represent the possible encryption states on the controller.","longDescription":"The property shall represent the possible encryption states on the controller.","readonly":true},"EncryptionMode":{"anyOf":[{"$ref":"#/definitions/EncryptionMode"},{"type":"null"}],"description":"The property shall represent the current encryption state on the controller.","longDescription":"The property shall represent the current encryption state on the controller.","readonly":true},"Id":{"$ref":"/redfish/v1/Schemas/Resource.json#/definitions/Id","readonly":true},"KeyID":{"description":"KeyID provides details about the Key identification on the controller when the controller is in Local Key Management mode.","longDescription":"KeyID provides details about the Key identification on the controller when the controller is in Local Key Management mode.","readonly":true,"type":["string","null"]},"LastSystemInventoryTime":{"description":"This property provides the time when System Inventory Collection On Reboot(CSIOR) was last performed or the object was last updated on iDRAC. The value is represented as yyyymmddHHMMSS.","format":"date-time","longDescription":"This property provides the time when System Inventory Collection On Reboot(CSIOR) was last performed or the object was last updated on iDRAC. The value is represented as yyyymmddHHMMSS.","readonly":true,"type":["string","null"]},"LastUpdateTime":{"description":"This property provides the time the data was last updated. The value is represented as yyyymmddHHMMSS.","format":"date-time","longDescription":"This property provides the time the data was last updated. The value is represented as yyyymmddHHMMSS.","readonly":true,"type":["string","null"]},"MaxAvailablePCILinkSpeed":{"description":"This property represents the maximum PCI link speed that the controller is set to allow.","longDescription":"This property represents the maximum PCI link speed that the controller is set to allow.","readonly":true,"type":["string","null"]},"MaxPossiblePCILinkSpeed":{"description":"This property represents the maximum possible PCI link speed, which is the speed this device is capable of.","longDescription":"This property represents the maximum possible PCI link speed, which is the speed this device is capable of.","readonly":true,"type":["string","null"]},"Name":{"$ref":"/redfish/v1/Schemas/Resource.json#/definitions/Name","readonly":true},"Oem":{"$ref":"/redfish/v1/Schemas/Resource.json#/definitions/Oem","description":"This is the manufacturer/provider specific extension moniker used to divide the Oem object into sections.","longDescription":"The value of this string shall be of the format for the reserved word *Oem*."},"PCISlot":{"description":"The property shall represent the associated PCI slot.","longDescription":"The property shall represent the associated PCI slot.","readonly":true,"type":["integer","null"]},"PatrolReadState":{"anyOf":[{"$ref":"#/definitions/PatrolReadState"},{"type":"null"}],"description":"This property shall represent the current state of the patrol read operation.","longDescription":"This property shall represent the current state of the patrol read operation.","readonly":true},"PersistentHotspare":{"anyOf":[{"$ref":"#/definitions/PersistentHotspare"},{"type":"null"}],"description":"This property indicates status of the persistent hotspare slot of the controller.","longDescription":"This property indicates status of the persistent hotspare slot of the controller.","readonly":true},"RealtimeCapability":{"anyOf":[{"$ref":"#/definitions/RealtimeCapability"},{"type":"null"}],"description":"This property indicates whether this controller supports Realtime.","longDescription":"This property indicates whether this controller supports Realtime.","readonly":true},"RollupStatus":{"anyOf":[{"$ref":"#/definitions/RollupStatus"},{"type":"null"}],"description":"RollupStatus provides overall health status of the system by considering their sub-component health statuses, e.g RollupStatus will be degraded if any one of the sub-component is degraded.","longDescription":"RollupStatus provides overall health status of the system by considering their sub-component health statuses, e.g RollupStatus will be degraded if any one of the sub-component is degraded.","readonly":true},"SASAddress":{"description":"The property provides the unique ID of the controller and is in hexadecimal form.","longDescription":"The property provides the unique ID of the controller and is in hexadecimal form.","readonly":true,"type":["string","null"]},"SecurityStatus":{"anyOf":[{"$ref":"#/definitions/SecurityStatus"},{"type":"null"}],"description":"The property shall represent the controller security configuration information.","longDescription":"The property shall represent the controller security configuration information.","readonly":true},"SharedSlotAssignmentAllowed":{"anyOf":[{"$ref":"#/definitions/SharedSlotAssignmentAllowed"},{"type":"null"}],"description":"This property indicates whether the controller allows shared assignments of slots, that is, whether the controller can access slots that are shared with other controllers.","longDescription":"This property indicates whether the controller allows shared assignments of slots, that is, whether the controller can access slots that are shared with other controllers.","readonly":true},"SlicedVDCapability":{"anyOf":[{"$ref":"#/definitions/SlicedVDCapability"},{"type":"null"}],"description":"The property shall represent the controllers support of sliced virtual disk creation and shall have one of the following values:0 - Sliced Virtual Disk not supported, 1-Sliced Virtual Disk supported.","longDescription":"The property shall represent the controllers support of sliced virtual disk creation and shall have one of the following values:0 - Sliced Virtual Disk not supported, 1-Sliced Virtual Disk supported.","readonly":true},"SupportControllerBootMode":{"anyOf":[{"$ref":"#/definitions/SupportControllerBootMode"},{"type":"null"}],"description":"This property indicates whether this controller supports setting of controller boot mode.","longDescription":"This property indicates whether this controller supports setting of controller boot mode.","readonly":true},"SupportEnhancedAutoForeignImport":{"anyOf":[{"$ref":"#/definitions/SupportEnhancedAutoForeignImport"},{"type":"null"}],"description":"This property represents the controller supports automatic foreign import operation when the device is in foreign import mode.","longDescription":"This property represents the controller supports automatic foreign import operation when the device is in foreign import mode.","readonly":true},"SupportRAID10UnevenSpans":{"anyOf":[{"$ref":"#/definitions/SupportRAID10UnevenSpans"},{"type":"null"}],"description":"This property indicates whether this controller supports uneven spans for RAID 10.","longDescription":"This property indicates whether this controller supports uneven spans for RAID 10.","readonly":true},"T10PICapability":{"anyOf":[{"$ref":"#/definitions/T10PICapability"},{"type":"null"}],"description":"This property indicates whether this controller supports T10 Protection Information (T10 PI).","longDescription":"This property indicates whether this controller supports T10 Protection Information (T10 PI).","readonly":true}},"required":["@odata.id","@odata.type","Id","Name"],"type":"object"},"DeviceCardSlotLength":{"enum":["LongLength","Other","ShortLength","Unknown"],"enumDescriptions":{"LongLength":"LongLength","Other":"Other","ShortLength":"ShortLength","Unknown":"Unknown"},"enumLongDescriptions":{"LongLength":"LongLength","Other":"Other","ShortLength":"ShortLength","Unknown":"Unknown"},"type":"string"},"EncryptionCapability":{"enum":["LocalKeyManagementAndSecureEnterpriseKeyManagerCapable","LocalKeyManagementCapable","None","SecureEnterpriseKeyManagerCapable"],"enumDescriptions":{"LocalKeyManagementAndSecureEnterpriseKeyManagerCapable":"Local Key Management and Secure Enterprise Key Manager Capable","LocalKeyManagementCapable":"Local Key Management Capable","None":"None","SecureEnterpriseKeyManagerCapable":"Secure Enterprise Key Manager Capable"},"enumLongDescriptions":{"LocalKeyManagementAndSecureEnterpriseKeyManagerCapable":"Local Key Management and Secure Enterprise Key Manager Capable","LocalKeyManagementCapable":"Local Key Management Capable","None":"None","SecureEnterpriseKeyManagerCapable":"Secure Enterprise Key Manager Capable"},"type":"string"},"EncryptionMode":{"enum":["LocalKeyManagement","None","SecureEnterpriseKeyManager","SecureEnterpriseKeyManagerFailed","SecureEnterpriseKeyManagerPending"],"enumDescriptions":{"LocalKeyManagement":"Local Key Management","None":"None","SecureEnterpriseKeyManager":"Secure Enterprise Key Manager","SecureEnterpriseKeyManagerFailed":"Secure Enterprise Key Manager Failed","SecureEnterpriseKeyManagerPending":"Secure Enterprise Key Manager Pending"},"enumLongDescriptions":{"LocalKeyManagement":"Local Key Management","None":"None","SecureEnterpriseKeyManager":"Secure Enterprise Key Manager","SecureEnterpriseKeyManagerFailed":"Secure Enterprise Key Manager Failed","SecureEnterpriseKeyManagerPending":"Secure Enterprise Key Manager Pending"},"type":"string"},"PatrolReadState":{"enum":["Running","Stopped","Unknown"],"enumDescriptions":{"Running":"Running","Stopped":"Stopped","Unknown":"Unknown"},"enumLongDescriptions":{"Running":"Running","Stopped":"Stopped","Unknown":"Unknown"},"type":"string"},"PersistentHotspare":{"enum":["Disabled","Enabled","NotApplicable"],"enumDescriptions":{"Disabled":"Disabled","Enabled":"Enabled","NotApplicable":"Not Applicable"},"enumLongDescriptions":{"Disabled":"Disabled","Enabled":"Enabled","NotApplicable":"Not Applicable"},"type":"string"},"RealtimeCapability":{"enum":["Capable","Incapable"],"enumDescriptions":{"Capable":"Capable","Incapable":"Incapable"},"enumLongDescriptions":{"Capable":"Capable","Incapable":"Incapable"},"type":"string"},"RollupStatus":{"enum":["Degraded","Error","OK","Unknown"],"enumDescriptions":{"Degraded":"Degraded","Error":"Error","OK":"OK","Unknown":"Unknown"},"enumLongDescriptions":{"Degraded":"Degraded","Error":"Error","OK":"OK","Unknown":"Unknown"},"type":"string"},"SecurityStatus":{"enum":["EncryptionCapable","EncryptionNotCapable","SecurityKeyAssigned"],"enumDescriptions":{"EncryptionCapable":"Encryption Capable","EncryptionNotCapable":"Encryption Not Capable","SecurityKeyAssigned":"Security Key Assigned"},"enumLongDescriptions":{"EncryptionCapable":"Encryption Capable","EncryptionNotCapable":"Encryption Not Capable","SecurityKeyAssigned":"Security Key Assigned"},"type":"string"},"SharedSlotAssignmentAllowed":{"enum":["Allowed","NotAllowed","NotApplicable"],"enumDescriptions":{"Allowed":"Allowed","NotAllowed":"Not Allowed","NotApplicable":"Not Applicable"},"enumLongDescriptions":{"Allowed":"Allowed","NotAllowed":"Not Allowed","NotApplicable":"Not Applicable"},"type":"string"},"SlicedVDCapability":{"enum":["NotSupported","Supported"],"enumDescriptions":{"NotSupported":"Sliced Virtual Disk creation not supported","Supported":"Sliced Virtual Disk creation supported"},"enumLongDescriptions":{"NotSupported":"Sliced Virtual Disk creation not supported","Supported":"Sliced Virtual Disk creation supported"},"type":"string"},"SupportControllerBootMode":{"enum":["NotSupported","Supported"],"enumDescriptions":{"NotSupported":"Not Supported","Supported":"Supported"},"enumLongDescriptions":{"NotSupported":"Not Supported","Supported":"Supported"},"type":"string"},"SupportEnhancedAutoForeignImport":{"enum":["NotSupported","Supported"],"enumDescriptions":{"NotSupported":"Not Supported","Supported":"Supported"},"enumLongDescriptions":{"NotSupported":"Not Supported","Supported":"Supported"},"type":"string"},"SupportRAID10UnevenSpans":{"enum":["NotSupported","Supported"],"enumDescriptions":{"NotSupported":"Not supported","Supported":"Supported"},"enumLongDescriptions":{"NotSupported":"Not supported","Supported":"Supported"},"type":"string"},"T10PICapability":{"enum":["NotSupported","Supported"],"enumDescriptions":{"NotSupported":"Not supported","Supported":"Supported"},"enumLongDescriptions":{"NotSupported":"Not supported","Supported":"Supported"},"type":"string"}},"owningEntity":"Dell","title":"#DellController.v1_1_0.DellController","@odata.id":"/redfish/v1/Schemas/DellController.v1_1_0.json"}
+{
+  "$ref": "#/definitions/DellController",
+  "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+  "copyright": "Copyright 2014-2019 Dell, Inc. or its subsidiaries. All Rights Reserved.",
+  "definitions": {
+    "AlarmState": {
+      "enum": [
+        "AlarmDisabled",
+        "AlarmEnabled",
+        "AlarmNotPresent",
+        "AlarmNotSupported"
+      ],
+      "enumDescriptions": {
+        "AlarmDisabled": "Alarm disabled",
+        "AlarmEnabled": "Alarm enabled",
+        "AlarmNotPresent": "Alarm Not present",
+        "AlarmNotSupported": "Alarm Not supported"
+      },
+      "enumLongDescriptions": {
+        "AlarmDisabled": "Alarm disabled",
+        "AlarmEnabled": "Alarm enabled",
+        "AlarmNotPresent": "Alarm Not present",
+        "AlarmNotSupported": "Alarm Not supported"
+      },
+      "type": "string"
+    },
+    "CachecadeCapability": {
+      "enum": [
+        "NotSupported",
+        "Supported"
+      ],
+      "enumDescriptions": {
+        "NotSupported": "Cachecade Virtual Disk not supported",
+        "Supported": "Cachecade Virtual Disk supported"
+      },
+      "enumLongDescriptions": {
+        "NotSupported": "Cachecade Virtual Disk not supported",
+        "Supported": "Cachecade Virtual Disk supported"
+      },
+      "type": "string"
+    },
+    "DellController": {
+      "additionalProperties": false,
+      "description": "An instance of DellController will have RAID Controller specific data.",
+      "longDescription": "An instance of DellController will have RAID Controller specific data.",
+      "patternProperties": {
+        "^([a-zA-Z_][a-zA-Z0-9_]*)?@(odata|Redfish|Message)\\.[a-zA-Z_][a-zA-Z0-9_.]+$": {
+          "description": "This property shall specify a valid odata or Redfish property.",
+          "type": [
+            "array",
+            "boolean",
+            "integer",
+            "number",
+            "null",
+            "object",
+            "string"
+          ]
+        }
+      },
+      "properties": {
+        "@odata.context": {
+          "$ref": "/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/context"
+        },
+        "@odata.etag": {
+          "$ref": "/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/etag"
+        },
+        "@odata.id": {
+          "$ref": "/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/id"
+        },
+        "@odata.type": {
+          "$ref": "/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/type"
+        },
+        "AlarmState": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/AlarmState"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "This property represents the state of Alarm if it is present.",
+          "longDescription": "This property represents the state of Alarm if it is present.",
+          "readonly": true
+        },
+        "BootVirtualDiskFQDD": {
+          "description": "This property indicates FQDD of BootVD. If no VD is set as BootVD in the controller, this property is an empty string.",
+          "longDescription": "This property indicates FQDD of BootVD. If no VD is set as BootVD in the controller, this property is an empty string.",
+          "readonly": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "CacheSizeInMB": {
+          "description": "This property shall represent the controller cache size in MB.",
+          "longDescription": "This property shall represent the controller cache size in MB.",
+          "readonly": true,
+          "type": [
+            "integer",
+            "null"
+          ],
+          "units": "MB"
+        },
+        "CachecadeCapability": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/CachecadeCapability"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "The property shall represent the controllers support of cachecade virtual disk creation.",
+          "longDescription": "The property shall represent the controllers support of cachecade virtual disk creation.",
+          "readonly": true
+        },
+        "ConnectorCount": {
+          "description": "This property represents the count of SAS connectors.",
+          "longDescription": "This property represents the count of SAS connectors.",
+          "readonly": true,
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "ControllerFirmwareVersion": {
+          "description": "This property gives information about the Firmware Version installed on the Controller.",
+          "longDescription": "This property gives information about the Firmware Version installed on the Controller.",
+          "readonly": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Description": {
+          "anyOf": [
+            {
+              "$ref": "/redfish/v1/Schemas/Resource.json#/definitions/Description"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "readonly": true
+        },
+        "Device": {
+          "description": "This property represents the PCI device.",
+          "longDescription": "This property represents the PCI device.",
+          "readonly": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "DeviceCardDataBusWidth": {
+          "description": "This property represents the bus width.",
+          "longDescription": "This property represents the bus width.",
+          "readonly": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "DeviceCardSlotLength": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/DeviceCardSlotLength"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "This property represents the controller slot length.",
+          "longDescription": "This property represents the controller slot length.",
+          "readonly": true
+        },
+        "DeviceCardSlotType": {
+          "description": "The property shall represent the the controller slot type. Example the string value will be Unknown, PCI Express x8, PCI Express Gen 3, PCI Express Gen 3x1,  PCI Express Gen 3x2, PCI Express Gen 3x4, PCI Express Gen 3x8, PCI Express Gen 3x16.",
+          "longDescription": "The property shall represent the the controller slot type. Example the string value will be Unknown, PCI Express x8, PCI Express Gen 3, PCI Express Gen 3x1,  PCI Express Gen 3x2, PCI Express Gen 3x4, PCI Express Gen 3x8, PCI Express Gen 3x16.",
+          "readonly": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "DriverVersion": {
+          "description": "This property shall represent the controller driver version.",
+          "longDescription": "This property shall represent the controller driver version.",
+          "readonly": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "EncryptionCapability": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/EncryptionCapability"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "The property shall represent the possible encryption states on the controller.",
+          "longDescription": "The property shall represent the possible encryption states on the controller.",
+          "readonly": true
+        },
+        "EncryptionMode": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/EncryptionMode"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "The property shall represent the current encryption state on the controller.",
+          "longDescription": "The property shall represent the current encryption state on the controller.",
+          "readonly": true
+        },
+        "Id": {
+          "$ref": "/redfish/v1/Schemas/Resource.json#/definitions/Id",
+          "readonly": true
+        },
+        "KeyID": {
+          "description": "KeyID provides details about the Key identification on the controller when the controller is in Local Key Management mode.",
+          "longDescription": "KeyID provides details about the Key identification on the controller when the controller is in Local Key Management mode.",
+          "readonly": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "LastSystemInventoryTime": {
+          "description": "This property provides the time when System Inventory Collection On Reboot(CSIOR) was last performed or the object was last updated on iDRAC. The value is represented as yyyymmddHHMMSS.",
+          "format": "date-time",
+          "longDescription": "This property provides the time when System Inventory Collection On Reboot(CSIOR) was last performed or the object was last updated on iDRAC. The value is represented as yyyymmddHHMMSS.",
+          "readonly": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "LastUpdateTime": {
+          "description": "This property provides the time the data was last updated. The value is represented as yyyymmddHHMMSS.",
+          "format": "date-time",
+          "longDescription": "This property provides the time the data was last updated. The value is represented as yyyymmddHHMMSS.",
+          "readonly": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "MaxAvailablePCILinkSpeed": {
+          "description": "This property represents the maximum PCI link speed that the controller is set to allow.",
+          "longDescription": "This property represents the maximum PCI link speed that the controller is set to allow.",
+          "readonly": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "MaxPossiblePCILinkSpeed": {
+          "description": "This property represents the maximum possible PCI link speed, which is the speed this device is capable of.",
+          "longDescription": "This property represents the maximum possible PCI link speed, which is the speed this device is capable of.",
+          "readonly": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Name": {
+          "$ref": "/redfish/v1/Schemas/Resource.json#/definitions/Name",
+          "readonly": true
+        },
+        "Oem": {
+          "$ref": "/redfish/v1/Schemas/Resource.json#/definitions/Oem",
+          "description": "This is the manufacturer/provider specific extension moniker used to divide the Oem object into sections.",
+          "longDescription": "The value of this string shall be of the format for the reserved word *Oem*."
+        },
+        "PCISlot": {
+          "description": "The property shall represent the associated PCI slot.",
+          "longDescription": "The property shall represent the associated PCI slot.",
+          "readonly": true,
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "PatrolReadState": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/PatrolReadState"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "This property shall represent the current state of the patrol read operation.",
+          "longDescription": "This property shall represent the current state of the patrol read operation.",
+          "readonly": true
+        },
+        "PersistentHotspare": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/PersistentHotspare"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "This property indicates status of the persistent hotspare slot of the controller.",
+          "longDescription": "This property indicates status of the persistent hotspare slot of the controller.",
+          "readonly": true
+        },
+        "RealtimeCapability": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/RealtimeCapability"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "This property indicates whether this controller supports Realtime.",
+          "longDescription": "This property indicates whether this controller supports Realtime.",
+          "readonly": true
+        },
+        "RollupStatus": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/RollupStatus"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "RollupStatus provides overall health status of the system by considering their sub-component health statuses, e.g RollupStatus will be degraded if any one of the sub-component is degraded.",
+          "longDescription": "RollupStatus provides overall health status of the system by considering their sub-component health statuses, e.g RollupStatus will be degraded if any one of the sub-component is degraded.",
+          "readonly": true
+        },
+        "SASAddress": {
+          "description": "The property provides the unique ID of the controller and is in hexadecimal form.",
+          "longDescription": "The property provides the unique ID of the controller and is in hexadecimal form.",
+          "readonly": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "SecurityStatus": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/SecurityStatus"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "The property shall represent the controller security configuration information.",
+          "longDescription": "The property shall represent the controller security configuration information.",
+          "readonly": true
+        },
+        "SharedSlotAssignmentAllowed": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/SharedSlotAssignmentAllowed"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "This property indicates whether the controller allows shared assignments of slots, that is, whether the controller can access slots that are shared with other controllers.",
+          "longDescription": "This property indicates whether the controller allows shared assignments of slots, that is, whether the controller can access slots that are shared with other controllers.",
+          "readonly": true
+        },
+        "SlicedVDCapability": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/SlicedVDCapability"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "The property shall represent the controllers support of sliced virtual disk creation and shall have one of the following values:0 - Sliced Virtual Disk not supported, 1-Sliced Virtual Disk supported.",
+          "longDescription": "The property shall represent the controllers support of sliced virtual disk creation and shall have one of the following values:0 - Sliced Virtual Disk not supported, 1-Sliced Virtual Disk supported.",
+          "readonly": true
+        },
+        "SupportControllerBootMode": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/SupportControllerBootMode"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "This property indicates whether this controller supports setting of controller boot mode.",
+          "longDescription": "This property indicates whether this controller supports setting of controller boot mode.",
+          "readonly": true
+        },
+        "SupportEnhancedAutoForeignImport": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/SupportEnhancedAutoForeignImport"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "This property represents the controller supports automatic foreign import operation when the device is in foreign import mode.",
+          "longDescription": "This property represents the controller supports automatic foreign import operation when the device is in foreign import mode.",
+          "readonly": true
+        },
+        "SupportRAID10UnevenSpans": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/SupportRAID10UnevenSpans"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "This property indicates whether this controller supports uneven spans for RAID 10.",
+          "longDescription": "This property indicates whether this controller supports uneven spans for RAID 10.",
+          "readonly": true
+        },
+        "T10PICapability": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/T10PICapability"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "This property indicates whether this controller supports T10 Protection Information (T10 PI).",
+          "longDescription": "This property indicates whether this controller supports T10 Protection Information (T10 PI).",
+          "readonly": true
+        }
+      },
+      "required": [
+        "@odata.id",
+        "@odata.type",
+        "Id",
+        "Name"
+      ],
+      "type": "object"
+    },
+    "DeviceCardSlotLength": {
+      "enum": [
+        "LongLength",
+        "Other",
+        "ShortLength",
+        "Unknown"
+      ],
+      "enumDescriptions": {
+        "LongLength": "LongLength",
+        "Other": "Other",
+        "ShortLength": "ShortLength",
+        "Unknown": "Unknown"
+      },
+      "enumLongDescriptions": {
+        "LongLength": "LongLength",
+        "Other": "Other",
+        "ShortLength": "ShortLength",
+        "Unknown": "Unknown"
+      },
+      "type": "string"
+    },
+    "EncryptionCapability": {
+      "enum": [
+        "LocalKeyManagementAndSecureEnterpriseKeyManagerCapable",
+        "LocalKeyManagementCapable",
+        "None",
+        "SecureEnterpriseKeyManagerCapable"
+      ],
+      "enumDescriptions": {
+        "LocalKeyManagementAndSecureEnterpriseKeyManagerCapable": "Local Key Management and Secure Enterprise Key Manager Capable",
+        "LocalKeyManagementCapable": "Local Key Management Capable",
+        "None": "None",
+        "SecureEnterpriseKeyManagerCapable": "Secure Enterprise Key Manager Capable"
+      },
+      "enumLongDescriptions": {
+        "LocalKeyManagementAndSecureEnterpriseKeyManagerCapable": "Local Key Management and Secure Enterprise Key Manager Capable",
+        "LocalKeyManagementCapable": "Local Key Management Capable",
+        "None": "None",
+        "SecureEnterpriseKeyManagerCapable": "Secure Enterprise Key Manager Capable"
+      },
+      "type": "string"
+    },
+    "EncryptionMode": {
+      "enum": [
+        "LocalKeyManagement",
+        "None",
+        "SecureEnterpriseKeyManager",
+        "SecureEnterpriseKeyManagerFailed",
+        "SecureEnterpriseKeyManagerPending"
+      ],
+      "enumDescriptions": {
+        "LocalKeyManagement": "Local Key Management",
+        "None": "None",
+        "SecureEnterpriseKeyManager": "Secure Enterprise Key Manager",
+        "SecureEnterpriseKeyManagerFailed": "Secure Enterprise Key Manager Failed",
+        "SecureEnterpriseKeyManagerPending": "Secure Enterprise Key Manager Pending"
+      },
+      "enumLongDescriptions": {
+        "LocalKeyManagement": "Local Key Management",
+        "None": "None",
+        "SecureEnterpriseKeyManager": "Secure Enterprise Key Manager",
+        "SecureEnterpriseKeyManagerFailed": "Secure Enterprise Key Manager Failed",
+        "SecureEnterpriseKeyManagerPending": "Secure Enterprise Key Manager Pending"
+      },
+      "type": "string"
+    },
+    "PatrolReadState": {
+      "enum": [
+        "Running",
+        "Stopped",
+        "Unknown"
+      ],
+      "enumDescriptions": {
+        "Running": "Running",
+        "Stopped": "Stopped",
+        "Unknown": "Unknown"
+      },
+      "enumLongDescriptions": {
+        "Running": "Running",
+        "Stopped": "Stopped",
+        "Unknown": "Unknown"
+      },
+      "type": "string"
+    },
+    "PersistentHotspare": {
+      "enum": [
+        "Disabled",
+        "Enabled",
+        "NotApplicable"
+      ],
+      "enumDescriptions": {
+        "Disabled": "Disabled",
+        "Enabled": "Enabled",
+        "NotApplicable": "Not Applicable"
+      },
+      "enumLongDescriptions": {
+        "Disabled": "Disabled",
+        "Enabled": "Enabled",
+        "NotApplicable": "Not Applicable"
+      },
+      "type": "string"
+    },
+    "RealtimeCapability": {
+      "enum": [
+        "Capable",
+        "Incapable"
+      ],
+      "enumDescriptions": {
+        "Capable": "Capable",
+        "Incapable": "Incapable"
+      },
+      "enumLongDescriptions": {
+        "Capable": "Capable",
+        "Incapable": "Incapable"
+      },
+      "type": "string"
+    },
+    "RollupStatus": {
+      "enum": [
+        "Degraded",
+        "Error",
+        "OK",
+        "Unknown"
+      ],
+      "enumDescriptions": {
+        "Degraded": "Degraded",
+        "Error": "Error",
+        "OK": "OK",
+        "Unknown": "Unknown"
+      },
+      "enumLongDescriptions": {
+        "Degraded": "Degraded",
+        "Error": "Error",
+        "OK": "OK",
+        "Unknown": "Unknown"
+      },
+      "type": "string"
+    },
+    "SecurityStatus": {
+      "enum": [
+        "EncryptionCapable",
+        "EncryptionNotCapable",
+        "SecurityKeyAssigned"
+      ],
+      "enumDescriptions": {
+        "EncryptionCapable": "Encryption Capable",
+        "EncryptionNotCapable": "Encryption Not Capable",
+        "SecurityKeyAssigned": "Security Key Assigned"
+      },
+      "enumLongDescriptions": {
+        "EncryptionCapable": "Encryption Capable",
+        "EncryptionNotCapable": "Encryption Not Capable",
+        "SecurityKeyAssigned": "Security Key Assigned"
+      },
+      "type": "string"
+    },
+    "SharedSlotAssignmentAllowed": {
+      "enum": [
+        "Allowed",
+        "NotAllowed",
+        "NotApplicable"
+      ],
+      "enumDescriptions": {
+        "Allowed": "Allowed",
+        "NotAllowed": "Not Allowed",
+        "NotApplicable": "Not Applicable"
+      },
+      "enumLongDescriptions": {
+        "Allowed": "Allowed",
+        "NotAllowed": "Not Allowed",
+        "NotApplicable": "Not Applicable"
+      },
+      "type": "string"
+    },
+    "SlicedVDCapability": {
+      "enum": [
+        "NotSupported",
+        "Supported"
+      ],
+      "enumDescriptions": {
+        "NotSupported": "Sliced Virtual Disk creation not supported",
+        "Supported": "Sliced Virtual Disk creation supported"
+      },
+      "enumLongDescriptions": {
+        "NotSupported": "Sliced Virtual Disk creation not supported",
+        "Supported": "Sliced Virtual Disk creation supported"
+      },
+      "type": "string"
+    },
+    "SupportControllerBootMode": {
+      "enum": [
+        "NotSupported",
+        "Supported"
+      ],
+      "enumDescriptions": {
+        "NotSupported": "Not Supported",
+        "Supported": "Supported"
+      },
+      "enumLongDescriptions": {
+        "NotSupported": "Not Supported",
+        "Supported": "Supported"
+      },
+      "type": "string"
+    },
+    "SupportEnhancedAutoForeignImport": {
+      "enum": [
+        "NotSupported",
+        "Supported"
+      ],
+      "enumDescriptions": {
+        "NotSupported": "Not Supported",
+        "Supported": "Supported"
+      },
+      "enumLongDescriptions": {
+        "NotSupported": "Not Supported",
+        "Supported": "Supported"
+      },
+      "type": "string"
+    },
+    "SupportRAID10UnevenSpans": {
+      "enum": [
+        "NotSupported",
+        "Supported"
+      ],
+      "enumDescriptions": {
+        "NotSupported": "Not supported",
+        "Supported": "Supported"
+      },
+      "enumLongDescriptions": {
+        "NotSupported": "Not supported",
+        "Supported": "Supported"
+      },
+      "type": "string"
+    },
+    "T10PICapability": {
+      "enum": [
+        "NotSupported",
+        "Supported"
+      ],
+      "enumDescriptions": {
+        "NotSupported": "Not supported",
+        "Supported": "Supported"
+      },
+      "enumLongDescriptions": {
+        "NotSupported": "Not supported",
+        "Supported": "Supported"
+      },
+      "type": "string"
+    }
+  },
+  "owningEntity": "Dell",
+  "title": "#DellController.v1_1_0.DellController",
+  "@odata.id": "/redfish/v1/Schemas/DellController.v1_1_0.json"
+}

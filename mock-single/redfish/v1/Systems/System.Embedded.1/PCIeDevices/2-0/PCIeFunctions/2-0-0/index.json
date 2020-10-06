@@ -1,1 +1,49 @@
-{"@odata.context":"/redfish/v1/$metadata#PCIeFunction.PCIeFunction","@odata.etag":"1595599040","@odata.id":"/redfish/v1/Systems/System.Embedded.1/PCIeDevices/2-0/PCIeFunctions/2-0-0","@odata.type":"#PCIeFunction.v1_2_1.PCIeFunction","ClassCode":"0x000000","Description":"BOSS-S1 Adapter","DeviceClass":"UnclassifiedDevice","DeviceId":"0x9230","FunctionId":0,"FunctionType":"Physical","Id":"2-0-0","Links":{"Drives":[],"Drives@odata.count":0,"EthernetInterfaces":[],"EthernetInterfaces@odata.count":0,"PCIeDevice":{"@odata.id":"/redfish/v1/Systems/System.Embedded.1/PCIeDevices/2-0"},"StorageControllers":[],"StorageControllers@odata.count":0},"Name":"BOSS-S1 Adapter","Oem":{"Dell":{"DellPCIeFunction":{"@odata.context":"/redfish/v1/$metadata#DellPCIeFunction.DellPCIeFunction","@odata.id":"/redfish/v1/Dell/Systems/System.Embedded.1/DellPCIeFunction/AHCI.Slot.1-1","@odata.type":"#DellPCIeFunction.v1_1_0.DellPCIeFunction","DataBusWidth":"4XOrX4","Description":"BOSS-S1 Adapter","LastSystemInventoryTime":"2020-07-24T13:57:09+00:00","LastUpdateTime":"2020-06-03T11:40:22+00:00","SlotLength":"LongLength","SlotType":"PCIExpressGen3X8"}}},"RevisionId":"0x00","Status":{"Health":"OK","HealthRollup":"OK","State":"Enabled"},"SubsystemId":"0x1fe2","SubsystemVendorId":"0x1028","VendorId":"0x1b4b"}
+{
+  "@odata.context": "/redfish/v1/$metadata#PCIeFunction.PCIeFunction",
+  "@odata.etag": "1595599040",
+  "@odata.id": "/redfish/v1/Systems/System.Embedded.1/PCIeDevices/2-0/PCIeFunctions/2-0-0",
+  "@odata.type": "#PCIeFunction.v1_2_1.PCIeFunction",
+  "ClassCode": "0x000000",
+  "Description": "BOSS-S1 Adapter",
+  "DeviceClass": "UnclassifiedDevice",
+  "DeviceId": "0x9230",
+  "FunctionId": 0,
+  "FunctionType": "Physical",
+  "Id": "2-0-0",
+  "Links": {
+    "Drives": [],
+    "Drives@odata.count": 0,
+    "EthernetInterfaces": [],
+    "EthernetInterfaces@odata.count": 0,
+    "PCIeDevice": {
+      "@odata.id": "/redfish/v1/Systems/System.Embedded.1/PCIeDevices/2-0"
+    },
+    "StorageControllers": [],
+    "StorageControllers@odata.count": 0
+  },
+  "Name": "BOSS-S1 Adapter",
+  "Oem": {
+    "Dell": {
+      "DellPCIeFunction": {
+        "@odata.context": "/redfish/v1/$metadata#DellPCIeFunction.DellPCIeFunction",
+        "@odata.id": "/redfish/v1/Dell/Systems/System.Embedded.1/DellPCIeFunction/AHCI.Slot.1-1",
+        "@odata.type": "#DellPCIeFunction.v1_1_0.DellPCIeFunction",
+        "DataBusWidth": "4XOrX4",
+        "Description": "BOSS-S1 Adapter",
+        "LastSystemInventoryTime": "2020-07-24T13:57:09+00:00",
+        "LastUpdateTime": "2020-06-03T11:40:22+00:00",
+        "SlotLength": "LongLength",
+        "SlotType": "PCIExpressGen3X8"
+      }
+    }
+  },
+  "RevisionId": "0x00",
+  "Status": {
+    "Health": "OK",
+    "HealthRollup": "OK",
+    "State": "Enabled"
+  },
+  "SubsystemId": "0x1fe2",
+  "SubsystemVendorId": "0x1028",
+  "VendorId": "0x1b4b"
+}

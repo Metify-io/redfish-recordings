@@ -1,1 +1,31 @@
-{"$ref":"#/definitions/DellEnclosureEMM","$schema":"/redfish/v1/Schemas/redfish-schema-v1.json","copyright":"Copyright 2014-2019 Dell, Inc. or its subsidiaries. All Rights Reserved.","definitions":{"DellEnclosureEMM":{"anyOf":[{"$ref":"/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/idRef"},{"$ref":"/redfish/v1/Schemas/DellEnclosureEMM.v1_0_0.json#/definitions/DellEnclosureEMM"},{"$ref":"/redfish/v1/Schemas/DellEnclosureEMM.v1_1_0.json#/definitions/DellEnclosureEMM"}],"deletable":false,"description":"An instance of DellEnclosureEMM will have  Enclosure Management Module specific data.","insertable":false,"longDescription":"An instance of DellEnclosureEMM will have  Enclosure Management Module specific data.","updatable":false,"uris":["/redfish/v1/Dell/Chassis/{ComputerSystemId}/DellEnclosureEMM/{EnclosureEMMId}"]}},"owningEntity":"Dell","title":"#DellEnclosureEMM.DellEnclosureEMM","@odata.id":"/redfish/v1/Schemas/DellEnclosureEMM.json"}
+{
+  "$ref": "#/definitions/DellEnclosureEMM",
+  "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+  "copyright": "Copyright 2014-2019 Dell, Inc. or its subsidiaries. All Rights Reserved.",
+  "definitions": {
+    "DellEnclosureEMM": {
+      "anyOf": [
+        {
+          "$ref": "/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/idRef"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/DellEnclosureEMM.v1_0_0.json#/definitions/DellEnclosureEMM"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/DellEnclosureEMM.v1_1_0.json#/definitions/DellEnclosureEMM"
+        }
+      ],
+      "deletable": false,
+      "description": "An instance of DellEnclosureEMM will have  Enclosure Management Module specific data.",
+      "insertable": false,
+      "longDescription": "An instance of DellEnclosureEMM will have  Enclosure Management Module specific data.",
+      "updatable": false,
+      "uris": [
+        "/redfish/v1/Dell/Chassis/{ComputerSystemId}/DellEnclosureEMM/{EnclosureEMMId}"
+      ]
+    }
+  },
+  "owningEntity": "Dell",
+  "title": "#DellEnclosureEMM.DellEnclosureEMM",
+  "@odata.id": "/redfish/v1/Schemas/DellEnclosureEMM.json"
+}

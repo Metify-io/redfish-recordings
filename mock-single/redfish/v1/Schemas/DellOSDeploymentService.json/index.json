@@ -1,1 +1,68 @@
-{"$ref":"#/definitions/DellOSDeploymentService","$schema":"/redfish/v1/Schemas/redfish-schema-v1.json","copyright":"Copyright 2014-2019 Dell, Inc. or its subsidiaries. All Rights Reserved.","definitions":{"DellOSDeploymentService":{"anyOf":[{"$ref":"/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/idRef"},{"$ref":"/redfish/v1/Schemas/DellOSDeploymentService.v1_0_0.json#/definitions/DellOSDeploymentService"},{"$ref":"/redfish/v1/Schemas/DellOSDeploymentService.v1_1_0.json#/definitions/DellOSDeploymentService"}],"deletable":false,"description":"The DellOSDeploymentService resource provides some actions to support OS deployment configurations.","insertable":false,"longDescription":"The DellOSDeploymentService resource provides some actions to support OS deployment configurations.","updatable":false,"uris":["/redfish/v1/Dell/Systems/{ComputerSystemId}/DellOSDeploymentService"]},"HashType":{"enum":["MD5","SHA1"],"enumDescriptions":{"MD5":"MD5","SHA1":"SHA1"},"type":"string"},"ResetType":{"enum":["ColdReset","NoReset","WarmReset"],"enumDescriptions":{"ColdReset":"Cold reset","NoReset":"No reset","WarmReset":"Warm reset"},"type":"string"},"ShareType":{"enum":["CIFS","NFS","TFTP"],"enumDescriptions":{"CIFS":"CIFS","NFS":"NFS","TFTP":"TFTP"},"type":"string"}},"owningEntity":"Dell","title":"#DellOSDeploymentService.DellOSDeploymentService","@odata.id":"/redfish/v1/Schemas/DellOSDeploymentService.json"}
+{
+  "$ref": "#/definitions/DellOSDeploymentService",
+  "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+  "copyright": "Copyright 2014-2019 Dell, Inc. or its subsidiaries. All Rights Reserved.",
+  "definitions": {
+    "DellOSDeploymentService": {
+      "anyOf": [
+        {
+          "$ref": "/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/idRef"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/DellOSDeploymentService.v1_0_0.json#/definitions/DellOSDeploymentService"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/DellOSDeploymentService.v1_1_0.json#/definitions/DellOSDeploymentService"
+        }
+      ],
+      "deletable": false,
+      "description": "The DellOSDeploymentService resource provides some actions to support OS deployment configurations.",
+      "insertable": false,
+      "longDescription": "The DellOSDeploymentService resource provides some actions to support OS deployment configurations.",
+      "updatable": false,
+      "uris": [
+        "/redfish/v1/Dell/Systems/{ComputerSystemId}/DellOSDeploymentService"
+      ]
+    },
+    "HashType": {
+      "enum": [
+        "MD5",
+        "SHA1"
+      ],
+      "enumDescriptions": {
+        "MD5": "MD5",
+        "SHA1": "SHA1"
+      },
+      "type": "string"
+    },
+    "ResetType": {
+      "enum": [
+        "ColdReset",
+        "NoReset",
+        "WarmReset"
+      ],
+      "enumDescriptions": {
+        "ColdReset": "Cold reset",
+        "NoReset": "No reset",
+        "WarmReset": "Warm reset"
+      },
+      "type": "string"
+    },
+    "ShareType": {
+      "enum": [
+        "CIFS",
+        "NFS",
+        "TFTP"
+      ],
+      "enumDescriptions": {
+        "CIFS": "CIFS",
+        "NFS": "NFS",
+        "TFTP": "TFTP"
+      },
+      "type": "string"
+    }
+  },
+  "owningEntity": "Dell",
+  "title": "#DellOSDeploymentService.DellOSDeploymentService",
+  "@odata.id": "/redfish/v1/Schemas/DellOSDeploymentService.json"
+}

@@ -1,1 +1,10 @@
-{"@odata.context":"/redfish/v1/$metadata#Session.Session","@odata.id":"/redfish/v1/SessionService/Sessions/242","@odata.type":"#Session.v1_1_1.Session","Description":"User Session","Id":"242","Name":"User Session","Password":null,"UserName":"root"}
+{
+  "@odata.context": "/redfish/v1/$metadata#Session.Session",
+  "@odata.id": "/redfish/v1/SessionService/Sessions/242",
+  "@odata.type": "#Session.v1_1_1.Session",
+  "Description": "User Session",
+  "Id": "242",
+  "Name": "User Session",
+  "Password": null,
+  "UserName": "root"
+}

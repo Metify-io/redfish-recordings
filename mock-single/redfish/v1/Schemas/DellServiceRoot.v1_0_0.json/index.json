@@ -1,1 +1,120 @@
-{"$ref":"#/definitions/DellServiceRoot","$schema":"/redfish/v1/Schemas/redfish-schema-v1.json","copyright":"Copyright 2014-2019 Dell, Inc. or its subsidiaries. All Rights Reserved.","definitions":{"DellServiceRoot":{"additionalProperties":true,"description":"This is the schema definition for the additional OEM properties to complement DMTF Service Root Schema.","longDescription":"This resource shall be used to represent an OEM Service Root for a Redfish implementation.","patternProperties":{"^([a-zA-Z_][a-zA-Z0-9_]*)?@(odata|Redfish|Message)\\.[a-zA-Z_][a-zA-Z0-9_.]+$":{"description":"This property shall specify a valid odata or Redfish property.","type":["array","boolean","integer","number","null","object","string"]}},"properties":{"@odata.context":{"$ref":"/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/context"},"@odata.etag":{"$ref":"/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/etag"},"@odata.id":{"$ref":"/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/id"},"@odata.type":{"$ref":"/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/type"},"Description":{"anyOf":[{"$ref":"/redfish/v1/Schemas/Resource.json#/definitions/Description"},{"type":"null"}],"readonly":true},"Id":{"$ref":"/redfish/v1/Schemas/Resource.json#/definitions/Id","readonly":true},"Name":{"$ref":"/redfish/v1/Schemas/Resource.json#/definitions/Name","readonly":true},"Oem":{"$ref":"/redfish/v1/Schemas/Resource.json#/definitions/Oem","description":"This is the manufacturer/provider specific extension moniker used to divide the Oem object into sections.","longDescription":"The value of this string shall be of the format for the reserved word *Oem*."}},"required":["@odata.id","@odata.type","Id","Name"],"type":"object"},"ServiceRootSummary":{"additionalProperties":false,"patternProperties":{"^([a-zA-Z_][a-zA-Z0-9_]*)?@(odata|Redfish|Message)\\.[a-zA-Z_][a-zA-Z0-9_.]+$":{"description":"This property shall specify a valid odata or Redfish property.","type":["array","boolean","integer","number","null","object","string"]}},"properties":{"IsBranded":{"description":"Property to represent OEM system as DELL.","longDescription":"The value of the property identifies OEM system as DELL.","readonly":true,"type":["integer","null"]},"ManagerMACAddress":{"description":"Property to represent MAC Address of the iDRAC.","longDescription":"The value of the property represents MAC Address of the iDRAC.","readonly":true,"type":["string","null"]},"ServiceTag":{"description":"Property to represent ServiceTag of Computer System.","longDescription":"The value of the property specifies the system service tag.","readonly":true,"type":["string","null"]}},"type":"object"}},"title":"#DellServiceRoot.v1_0_0.DellServiceRoot","@odata.id":"/redfish/v1/Schemas/DellServiceRoot.v1_0_0.json"}
+{
+  "$ref": "#/definitions/DellServiceRoot",
+  "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+  "copyright": "Copyright 2014-2019 Dell, Inc. or its subsidiaries. All Rights Reserved.",
+  "definitions": {
+    "DellServiceRoot": {
+      "additionalProperties": true,
+      "description": "This is the schema definition for the additional OEM properties to complement DMTF Service Root Schema.",
+      "longDescription": "This resource shall be used to represent an OEM Service Root for a Redfish implementation.",
+      "patternProperties": {
+        "^([a-zA-Z_][a-zA-Z0-9_]*)?@(odata|Redfish|Message)\\.[a-zA-Z_][a-zA-Z0-9_.]+$": {
+          "description": "This property shall specify a valid odata or Redfish property.",
+          "type": [
+            "array",
+            "boolean",
+            "integer",
+            "number",
+            "null",
+            "object",
+            "string"
+          ]
+        }
+      },
+      "properties": {
+        "@odata.context": {
+          "$ref": "/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/context"
+        },
+        "@odata.etag": {
+          "$ref": "/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/etag"
+        },
+        "@odata.id": {
+          "$ref": "/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/id"
+        },
+        "@odata.type": {
+          "$ref": "/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/type"
+        },
+        "Description": {
+          "anyOf": [
+            {
+              "$ref": "/redfish/v1/Schemas/Resource.json#/definitions/Description"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "readonly": true
+        },
+        "Id": {
+          "$ref": "/redfish/v1/Schemas/Resource.json#/definitions/Id",
+          "readonly": true
+        },
+        "Name": {
+          "$ref": "/redfish/v1/Schemas/Resource.json#/definitions/Name",
+          "readonly": true
+        },
+        "Oem": {
+          "$ref": "/redfish/v1/Schemas/Resource.json#/definitions/Oem",
+          "description": "This is the manufacturer/provider specific extension moniker used to divide the Oem object into sections.",
+          "longDescription": "The value of this string shall be of the format for the reserved word *Oem*."
+        }
+      },
+      "required": [
+        "@odata.id",
+        "@odata.type",
+        "Id",
+        "Name"
+      ],
+      "type": "object"
+    },
+    "ServiceRootSummary": {
+      "additionalProperties": false,
+      "patternProperties": {
+        "^([a-zA-Z_][a-zA-Z0-9_]*)?@(odata|Redfish|Message)\\.[a-zA-Z_][a-zA-Z0-9_.]+$": {
+          "description": "This property shall specify a valid odata or Redfish property.",
+          "type": [
+            "array",
+            "boolean",
+            "integer",
+            "number",
+            "null",
+            "object",
+            "string"
+          ]
+        }
+      },
+      "properties": {
+        "IsBranded": {
+          "description": "Property to represent OEM system as DELL.",
+          "longDescription": "The value of the property identifies OEM system as DELL.",
+          "readonly": true,
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "ManagerMACAddress": {
+          "description": "Property to represent MAC Address of the iDRAC.",
+          "longDescription": "The value of the property represents MAC Address of the iDRAC.",
+          "readonly": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ServiceTag": {
+          "description": "Property to represent ServiceTag of Computer System.",
+          "longDescription": "The value of the property specifies the system service tag.",
+          "readonly": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "type": "object"
+    }
+  },
+  "title": "#DellServiceRoot.v1_0_0.DellServiceRoot",
+  "@odata.id": "/redfish/v1/Schemas/DellServiceRoot.v1_0_0.json"
+}

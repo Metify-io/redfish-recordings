@@ -1,1 +1,49 @@
-{"@Redfish.Settings":{"@odata.context":"/redfish/v1/$metadata#Settings.Settings","@odata.type":"#Settings.v1_2_1.Settings","SettingsObject":{"@odata.id":"/redfish/v1/Systems/System.Embedded.1/BootSources/Settings"},"SupportedApplyTimes":["OnReset","AtMaintenanceWindowStart","InMaintenanceWindowOnReset"]},"@odata.context":"/redfish/v1/$metadata#DellBootSources.DellBootSources","@odata.id":"/redfish/v1/Systems/System.Embedded.1/BootSources","@odata.type":"#DellBootSources.v1_0_0.DellBootSources","AttributeRegistry":"DellBootSourcesRegistry.v1_0_0","Attributes":{"UefiBootSeq":[{"Enabled":true,"Id":"BIOS.Setup.1-1#UefiBootSeq#Unknown.Unknown.1-1#cecdbf8d6ae36a8324c987b746ba141a","Index":0,"Name":"Unknown.Unknown.1-1"},{"Enabled":true,"Id":"BIOS.Setup.1-1#UefiBootSeq#NIC.PxeDevice.1-1#f7dbc53a281f0f61e8e4c4fb27008828","Index":1,"Name":"NIC.PxeDevice.1-1"},{"Enabled":true,"Id":"BIOS.Setup.1-1#UefiBootSeq#Unknown.Unknown.3-1#d4ed0e3b43bcf29c40aba52ccfe36e75","Index":2,"Name":"Unknown.Unknown.3-1"},{"Enabled":true,"Id":"BIOS.Setup.1-1#UefiBootSeq#Disk.SATAEmbedded.A-1#6cf46661c4c8a93ed5b6e880345b1dcd","Index":3,"Name":"Disk.SATAEmbedded.A-1"}]},"Description":"Boot Sources Current Settings","Id":"BootSources","Name":"Boot Sources Configuration Current Settings"}
+{
+  "@Redfish.Settings": {
+    "@odata.context": "/redfish/v1/$metadata#Settings.Settings",
+    "@odata.type": "#Settings.v1_2_1.Settings",
+    "SettingsObject": {
+      "@odata.id": "/redfish/v1/Systems/System.Embedded.1/BootSources/Settings"
+    },
+    "SupportedApplyTimes": [
+      "OnReset",
+      "AtMaintenanceWindowStart",
+      "InMaintenanceWindowOnReset"
+    ]
+  },
+  "@odata.context": "/redfish/v1/$metadata#DellBootSources.DellBootSources",
+  "@odata.id": "/redfish/v1/Systems/System.Embedded.1/BootSources",
+  "@odata.type": "#DellBootSources.v1_0_0.DellBootSources",
+  "AttributeRegistry": "DellBootSourcesRegistry.v1_0_0",
+  "Attributes": {
+    "UefiBootSeq": [
+      {
+        "Enabled": true,
+        "Id": "BIOS.Setup.1-1#UefiBootSeq#Unknown.Unknown.1-1#cecdbf8d6ae36a8324c987b746ba141a",
+        "Index": 0,
+        "Name": "Unknown.Unknown.1-1"
+      },
+      {
+        "Enabled": true,
+        "Id": "BIOS.Setup.1-1#UefiBootSeq#NIC.PxeDevice.1-1#f7dbc53a281f0f61e8e4c4fb27008828",
+        "Index": 1,
+        "Name": "NIC.PxeDevice.1-1"
+      },
+      {
+        "Enabled": true,
+        "Id": "BIOS.Setup.1-1#UefiBootSeq#Unknown.Unknown.3-1#d4ed0e3b43bcf29c40aba52ccfe36e75",
+        "Index": 2,
+        "Name": "Unknown.Unknown.3-1"
+      },
+      {
+        "Enabled": true,
+        "Id": "BIOS.Setup.1-1#UefiBootSeq#Disk.SATAEmbedded.A-1#6cf46661c4c8a93ed5b6e880345b1dcd",
+        "Index": 3,
+        "Name": "Disk.SATAEmbedded.A-1"
+      }
+    ]
+  },
+  "Description": "Boot Sources Current Settings",
+  "Id": "BootSources",
+  "Name": "Boot Sources Configuration Current Settings"
+}

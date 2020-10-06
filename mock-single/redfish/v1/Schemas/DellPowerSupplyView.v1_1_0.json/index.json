@@ -1,1 +1,141 @@
-{"$ref":"#/definitions/DellPowerSupplyView","$schema":"/redfish/v1/Schemas/redfish-schema-v1.json","copyright":"Copyright 2014-2019 Dell, Inc. or its subsidiaries. All Rights Reserved.","definitions":{"DellPowerSupplyView":{"additionalProperties":false,"description":"An instance of DellPowerSupplyView will have data specific to the Power Supply devices in the managed system.","longDescription":"An instance of DellPowerSupplyView will have data specific to the Power Supply devices in the managed system.","patternProperties":{"^([a-zA-Z_][a-zA-Z0-9_]*)?@(odata|Redfish|Message)\\.[a-zA-Z_][a-zA-Z0-9_.]+$":{"description":"This property shall specify a valid odata or Redfish property.","type":["array","boolean","integer","number","null","object","string"]}},"properties":{"@odata.context":{"$ref":"/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/context"},"@odata.etag":{"$ref":"/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/etag"},"@odata.id":{"$ref":"/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/id"},"@odata.type":{"$ref":"/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/type"},"Description":{"anyOf":[{"$ref":"/redfish/v1/Schemas/Resource.json#/definitions/Description"},{"type":"null"}],"readonly":true},"DetailedState":{"description":"This property describes the further status of the power supply as enumerated for IPMI power supply sensor such as: Predictive Failure, Power Supply AC lost, AC lost or out-of-range,  AC out-of-range, but present. Note: DetailedState can be combination of above mentioned power supply status.","longDescription":"This property describes the further status of the power supply as enumerated for IPMI power supply sensor such as: Predictive Failure, Power Supply AC lost, AC lost or out-of-range,  AC out-of-range, but present. Note: DetailedState can be combination of above mentioned power supply status.","readonly":true,"type":["string","null"]},"Id":{"$ref":"/redfish/v1/Schemas/Resource.json#/definitions/Id","readonly":true},"LastSystemInventoryTime":{"description":"This property indicates the time when Collection of System Inventory on Reboot (CSIOR) was last performed or the object was last updated on iDRAC. The value is represented in the format yyyymmddHHMMSS.","format":"date-time","longDescription":"This property indicates the time when Collection of System Inventory on Reboot (CSIOR) was last performed or the object was last updated on iDRAC. The value is represented in the format yyyymmddHHMMSS.","readonly":true,"type":["string","null"]},"LastUpdateTime":{"description":"This property provides the time when the data was last updated. The value is represented as yyyymmddHHMMSS.","format":"date-time","longDescription":"This property provides the time when the data was last updated. The value is represented as yyyymmddHHMMSS.","readonly":true,"type":["string","null"]},"Name":{"$ref":"/redfish/v1/Schemas/Resource.json#/definitions/Name","readonly":true},"Oem":{"$ref":"/redfish/v1/Schemas/Resource.json#/definitions/Oem","description":"This is the manufacturer/provider specific extension moniker used to divide the Oem object into sections.","longDescription":"The value of this string shall be of the format for the reserved word *Oem*."},"PMBusMonitoring":{"anyOf":[{"$ref":"#/definitions/PMBusMonitoring"},{"type":"null"}],"description":"This property indicates whether the PowerSupply is capable of Power Monitoring.","longDescription":"This property indicates whether the PowerSupply is capable of Power Monitoring.","readonly":true},"Range1MaxInputPowerWatts":{"description":"Represents the Input rated power of the PowerSupply in Watts. 0 denotes 'unknown'.","longDescription":"Represents the Input rated power of the PowerSupply in Watts. 0 denotes 'unknown'.","readonly":true,"type":["integer","null"],"units":"Watts"}},"required":["@odata.id","@odata.type","Id","Name"],"type":"object"},"PMBusMonitoring":{"enum":["Capable","NotCapable"],"enumDescriptions":{"Capable":"Capable","NotCapable":"Not Capable"},"enumLongDescriptions":{"Capable":"Capable","NotCapable":"Not Capable"},"type":"string"}},"owningEntity":"Dell","title":"#DellPowerSupplyView.v1_1_0.DellPowerSupplyView","@odata.id":"/redfish/v1/Schemas/DellPowerSupplyView.v1_1_0.json"}
+{
+  "$ref": "#/definitions/DellPowerSupplyView",
+  "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+  "copyright": "Copyright 2014-2019 Dell, Inc. or its subsidiaries. All Rights Reserved.",
+  "definitions": {
+    "DellPowerSupplyView": {
+      "additionalProperties": false,
+      "description": "An instance of DellPowerSupplyView will have data specific to the Power Supply devices in the managed system.",
+      "longDescription": "An instance of DellPowerSupplyView will have data specific to the Power Supply devices in the managed system.",
+      "patternProperties": {
+        "^([a-zA-Z_][a-zA-Z0-9_]*)?@(odata|Redfish|Message)\\.[a-zA-Z_][a-zA-Z0-9_.]+$": {
+          "description": "This property shall specify a valid odata or Redfish property.",
+          "type": [
+            "array",
+            "boolean",
+            "integer",
+            "number",
+            "null",
+            "object",
+            "string"
+          ]
+        }
+      },
+      "properties": {
+        "@odata.context": {
+          "$ref": "/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/context"
+        },
+        "@odata.etag": {
+          "$ref": "/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/etag"
+        },
+        "@odata.id": {
+          "$ref": "/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/id"
+        },
+        "@odata.type": {
+          "$ref": "/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/type"
+        },
+        "Description": {
+          "anyOf": [
+            {
+              "$ref": "/redfish/v1/Schemas/Resource.json#/definitions/Description"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "readonly": true
+        },
+        "DetailedState": {
+          "description": "This property describes the further status of the power supply as enumerated for IPMI power supply sensor such as: Predictive Failure, Power Supply AC lost, AC lost or out-of-range,  AC out-of-range, but present. Note: DetailedState can be combination of above mentioned power supply status.",
+          "longDescription": "This property describes the further status of the power supply as enumerated for IPMI power supply sensor such as: Predictive Failure, Power Supply AC lost, AC lost or out-of-range,  AC out-of-range, but present. Note: DetailedState can be combination of above mentioned power supply status.",
+          "readonly": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Id": {
+          "$ref": "/redfish/v1/Schemas/Resource.json#/definitions/Id",
+          "readonly": true
+        },
+        "LastSystemInventoryTime": {
+          "description": "This property indicates the time when Collection of System Inventory on Reboot (CSIOR) was last performed or the object was last updated on iDRAC. The value is represented in the format yyyymmddHHMMSS.",
+          "format": "date-time",
+          "longDescription": "This property indicates the time when Collection of System Inventory on Reboot (CSIOR) was last performed or the object was last updated on iDRAC. The value is represented in the format yyyymmddHHMMSS.",
+          "readonly": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "LastUpdateTime": {
+          "description": "This property provides the time when the data was last updated. The value is represented as yyyymmddHHMMSS.",
+          "format": "date-time",
+          "longDescription": "This property provides the time when the data was last updated. The value is represented as yyyymmddHHMMSS.",
+          "readonly": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Name": {
+          "$ref": "/redfish/v1/Schemas/Resource.json#/definitions/Name",
+          "readonly": true
+        },
+        "Oem": {
+          "$ref": "/redfish/v1/Schemas/Resource.json#/definitions/Oem",
+          "description": "This is the manufacturer/provider specific extension moniker used to divide the Oem object into sections.",
+          "longDescription": "The value of this string shall be of the format for the reserved word *Oem*."
+        },
+        "PMBusMonitoring": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/PMBusMonitoring"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "This property indicates whether the PowerSupply is capable of Power Monitoring.",
+          "longDescription": "This property indicates whether the PowerSupply is capable of Power Monitoring.",
+          "readonly": true
+        },
+        "Range1MaxInputPowerWatts": {
+          "description": "Represents the Input rated power of the PowerSupply in Watts. 0 denotes 'unknown'.",
+          "longDescription": "Represents the Input rated power of the PowerSupply in Watts. 0 denotes 'unknown'.",
+          "readonly": true,
+          "type": [
+            "integer",
+            "null"
+          ],
+          "units": "Watts"
+        }
+      },
+      "required": [
+        "@odata.id",
+        "@odata.type",
+        "Id",
+        "Name"
+      ],
+      "type": "object"
+    },
+    "PMBusMonitoring": {
+      "enum": [
+        "Capable",
+        "NotCapable"
+      ],
+      "enumDescriptions": {
+        "Capable": "Capable",
+        "NotCapable": "Not Capable"
+      },
+      "enumLongDescriptions": {
+        "Capable": "Capable",
+        "NotCapable": "Not Capable"
+      },
+      "type": "string"
+    }
+  },
+  "owningEntity": "Dell",
+  "title": "#DellPowerSupplyView.v1_1_0.DellPowerSupplyView",
+  "@odata.id": "/redfish/v1/Schemas/DellPowerSupplyView.v1_1_0.json"
+}

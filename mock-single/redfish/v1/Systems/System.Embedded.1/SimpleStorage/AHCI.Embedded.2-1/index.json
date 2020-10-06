@@ -1,1 +1,33 @@
-{"@odata.context":"/redfish/v1/$metadata#SimpleStorage.SimpleStorage","@odata.id":"/redfish/v1/Systems/System.Embedded.1/SimpleStorage/AHCI.Embedded.2-1","@odata.type":"#SimpleStorage.v1_2_1.SimpleStorage","Description":"Simple Storage Controller","Devices":[{"CapacityBytes":1000204886016,"Manufacturer":"TOSHIBA","Model":"MG04ACA100NY","Name":"Physical Disk 0:1:0","Status":{"Health":null,"HealthRollup":null,"State":"Enabled"}}],"Devices@odata.count":1,"Id":"AHCI.Embedded.2-1","Links":{"Chassis":{"@odata.id":"/redfish/v1/Chassis/System.Embedded.1"}},"Name":"Cannon Lake PCH SATA AHCI Controller","Status":{"Health":null,"HealthRollup":null,"State":"Enabled"},"UefiDevicePath":"PciRoot(0x0)/Pci(0x17,0x0)"}
+{
+  "@odata.context": "/redfish/v1/$metadata#SimpleStorage.SimpleStorage",
+  "@odata.id": "/redfish/v1/Systems/System.Embedded.1/SimpleStorage/AHCI.Embedded.2-1",
+  "@odata.type": "#SimpleStorage.v1_2_1.SimpleStorage",
+  "Description": "Simple Storage Controller",
+  "Devices": [
+    {
+      "CapacityBytes": 1000204886016,
+      "Manufacturer": "TOSHIBA",
+      "Model": "MG04ACA100NY",
+      "Name": "Physical Disk 0:1:0",
+      "Status": {
+        "Health": null,
+        "HealthRollup": null,
+        "State": "Enabled"
+      }
+    }
+  ],
+  "Devices@odata.count": 1,
+  "Id": "AHCI.Embedded.2-1",
+  "Links": {
+    "Chassis": {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1"
+    }
+  },
+  "Name": "Cannon Lake PCH SATA AHCI Controller",
+  "Status": {
+    "Health": null,
+    "HealthRollup": null,
+    "State": "Enabled"
+  },
+  "UefiDevicePath": "PciRoot(0x0)/Pci(0x17,0x0)"
+}

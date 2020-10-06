@@ -1,1 +1,13 @@
-{"@odata.context":"/redfish/v1/$metadata#DellPCIeFunction.DellPCIeFunction","@odata.id":"/redfish/v1/Dell/Systems/System.Embedded.1/DellPCIeFunction/SMBus.Embedded.3-1","@odata.type":"#DellPCIeFunction.v1_1_0.DellPCIeFunction","DataBusWidth":"Unknown","Description":"An instance of DellPCIeFunction will have PCI device specific data.","Id":"SMBus.Embedded.3-1","LastSystemInventoryTime":"2020-07-24T13:57:09+00:00","LastUpdateTime":"2019-11-22T14:32:29+00:00","Name":"DellPCIeFunction","SlotLength":"Unknown","SlotType":"Unknown"}
+{
+  "@odata.context": "/redfish/v1/$metadata#DellPCIeFunction.DellPCIeFunction",
+  "@odata.id": "/redfish/v1/Dell/Systems/System.Embedded.1/DellPCIeFunction/SMBus.Embedded.3-1",
+  "@odata.type": "#DellPCIeFunction.v1_1_0.DellPCIeFunction",
+  "DataBusWidth": "Unknown",
+  "Description": "An instance of DellPCIeFunction will have PCI device specific data.",
+  "Id": "SMBus.Embedded.3-1",
+  "LastSystemInventoryTime": "2020-07-24T13:57:09+00:00",
+  "LastUpdateTime": "2019-11-22T14:32:29+00:00",
+  "Name": "DellPCIeFunction",
+  "SlotLength": "Unknown",
+  "SlotType": "Unknown"
+}

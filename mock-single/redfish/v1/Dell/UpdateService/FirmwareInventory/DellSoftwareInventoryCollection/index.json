@@ -1,1 +1,710 @@
-{"@odata.context":"/redfish/v1/$metadata#DellSoftwareInventoryCollection.DellSoftwareInventoryCollection","@odata.id":"/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventoryCollection","@odata.type":"#DellSoftwareInventoryCollection.DellSoftwareInventoryCollection","Description":"A collection of DellSoftwareInventory resource","Members":[{"@odata.context":"/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory","@odata.id":"/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:PREVIOUS_0x23_iDRAC.Embedded.1-1_0x23_IDRACinfo","@odata.type":"#DellSoftwareInventory.v1_1_0.DellSoftwareInventory","BuildNumber":21,"Classifications":["Firmware"],"Classifications@odata.count":1,"ComponentID":"25227","ComponentType":"FRMW","DeviceID":null,"ElementName":"Integrated Dell Remote Access Controller","HashValue":null,"Id":"DCIM:PREVIOUS_0x23_iDRAC.Embedded.1-1_0x23_IDRACinfo","IdentityInfoType":["OrgID:ComponentType:ComponentID"],"IdentityInfoType@odata.count":1,"IdentityInfoValue":["DCIM:firmware:25227"],"IdentityInfoValue@odata.count":1,"InstallationDate":"NA","IsEntity":true,"MajorVersion":3,"MinorVersion":36,"RevisionNumber":36,"RevisionString":null,"Status":"AvailableForInstallation","SubDeviceID":null,"SubVendorID":null,"VendorID":null,"impactsTPMmeasurements":false},{"@odata.context":"/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory","@odata.id":"/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_iDRAC.Embedded.1-1_0x23_IDRACinfo","@odata.type":"#DellSoftwareInventory.v1_1_0.DellSoftwareInventory","BuildNumber":32,"Classifications":["Firmware"],"Classifications@odata.count":1,"ComponentID":"25227","ComponentType":"FRMW","DeviceID":null,"ElementName":"Integrated Dell Remote Access Controller","HashValue":null,"Id":"DCIM:INSTALLED_0x23_iDRAC.Embedded.1-1_0x23_IDRACinfo","IdentityInfoType":["OrgID:ComponentType:ComponentID"],"IdentityInfoType@odata.count":1,"IdentityInfoValue":["DCIM:firmware:25227"],"IdentityInfoValue@odata.count":1,"InstallationDate":"2020-06-03T04:40:34Z","IsEntity":true,"MajorVersion":4,"MinorVersion":10,"RevisionNumber":10,"RevisionString":null,"Status":"Installed","SubDeviceID":null,"SubVendorID":null,"VendorID":null,"impactsTPMmeasurements":false},{"@odata.context":"/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory","@odata.id":"/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_701__NIC.Embedded.2-1-1","@odata.type":"#DellSoftwareInventory.v1_1_0.DellSoftwareInventory","BuildNumber":0,"Classifications":["Firmware"],"Classifications@odata.count":1,"ComponentID":"0","ComponentType":"FRMW","DeviceID":"165F","ElementName":"Broadcom Gigabit Ethernet BCM5720 - 6C:2B:59:AD:17:4B","HashValue":null,"Id":"DCIM:INSTALLED_0x23_701__NIC.Embedded.2-1-1","IdentityInfoType":["OrgID:ComponentType:VendorID:DeviceID:SubVendorID:SubDeviceID"],"IdentityInfoType@odata.count":1,"IdentityInfoValue":["DCIM:firmware:14E4:165F:1028:88F"],"IdentityInfoValue@odata.count":1,"InstallationDate":"2019-11-22T10:24:22Z","IsEntity":true,"MajorVersion":21,"MinorVersion":40,"RevisionNumber":21,"RevisionString":null,"Status":"Installed","SubDeviceID":"88F","SubVendorID":"1028","VendorID":"14E4","impactsTPMmeasurements":true},{"@odata.context":"/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory","@odata.id":"/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_701__NIC.Embedded.1-1-1","@odata.type":"#DellSoftwareInventory.v1_1_0.DellSoftwareInventory","BuildNumber":0,"Classifications":["Firmware"],"Classifications@odata.count":1,"ComponentID":"0","ComponentType":"FRMW","DeviceID":"165F","ElementName":"Broadcom Gigabit Ethernet BCM5720 - 6C:2B:59:AD:17:4A","HashValue":null,"Id":"DCIM:INSTALLED_0x23_701__NIC.Embedded.1-1-1","IdentityInfoType":["OrgID:ComponentType:VendorID:DeviceID:SubVendorID:SubDeviceID"],"IdentityInfoType@odata.count":1,"IdentityInfoValue":["DCIM:firmware:14E4:165F:1028:88F"],"IdentityInfoValue@odata.count":1,"InstallationDate":"2019-11-22T10:24:22Z","IsEntity":true,"MajorVersion":21,"MinorVersion":40,"RevisionNumber":21,"RevisionString":null,"Status":"Installed","SubDeviceID":"88F","SubVendorID":"1028","VendorID":"14E4","impactsTPMmeasurements":true},{"@odata.context":"/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory","@odata.id":"/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_701__NIC.Slot.2-1-1","@odata.type":"#DellSoftwareInventory.v1_1_0.DellSoftwareInventory","BuildNumber":0,"Classifications":["Firmware"],"Classifications@odata.count":1,"ComponentID":"27474","ComponentType":"FRMW","DeviceID":"165F","ElementName":"Broadcom Gigabit Ethernet BCM5720 - B0:26:28:C4:C6:FE","HashValue":"ee7e10005f676a644f87378bb4a5b49ddb09fc22fdc81af9e2d5826e86cbadcc","Id":"DCIM:INSTALLED_0x23_701__NIC.Slot.2-1-1","IdentityInfoType":["OrgID:ComponentType:VendorID:DeviceID:SubVendorID:SubDeviceID"],"IdentityInfoType@odata.count":1,"IdentityInfoValue":["DCIM:firmware:14E4:165F:14E4:2003"],"IdentityInfoValue@odata.count":1,"InstallationDate":"2019-11-22T10:24:20Z","IsEntity":true,"MajorVersion":21,"MinorVersion":40,"RevisionNumber":21,"RevisionString":null,"Status":"Installed","SubDeviceID":"2003","SubVendorID":"14E4","VendorID":"14E4","impactsTPMmeasurements":true},{"@odata.context":"/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory","@odata.id":"/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_701__NIC.Slot.2-2-1","@odata.type":"#DellSoftwareInventory.v1_1_0.DellSoftwareInventory","BuildNumber":0,"Classifications":["Firmware"],"Classifications@odata.count":1,"ComponentID":"27474","ComponentType":"FRMW","DeviceID":"165F","ElementName":"Broadcom Gigabit Ethernet BCM5720 - B0:26:28:C4:C6:FF","HashValue":"ee7e10005f676a644f87378bb4a5b49ddb09fc22fdc81af9e2d5826e86cbadcc","Id":"DCIM:INSTALLED_0x23_701__NIC.Slot.2-2-1","IdentityInfoType":["OrgID:ComponentType:VendorID:DeviceID:SubVendorID:SubDeviceID"],"IdentityInfoType@odata.count":1,"IdentityInfoValue":["DCIM:firmware:14E4:165F:14E4:2003"],"IdentityInfoValue@odata.count":1,"InstallationDate":"2019-11-22T10:24:21Z","IsEntity":true,"MajorVersion":21,"MinorVersion":40,"RevisionNumber":21,"RevisionString":null,"Status":"Installed","SubDeviceID":"2003","SubVendorID":"14E4","VendorID":"14E4","impactsTPMmeasurements":true},{"@odata.context":"/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory","@odata.id":"/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:CURRENT_0x23_701__NIC.Slot.2-1-1","@odata.type":"#DellSoftwareInventory.v1_1_0.DellSoftwareInventory","BuildNumber":0,"Classifications":["Firmware"],"Classifications@odata.count":1,"ComponentID":"27474","ComponentType":"FRMW","DeviceID":"165F","ElementName":"Broadcom Gigabit Ethernet BCM5720 - B0:26:28:C4:C6:FE","HashValue":"ee7e10005f676a644f87378bb4a5b49ddb09fc22fdc81af9e2d5826e86cbadcc","Id":"DCIM:CURRENT_0x23_701__NIC.Slot.2-1-1","IdentityInfoType":["OrgID:ComponentType:VendorID:DeviceID:SubVendorID:SubDeviceID"],"IdentityInfoType@odata.count":1,"IdentityInfoValue":["DCIM:firmware:14E4:165F:14E4:2003"],"IdentityInfoValue@odata.count":1,"InstallationDate":"NA","IsEntity":true,"MajorVersion":21,"MinorVersion":40,"RevisionNumber":21,"RevisionString":null,"Status":"AvailableForInstallation","SubDeviceID":"2003","SubVendorID":"14E4","VendorID":"14E4","impactsTPMmeasurements":true},{"@odata.context":"/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory","@odata.id":"/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:CURRENT_0x23_701__NIC.Slot.2-2-1","@odata.type":"#DellSoftwareInventory.v1_1_0.DellSoftwareInventory","BuildNumber":0,"Classifications":["Firmware"],"Classifications@odata.count":1,"ComponentID":"27474","ComponentType":"FRMW","DeviceID":"165F","ElementName":"Broadcom Gigabit Ethernet BCM5720 - B0:26:28:C4:C6:FF","HashValue":"ee7e10005f676a644f87378bb4a5b49ddb09fc22fdc81af9e2d5826e86cbadcc","Id":"DCIM:CURRENT_0x23_701__NIC.Slot.2-2-1","IdentityInfoType":["OrgID:ComponentType:VendorID:DeviceID:SubVendorID:SubDeviceID"],"IdentityInfoType@odata.count":1,"IdentityInfoValue":["DCIM:firmware:14E4:165F:14E4:2003"],"IdentityInfoValue@odata.count":1,"InstallationDate":"NA","IsEntity":true,"MajorVersion":21,"MinorVersion":40,"RevisionNumber":21,"RevisionString":null,"Status":"AvailableForInstallation","SubDeviceID":"2003","SubVendorID":"14E4","VendorID":"14E4","impactsTPMmeasurements":true},{"@odata.context":"/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory","@odata.id":"/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_301_C_AHCI.Slot.1-1","@odata.type":"#DellSoftwareInventory.v1_1_0.DellSoftwareInventory","BuildNumber":3022,"Classifications":["Firmware"],"Classifications@odata.count":1,"ComponentID":"0","ComponentType":"FRMW","DeviceID":"9230","ElementName":"BOSS-S1","HashValue":null,"Id":"DCIM:INSTALLED_0x23_301_C_AHCI.Slot.1-1","IdentityInfoType":["OrgID:ComponentType:VendorID:DeviceID:SubVendorID:SubDeviceID"],"IdentityInfoType@odata.count":1,"IdentityInfoValue":["DCIM:firmware:1B4B:9230:1028:1FE2"],"IdentityInfoValue@odata.count":1,"InstallationDate":"2019-11-22T10:28:36Z","IsEntity":true,"MajorVersion":2,"MinorVersion":5,"RevisionNumber":13,"RevisionString":null,"Status":"Installed","SubDeviceID":"1FE2","SubVendorID":"1028","VendorID":"1B4B","impactsTPMmeasurements":true},{"@odata.context":"/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory","@odata.id":"/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:PREVIOUS_0x23_741__BIOS.Setup.1-1","@odata.type":"#DellSoftwareInventory.v1_1_0.DellSoftwareInventory","BuildNumber":0,"Classifications":["BIOS/FCode"],"Classifications@odata.count":1,"ComponentID":"159","ComponentType":"BIOS","DeviceID":null,"ElementName":"BIOS","HashValue":"96160e1cfd223f4ecf13b3497fd6b5acc8f38dca25cb340bffcf2fb593218d0d","Id":"DCIM:PREVIOUS_0x23_741__BIOS.Setup.1-1","IdentityInfoType":["OrgID:ComponentType:ComponentID"],"IdentityInfoType@odata.count":1,"IdentityInfoValue":["DCIM:BIOS:159"],"IdentityInfoValue@odata.count":1,"InstallationDate":"NA","IsEntity":true,"MajorVersion":1,"MinorVersion":3,"RevisionNumber":3,"RevisionString":null,"Status":"AvailableForInstallation","SubDeviceID":null,"SubVendorID":null,"VendorID":null,"impactsTPMmeasurements":true},{"@odata.context":"/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory","@odata.id":"/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_741__BIOS.Setup.1-1","@odata.type":"#DellSoftwareInventory.v1_1_0.DellSoftwareInventory","BuildNumber":0,"Classifications":["BIOS/FCode"],"Classifications@odata.count":1,"ComponentID":"159","ComponentType":"BIOS","DeviceID":null,"ElementName":"BIOS","HashValue":"96160e1cfd223f4ecf13b3497fd6b5acc8f38dca25cb340bffcf2fb593218d0d","Id":"DCIM:INSTALLED_0x23_741__BIOS.Setup.1-1","IdentityInfoType":["OrgID:ComponentType:ComponentID"],"IdentityInfoType@odata.count":1,"IdentityInfoValue":["DCIM:BIOS:159"],"IdentityInfoValue@odata.count":1,"InstallationDate":"2020-06-03T04:33:49Z","IsEntity":true,"MajorVersion":2,"MinorVersion":2,"RevisionNumber":3,"RevisionString":null,"Status":"Installed","SubDeviceID":null,"SubVendorID":null,"VendorID":null,"impactsTPMmeasurements":true},{"@odata.context":"/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory","@odata.id":"/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:CURRENT_0x23_741__BIOS.Setup.1-1","@odata.type":"#DellSoftwareInventory.v1_1_0.DellSoftwareInventory","BuildNumber":0,"Classifications":["BIOS/FCode"],"Classifications@odata.count":1,"ComponentID":"159","ComponentType":"BIOS","DeviceID":null,"ElementName":"BIOS","HashValue":"96160e1cfd223f4ecf13b3497fd6b5acc8f38dca25cb340bffcf2fb593218d0d","Id":"DCIM:CURRENT_0x23_741__BIOS.Setup.1-1","IdentityInfoType":["OrgID:ComponentType:ComponentID"],"IdentityInfoType@odata.count":1,"IdentityInfoValue":["DCIM:BIOS:159"],"IdentityInfoValue@odata.count":1,"InstallationDate":"NA","IsEntity":true,"MajorVersion":2,"MinorVersion":2,"RevisionNumber":3,"RevisionString":null,"Status":"AvailableForInstallation","SubDeviceID":null,"SubVendorID":null,"VendorID":null,"impactsTPMmeasurements":true},{"@odata.context":"/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory","@odata.id":"/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_802__USC.Embedded.1:LC.Embedded.1","@odata.type":"#DellSoftwareInventory.v1_1_0.DellSoftwareInventory","BuildNumber":10,"Classifications":["Firmware"],"Classifications@odata.count":1,"ComponentID":"28897","ComponentType":"APAC","DeviceID":null,"ElementName":"Lifecycle Controller","HashValue":null,"Id":"DCIM:INSTALLED_0x23_802__USC.Embedded.1:LC.Embedded.1","IdentityInfoType":["OrgID:ComponentType:ComponentID"],"IdentityInfoType@odata.count":1,"IdentityInfoValue":["DCIM:firmware:28897"],"IdentityInfoValue@odata.count":1,"InstallationDate":"2020-06-03T04:40:48Z","IsEntity":true,"MajorVersion":4,"MinorVersion":10,"RevisionNumber":10,"RevisionString":null,"Status":"Installed","SubDeviceID":null,"SubVendorID":null,"VendorID":null,"impactsTPMmeasurements":false},{"@odata.context":"/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory","@odata.id":"/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_803__CPLD.Embedded.1","@odata.type":"#DellSoftwareInventory.v1_1_0.DellSoftwareInventory","BuildNumber":0,"Classifications":["Firmware"],"Classifications@odata.count":1,"ComponentID":"27763","ComponentType":"FRMW","DeviceID":null,"ElementName":"System CPLD","HashValue":null,"Id":"DCIM:INSTALLED_0x23_803__CPLD.Embedded.1","IdentityInfoType":["OrgID:ComponentType:ComponentID"],"IdentityInfoType@odata.count":1,"IdentityInfoValue":["DCIM:firmware:27763"],"IdentityInfoValue@odata.count":1,"InstallationDate":"2019-11-22T09:30:14Z","IsEntity":true,"MajorVersion":1,"MinorVersion":0,"RevisionNumber":0,"RevisionString":null,"Status":"Installed","SubDeviceID":null,"SubVendorID":null,"VendorID":null,"impactsTPMmeasurements":false},{"@odata.context":"/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory","@odata.id":"/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_802__Diagnostics.Embedded.1:LC.Embedded.1","@odata.type":"#DellSoftwareInventory.v1_1_0.DellSoftwareInventory","BuildNumber":0,"Classifications":["Firmware"],"Classifications@odata.count":1,"ComponentID":"25806","ComponentType":"APAC","DeviceID":null,"ElementName":"Dell 64 Bit uEFI Diagnostics, version 4301, 4301A42, 4301.43","HashValue":null,"Id":"DCIM:INSTALLED_0x23_802__Diagnostics.Embedded.1:LC.Embedded.1","IdentityInfoType":["OrgID:ComponentType:ComponentID"],"IdentityInfoType@odata.count":1,"IdentityInfoValue":["DCIM:firmware:25806"],"IdentityInfoValue@odata.count":1,"InstallationDate":"2020-06-03T04:13:03Z","IsEntity":true,"MajorVersion":0,"MinorVersion":0,"RevisionNumber":0,"RevisionString":null,"Status":"Installed","SubDeviceID":null,"SubVendorID":null,"VendorID":null,"impactsTPMmeasurements":false},{"@odata.context":"/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory","@odata.id":"/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_802__DriverPack.Embedded.1:LC.Embedded.1","@odata.type":"#DellSoftwareInventory.v1_1_0.DellSoftwareInventory","BuildNumber":0,"Classifications":["Firmware"],"Classifications@odata.count":1,"ComponentID":"18981","ComponentType":"APAC","DeviceID":null,"ElementName":"Dell OS Driver Pack, 19.12.05, A00","HashValue":null,"Id":"DCIM:INSTALLED_0x23_802__DriverPack.Embedded.1:LC.Embedded.1","IdentityInfoType":["OrgID:ComponentType:ComponentID"],"IdentityInfoType@odata.count":1,"IdentityInfoValue":["DCIM:firmware:18981"],"IdentityInfoValue@odata.count":1,"InstallationDate":"2020-06-03T04:12:47Z","IsEntity":true,"MajorVersion":19,"MinorVersion":12,"RevisionNumber":5,"RevisionString":null,"Status":"Installed","SubDeviceID":null,"SubVendorID":null,"VendorID":null,"impactsTPMmeasurements":false},{"@odata.context":"/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory","@odata.id":"/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_802__OSCollector.Embedded.1","@odata.type":"#DellSoftwareInventory.v1_1_0.DellSoftwareInventory","BuildNumber":0,"Classifications":["Firmware"],"Classifications@odata.count":1,"ComponentID":"101734","ComponentType":"APAC","DeviceID":null,"ElementName":"OS COLLECTOR, v5.0, A00","HashValue":null,"Id":"DCIM:INSTALLED_0x23_802__OSCollector.Embedded.1","IdentityInfoType":["OrgID:ComponentType:ComponentID"],"IdentityInfoType@odata.count":1,"IdentityInfoValue":["DCIM:firmware:101734"],"IdentityInfoValue@odata.count":1,"InstallationDate":"2020-06-03T04:11:20Z","IsEntity":true,"MajorVersion":5,"MinorVersion":0,"RevisionNumber":0,"RevisionString":null,"Status":"Installed","SubDeviceID":null,"SubVendorID":null,"VendorID":null,"impactsTPMmeasurements":false},{"@odata.context":"/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory","@odata.id":"/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_802__ServiceModule.Embedded.1","@odata.type":"#DellSoftwareInventory.v1_1_0.DellSoftwareInventory","BuildNumber":0,"Classifications":["Firmware"],"Classifications@odata.count":1,"ComponentID":"104684","ComponentType":"APAC","DeviceID":null,"ElementName":"Dell EMC iDRAC Service Module Embedded Package v3.5.1, A00","HashValue":null,"Id":"DCIM:INSTALLED_0x23_802__ServiceModule.Embedded.1","IdentityInfoType":["OrgID:ComponentType:ComponentID"],"IdentityInfoType@odata.count":1,"IdentityInfoValue":["DCIM:firmware:104684"],"IdentityInfoValue@odata.count":1,"InstallationDate":"2020-06-03T04:11:00Z","IsEntity":true,"MajorVersion":3,"MinorVersion":5,"RevisionNumber":1,"RevisionString":null,"Status":"Installed","SubDeviceID":null,"SubVendorID":null,"VendorID":null,"impactsTPMmeasurements":false},{"@odata.context":"/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory","@odata.id":"/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_304_C_Disk.Direct.0-0:AHCI.Embedded.2-1","@odata.type":"#DellSoftwareInventory.v1_1_0.DellSoftwareInventory","BuildNumber":0,"Classifications":["Firmware"],"Classifications@odata.count":1,"ComponentID":"106103","ComponentType":"FRMW","DeviceID":null,"ElementName":"Disk 0 on Embedded AHCI Controller 2","HashValue":null,"Id":"DCIM:INSTALLED_0x23_304_C_Disk.Direct.0-0:AHCI.Embedded.2-1","IdentityInfoType":["OrgID:ComponentType:ComponentID"],"IdentityInfoType@odata.count":1,"IdentityInfoValue":["DCIM:firmware:106103"],"IdentityInfoValue@odata.count":1,"InstallationDate":"2019-11-22T09:32:33Z","IsEntity":true,"MajorVersion":0,"MinorVersion":0,"RevisionNumber":0,"RevisionString":null,"Status":"Installed","SubDeviceID":null,"SubVendorID":null,"VendorID":null,"impactsTPMmeasurements":false},{"@odata.context":"/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory","@odata.id":"/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_304_C_Disk.Direct.0-0:AHCI.Slot.1-1","@odata.type":"#DellSoftwareInventory.v1_1_0.DellSoftwareInventory","BuildNumber":0,"Classifications":["Firmware"],"Classifications@odata.count":1,"ComponentID":"106864","ComponentType":"FRMW","DeviceID":null,"ElementName":"Disk 0 on AHCI Controller in slot 1","HashValue":null,"Id":"DCIM:INSTALLED_0x23_304_C_Disk.Direct.0-0:AHCI.Slot.1-1","IdentityInfoType":["OrgID:ComponentType:ComponentID"],"IdentityInfoType@odata.count":1,"IdentityInfoValue":["DCIM:firmware:106864"],"IdentityInfoValue@odata.count":1,"InstallationDate":"2019-11-22T09:33:25Z","IsEntity":true,"MajorVersion":0,"MinorVersion":0,"RevisionNumber":0,"RevisionString":null,"Status":"Installed","SubDeviceID":null,"SubVendorID":null,"VendorID":null,"impactsTPMmeasurements":false}],"Members@odata.count":20,"Name":"DellSoftwareInventoryCollection"}
+{
+  "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventoryCollection.DellSoftwareInventoryCollection",
+  "@odata.id": "/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventoryCollection",
+  "@odata.type": "#DellSoftwareInventoryCollection.DellSoftwareInventoryCollection",
+  "Description": "A collection of DellSoftwareInventory resource",
+  "Members": [
+    {
+      "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+      "@odata.id": "/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:PREVIOUS_0x23_iDRAC.Embedded.1-1_0x23_IDRACinfo",
+      "@odata.type": "#DellSoftwareInventory.v1_1_0.DellSoftwareInventory",
+      "BuildNumber": 21,
+      "Classifications": [
+        "Firmware"
+      ],
+      "Classifications@odata.count": 1,
+      "ComponentID": "25227",
+      "ComponentType": "FRMW",
+      "DeviceID": null,
+      "ElementName": "Integrated Dell Remote Access Controller",
+      "HashValue": null,
+      "Id": "DCIM:PREVIOUS_0x23_iDRAC.Embedded.1-1_0x23_IDRACinfo",
+      "IdentityInfoType": [
+        "OrgID:ComponentType:ComponentID"
+      ],
+      "IdentityInfoType@odata.count": 1,
+      "IdentityInfoValue": [
+        "DCIM:firmware:25227"
+      ],
+      "IdentityInfoValue@odata.count": 1,
+      "InstallationDate": "NA",
+      "IsEntity": true,
+      "MajorVersion": 3,
+      "MinorVersion": 36,
+      "RevisionNumber": 36,
+      "RevisionString": null,
+      "Status": "AvailableForInstallation",
+      "SubDeviceID": null,
+      "SubVendorID": null,
+      "VendorID": null,
+      "impactsTPMmeasurements": false
+    },
+    {
+      "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+      "@odata.id": "/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_iDRAC.Embedded.1-1_0x23_IDRACinfo",
+      "@odata.type": "#DellSoftwareInventory.v1_1_0.DellSoftwareInventory",
+      "BuildNumber": 32,
+      "Classifications": [
+        "Firmware"
+      ],
+      "Classifications@odata.count": 1,
+      "ComponentID": "25227",
+      "ComponentType": "FRMW",
+      "DeviceID": null,
+      "ElementName": "Integrated Dell Remote Access Controller",
+      "HashValue": null,
+      "Id": "DCIM:INSTALLED_0x23_iDRAC.Embedded.1-1_0x23_IDRACinfo",
+      "IdentityInfoType": [
+        "OrgID:ComponentType:ComponentID"
+      ],
+      "IdentityInfoType@odata.count": 1,
+      "IdentityInfoValue": [
+        "DCIM:firmware:25227"
+      ],
+      "IdentityInfoValue@odata.count": 1,
+      "InstallationDate": "2020-06-03T04:40:34Z",
+      "IsEntity": true,
+      "MajorVersion": 4,
+      "MinorVersion": 10,
+      "RevisionNumber": 10,
+      "RevisionString": null,
+      "Status": "Installed",
+      "SubDeviceID": null,
+      "SubVendorID": null,
+      "VendorID": null,
+      "impactsTPMmeasurements": false
+    },
+    {
+      "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+      "@odata.id": "/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_701__NIC.Embedded.2-1-1",
+      "@odata.type": "#DellSoftwareInventory.v1_1_0.DellSoftwareInventory",
+      "BuildNumber": 0,
+      "Classifications": [
+        "Firmware"
+      ],
+      "Classifications@odata.count": 1,
+      "ComponentID": "0",
+      "ComponentType": "FRMW",
+      "DeviceID": "165F",
+      "ElementName": "Broadcom Gigabit Ethernet BCM5720 - 6C:2B:59:AD:17:4B",
+      "HashValue": null,
+      "Id": "DCIM:INSTALLED_0x23_701__NIC.Embedded.2-1-1",
+      "IdentityInfoType": [
+        "OrgID:ComponentType:VendorID:DeviceID:SubVendorID:SubDeviceID"
+      ],
+      "IdentityInfoType@odata.count": 1,
+      "IdentityInfoValue": [
+        "DCIM:firmware:14E4:165F:1028:88F"
+      ],
+      "IdentityInfoValue@odata.count": 1,
+      "InstallationDate": "2019-11-22T10:24:22Z",
+      "IsEntity": true,
+      "MajorVersion": 21,
+      "MinorVersion": 40,
+      "RevisionNumber": 21,
+      "RevisionString": null,
+      "Status": "Installed",
+      "SubDeviceID": "88F",
+      "SubVendorID": "1028",
+      "VendorID": "14E4",
+      "impactsTPMmeasurements": true
+    },
+    {
+      "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+      "@odata.id": "/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_701__NIC.Embedded.1-1-1",
+      "@odata.type": "#DellSoftwareInventory.v1_1_0.DellSoftwareInventory",
+      "BuildNumber": 0,
+      "Classifications": [
+        "Firmware"
+      ],
+      "Classifications@odata.count": 1,
+      "ComponentID": "0",
+      "ComponentType": "FRMW",
+      "DeviceID": "165F",
+      "ElementName": "Broadcom Gigabit Ethernet BCM5720 - 6C:2B:59:AD:17:4A",
+      "HashValue": null,
+      "Id": "DCIM:INSTALLED_0x23_701__NIC.Embedded.1-1-1",
+      "IdentityInfoType": [
+        "OrgID:ComponentType:VendorID:DeviceID:SubVendorID:SubDeviceID"
+      ],
+      "IdentityInfoType@odata.count": 1,
+      "IdentityInfoValue": [
+        "DCIM:firmware:14E4:165F:1028:88F"
+      ],
+      "IdentityInfoValue@odata.count": 1,
+      "InstallationDate": "2019-11-22T10:24:22Z",
+      "IsEntity": true,
+      "MajorVersion": 21,
+      "MinorVersion": 40,
+      "RevisionNumber": 21,
+      "RevisionString": null,
+      "Status": "Installed",
+      "SubDeviceID": "88F",
+      "SubVendorID": "1028",
+      "VendorID": "14E4",
+      "impactsTPMmeasurements": true
+    },
+    {
+      "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+      "@odata.id": "/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_701__NIC.Slot.2-1-1",
+      "@odata.type": "#DellSoftwareInventory.v1_1_0.DellSoftwareInventory",
+      "BuildNumber": 0,
+      "Classifications": [
+        "Firmware"
+      ],
+      "Classifications@odata.count": 1,
+      "ComponentID": "27474",
+      "ComponentType": "FRMW",
+      "DeviceID": "165F",
+      "ElementName": "Broadcom Gigabit Ethernet BCM5720 - B0:26:28:C4:C6:FE",
+      "HashValue": "ee7e10005f676a644f87378bb4a5b49ddb09fc22fdc81af9e2d5826e86cbadcc",
+      "Id": "DCIM:INSTALLED_0x23_701__NIC.Slot.2-1-1",
+      "IdentityInfoType": [
+        "OrgID:ComponentType:VendorID:DeviceID:SubVendorID:SubDeviceID"
+      ],
+      "IdentityInfoType@odata.count": 1,
+      "IdentityInfoValue": [
+        "DCIM:firmware:14E4:165F:14E4:2003"
+      ],
+      "IdentityInfoValue@odata.count": 1,
+      "InstallationDate": "2019-11-22T10:24:20Z",
+      "IsEntity": true,
+      "MajorVersion": 21,
+      "MinorVersion": 40,
+      "RevisionNumber": 21,
+      "RevisionString": null,
+      "Status": "Installed",
+      "SubDeviceID": "2003",
+      "SubVendorID": "14E4",
+      "VendorID": "14E4",
+      "impactsTPMmeasurements": true
+    },
+    {
+      "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+      "@odata.id": "/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_701__NIC.Slot.2-2-1",
+      "@odata.type": "#DellSoftwareInventory.v1_1_0.DellSoftwareInventory",
+      "BuildNumber": 0,
+      "Classifications": [
+        "Firmware"
+      ],
+      "Classifications@odata.count": 1,
+      "ComponentID": "27474",
+      "ComponentType": "FRMW",
+      "DeviceID": "165F",
+      "ElementName": "Broadcom Gigabit Ethernet BCM5720 - B0:26:28:C4:C6:FF",
+      "HashValue": "ee7e10005f676a644f87378bb4a5b49ddb09fc22fdc81af9e2d5826e86cbadcc",
+      "Id": "DCIM:INSTALLED_0x23_701__NIC.Slot.2-2-1",
+      "IdentityInfoType": [
+        "OrgID:ComponentType:VendorID:DeviceID:SubVendorID:SubDeviceID"
+      ],
+      "IdentityInfoType@odata.count": 1,
+      "IdentityInfoValue": [
+        "DCIM:firmware:14E4:165F:14E4:2003"
+      ],
+      "IdentityInfoValue@odata.count": 1,
+      "InstallationDate": "2019-11-22T10:24:21Z",
+      "IsEntity": true,
+      "MajorVersion": 21,
+      "MinorVersion": 40,
+      "RevisionNumber": 21,
+      "RevisionString": null,
+      "Status": "Installed",
+      "SubDeviceID": "2003",
+      "SubVendorID": "14E4",
+      "VendorID": "14E4",
+      "impactsTPMmeasurements": true
+    },
+    {
+      "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+      "@odata.id": "/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:CURRENT_0x23_701__NIC.Slot.2-1-1",
+      "@odata.type": "#DellSoftwareInventory.v1_1_0.DellSoftwareInventory",
+      "BuildNumber": 0,
+      "Classifications": [
+        "Firmware"
+      ],
+      "Classifications@odata.count": 1,
+      "ComponentID": "27474",
+      "ComponentType": "FRMW",
+      "DeviceID": "165F",
+      "ElementName": "Broadcom Gigabit Ethernet BCM5720 - B0:26:28:C4:C6:FE",
+      "HashValue": "ee7e10005f676a644f87378bb4a5b49ddb09fc22fdc81af9e2d5826e86cbadcc",
+      "Id": "DCIM:CURRENT_0x23_701__NIC.Slot.2-1-1",
+      "IdentityInfoType": [
+        "OrgID:ComponentType:VendorID:DeviceID:SubVendorID:SubDeviceID"
+      ],
+      "IdentityInfoType@odata.count": 1,
+      "IdentityInfoValue": [
+        "DCIM:firmware:14E4:165F:14E4:2003"
+      ],
+      "IdentityInfoValue@odata.count": 1,
+      "InstallationDate": "NA",
+      "IsEntity": true,
+      "MajorVersion": 21,
+      "MinorVersion": 40,
+      "RevisionNumber": 21,
+      "RevisionString": null,
+      "Status": "AvailableForInstallation",
+      "SubDeviceID": "2003",
+      "SubVendorID": "14E4",
+      "VendorID": "14E4",
+      "impactsTPMmeasurements": true
+    },
+    {
+      "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+      "@odata.id": "/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:CURRENT_0x23_701__NIC.Slot.2-2-1",
+      "@odata.type": "#DellSoftwareInventory.v1_1_0.DellSoftwareInventory",
+      "BuildNumber": 0,
+      "Classifications": [
+        "Firmware"
+      ],
+      "Classifications@odata.count": 1,
+      "ComponentID": "27474",
+      "ComponentType": "FRMW",
+      "DeviceID": "165F",
+      "ElementName": "Broadcom Gigabit Ethernet BCM5720 - B0:26:28:C4:C6:FF",
+      "HashValue": "ee7e10005f676a644f87378bb4a5b49ddb09fc22fdc81af9e2d5826e86cbadcc",
+      "Id": "DCIM:CURRENT_0x23_701__NIC.Slot.2-2-1",
+      "IdentityInfoType": [
+        "OrgID:ComponentType:VendorID:DeviceID:SubVendorID:SubDeviceID"
+      ],
+      "IdentityInfoType@odata.count": 1,
+      "IdentityInfoValue": [
+        "DCIM:firmware:14E4:165F:14E4:2003"
+      ],
+      "IdentityInfoValue@odata.count": 1,
+      "InstallationDate": "NA",
+      "IsEntity": true,
+      "MajorVersion": 21,
+      "MinorVersion": 40,
+      "RevisionNumber": 21,
+      "RevisionString": null,
+      "Status": "AvailableForInstallation",
+      "SubDeviceID": "2003",
+      "SubVendorID": "14E4",
+      "VendorID": "14E4",
+      "impactsTPMmeasurements": true
+    },
+    {
+      "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+      "@odata.id": "/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_301_C_AHCI.Slot.1-1",
+      "@odata.type": "#DellSoftwareInventory.v1_1_0.DellSoftwareInventory",
+      "BuildNumber": 3022,
+      "Classifications": [
+        "Firmware"
+      ],
+      "Classifications@odata.count": 1,
+      "ComponentID": "0",
+      "ComponentType": "FRMW",
+      "DeviceID": "9230",
+      "ElementName": "BOSS-S1",
+      "HashValue": null,
+      "Id": "DCIM:INSTALLED_0x23_301_C_AHCI.Slot.1-1",
+      "IdentityInfoType": [
+        "OrgID:ComponentType:VendorID:DeviceID:SubVendorID:SubDeviceID"
+      ],
+      "IdentityInfoType@odata.count": 1,
+      "IdentityInfoValue": [
+        "DCIM:firmware:1B4B:9230:1028:1FE2"
+      ],
+      "IdentityInfoValue@odata.count": 1,
+      "InstallationDate": "2019-11-22T10:28:36Z",
+      "IsEntity": true,
+      "MajorVersion": 2,
+      "MinorVersion": 5,
+      "RevisionNumber": 13,
+      "RevisionString": null,
+      "Status": "Installed",
+      "SubDeviceID": "1FE2",
+      "SubVendorID": "1028",
+      "VendorID": "1B4B",
+      "impactsTPMmeasurements": true
+    },
+    {
+      "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+      "@odata.id": "/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:PREVIOUS_0x23_741__BIOS.Setup.1-1",
+      "@odata.type": "#DellSoftwareInventory.v1_1_0.DellSoftwareInventory",
+      "BuildNumber": 0,
+      "Classifications": [
+        "BIOS/FCode"
+      ],
+      "Classifications@odata.count": 1,
+      "ComponentID": "159",
+      "ComponentType": "BIOS",
+      "DeviceID": null,
+      "ElementName": "BIOS",
+      "HashValue": "96160e1cfd223f4ecf13b3497fd6b5acc8f38dca25cb340bffcf2fb593218d0d",
+      "Id": "DCIM:PREVIOUS_0x23_741__BIOS.Setup.1-1",
+      "IdentityInfoType": [
+        "OrgID:ComponentType:ComponentID"
+      ],
+      "IdentityInfoType@odata.count": 1,
+      "IdentityInfoValue": [
+        "DCIM:BIOS:159"
+      ],
+      "IdentityInfoValue@odata.count": 1,
+      "InstallationDate": "NA",
+      "IsEntity": true,
+      "MajorVersion": 1,
+      "MinorVersion": 3,
+      "RevisionNumber": 3,
+      "RevisionString": null,
+      "Status": "AvailableForInstallation",
+      "SubDeviceID": null,
+      "SubVendorID": null,
+      "VendorID": null,
+      "impactsTPMmeasurements": true
+    },
+    {
+      "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+      "@odata.id": "/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_741__BIOS.Setup.1-1",
+      "@odata.type": "#DellSoftwareInventory.v1_1_0.DellSoftwareInventory",
+      "BuildNumber": 0,
+      "Classifications": [
+        "BIOS/FCode"
+      ],
+      "Classifications@odata.count": 1,
+      "ComponentID": "159",
+      "ComponentType": "BIOS",
+      "DeviceID": null,
+      "ElementName": "BIOS",
+      "HashValue": "96160e1cfd223f4ecf13b3497fd6b5acc8f38dca25cb340bffcf2fb593218d0d",
+      "Id": "DCIM:INSTALLED_0x23_741__BIOS.Setup.1-1",
+      "IdentityInfoType": [
+        "OrgID:ComponentType:ComponentID"
+      ],
+      "IdentityInfoType@odata.count": 1,
+      "IdentityInfoValue": [
+        "DCIM:BIOS:159"
+      ],
+      "IdentityInfoValue@odata.count": 1,
+      "InstallationDate": "2020-06-03T04:33:49Z",
+      "IsEntity": true,
+      "MajorVersion": 2,
+      "MinorVersion": 2,
+      "RevisionNumber": 3,
+      "RevisionString": null,
+      "Status": "Installed",
+      "SubDeviceID": null,
+      "SubVendorID": null,
+      "VendorID": null,
+      "impactsTPMmeasurements": true
+    },
+    {
+      "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+      "@odata.id": "/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:CURRENT_0x23_741__BIOS.Setup.1-1",
+      "@odata.type": "#DellSoftwareInventory.v1_1_0.DellSoftwareInventory",
+      "BuildNumber": 0,
+      "Classifications": [
+        "BIOS/FCode"
+      ],
+      "Classifications@odata.count": 1,
+      "ComponentID": "159",
+      "ComponentType": "BIOS",
+      "DeviceID": null,
+      "ElementName": "BIOS",
+      "HashValue": "96160e1cfd223f4ecf13b3497fd6b5acc8f38dca25cb340bffcf2fb593218d0d",
+      "Id": "DCIM:CURRENT_0x23_741__BIOS.Setup.1-1",
+      "IdentityInfoType": [
+        "OrgID:ComponentType:ComponentID"
+      ],
+      "IdentityInfoType@odata.count": 1,
+      "IdentityInfoValue": [
+        "DCIM:BIOS:159"
+      ],
+      "IdentityInfoValue@odata.count": 1,
+      "InstallationDate": "NA",
+      "IsEntity": true,
+      "MajorVersion": 2,
+      "MinorVersion": 2,
+      "RevisionNumber": 3,
+      "RevisionString": null,
+      "Status": "AvailableForInstallation",
+      "SubDeviceID": null,
+      "SubVendorID": null,
+      "VendorID": null,
+      "impactsTPMmeasurements": true
+    },
+    {
+      "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+      "@odata.id": "/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_802__USC.Embedded.1:LC.Embedded.1",
+      "@odata.type": "#DellSoftwareInventory.v1_1_0.DellSoftwareInventory",
+      "BuildNumber": 10,
+      "Classifications": [
+        "Firmware"
+      ],
+      "Classifications@odata.count": 1,
+      "ComponentID": "28897",
+      "ComponentType": "APAC",
+      "DeviceID": null,
+      "ElementName": "Lifecycle Controller",
+      "HashValue": null,
+      "Id": "DCIM:INSTALLED_0x23_802__USC.Embedded.1:LC.Embedded.1",
+      "IdentityInfoType": [
+        "OrgID:ComponentType:ComponentID"
+      ],
+      "IdentityInfoType@odata.count": 1,
+      "IdentityInfoValue": [
+        "DCIM:firmware:28897"
+      ],
+      "IdentityInfoValue@odata.count": 1,
+      "InstallationDate": "2020-06-03T04:40:48Z",
+      "IsEntity": true,
+      "MajorVersion": 4,
+      "MinorVersion": 10,
+      "RevisionNumber": 10,
+      "RevisionString": null,
+      "Status": "Installed",
+      "SubDeviceID": null,
+      "SubVendorID": null,
+      "VendorID": null,
+      "impactsTPMmeasurements": false
+    },
+    {
+      "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+      "@odata.id": "/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_803__CPLD.Embedded.1",
+      "@odata.type": "#DellSoftwareInventory.v1_1_0.DellSoftwareInventory",
+      "BuildNumber": 0,
+      "Classifications": [
+        "Firmware"
+      ],
+      "Classifications@odata.count": 1,
+      "ComponentID": "27763",
+      "ComponentType": "FRMW",
+      "DeviceID": null,
+      "ElementName": "System CPLD",
+      "HashValue": null,
+      "Id": "DCIM:INSTALLED_0x23_803__CPLD.Embedded.1",
+      "IdentityInfoType": [
+        "OrgID:ComponentType:ComponentID"
+      ],
+      "IdentityInfoType@odata.count": 1,
+      "IdentityInfoValue": [
+        "DCIM:firmware:27763"
+      ],
+      "IdentityInfoValue@odata.count": 1,
+      "InstallationDate": "2019-11-22T09:30:14Z",
+      "IsEntity": true,
+      "MajorVersion": 1,
+      "MinorVersion": 0,
+      "RevisionNumber": 0,
+      "RevisionString": null,
+      "Status": "Installed",
+      "SubDeviceID": null,
+      "SubVendorID": null,
+      "VendorID": null,
+      "impactsTPMmeasurements": false
+    },
+    {
+      "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+      "@odata.id": "/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_802__Diagnostics.Embedded.1:LC.Embedded.1",
+      "@odata.type": "#DellSoftwareInventory.v1_1_0.DellSoftwareInventory",
+      "BuildNumber": 0,
+      "Classifications": [
+        "Firmware"
+      ],
+      "Classifications@odata.count": 1,
+      "ComponentID": "25806",
+      "ComponentType": "APAC",
+      "DeviceID": null,
+      "ElementName": "Dell 64 Bit uEFI Diagnostics, version 4301, 4301A42, 4301.43",
+      "HashValue": null,
+      "Id": "DCIM:INSTALLED_0x23_802__Diagnostics.Embedded.1:LC.Embedded.1",
+      "IdentityInfoType": [
+        "OrgID:ComponentType:ComponentID"
+      ],
+      "IdentityInfoType@odata.count": 1,
+      "IdentityInfoValue": [
+        "DCIM:firmware:25806"
+      ],
+      "IdentityInfoValue@odata.count": 1,
+      "InstallationDate": "2020-06-03T04:13:03Z",
+      "IsEntity": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0,
+      "RevisionNumber": 0,
+      "RevisionString": null,
+      "Status": "Installed",
+      "SubDeviceID": null,
+      "SubVendorID": null,
+      "VendorID": null,
+      "impactsTPMmeasurements": false
+    },
+    {
+      "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+      "@odata.id": "/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_802__DriverPack.Embedded.1:LC.Embedded.1",
+      "@odata.type": "#DellSoftwareInventory.v1_1_0.DellSoftwareInventory",
+      "BuildNumber": 0,
+      "Classifications": [
+        "Firmware"
+      ],
+      "Classifications@odata.count": 1,
+      "ComponentID": "18981",
+      "ComponentType": "APAC",
+      "DeviceID": null,
+      "ElementName": "Dell OS Driver Pack, 19.12.05, A00",
+      "HashValue": null,
+      "Id": "DCIM:INSTALLED_0x23_802__DriverPack.Embedded.1:LC.Embedded.1",
+      "IdentityInfoType": [
+        "OrgID:ComponentType:ComponentID"
+      ],
+      "IdentityInfoType@odata.count": 1,
+      "IdentityInfoValue": [
+        "DCIM:firmware:18981"
+      ],
+      "IdentityInfoValue@odata.count": 1,
+      "InstallationDate": "2020-06-03T04:12:47Z",
+      "IsEntity": true,
+      "MajorVersion": 19,
+      "MinorVersion": 12,
+      "RevisionNumber": 5,
+      "RevisionString": null,
+      "Status": "Installed",
+      "SubDeviceID": null,
+      "SubVendorID": null,
+      "VendorID": null,
+      "impactsTPMmeasurements": false
+    },
+    {
+      "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+      "@odata.id": "/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_802__OSCollector.Embedded.1",
+      "@odata.type": "#DellSoftwareInventory.v1_1_0.DellSoftwareInventory",
+      "BuildNumber": 0,
+      "Classifications": [
+        "Firmware"
+      ],
+      "Classifications@odata.count": 1,
+      "ComponentID": "101734",
+      "ComponentType": "APAC",
+      "DeviceID": null,
+      "ElementName": "OS COLLECTOR, v5.0, A00",
+      "HashValue": null,
+      "Id": "DCIM:INSTALLED_0x23_802__OSCollector.Embedded.1",
+      "IdentityInfoType": [
+        "OrgID:ComponentType:ComponentID"
+      ],
+      "IdentityInfoType@odata.count": 1,
+      "IdentityInfoValue": [
+        "DCIM:firmware:101734"
+      ],
+      "IdentityInfoValue@odata.count": 1,
+      "InstallationDate": "2020-06-03T04:11:20Z",
+      "IsEntity": true,
+      "MajorVersion": 5,
+      "MinorVersion": 0,
+      "RevisionNumber": 0,
+      "RevisionString": null,
+      "Status": "Installed",
+      "SubDeviceID": null,
+      "SubVendorID": null,
+      "VendorID": null,
+      "impactsTPMmeasurements": false
+    },
+    {
+      "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+      "@odata.id": "/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_802__ServiceModule.Embedded.1",
+      "@odata.type": "#DellSoftwareInventory.v1_1_0.DellSoftwareInventory",
+      "BuildNumber": 0,
+      "Classifications": [
+        "Firmware"
+      ],
+      "Classifications@odata.count": 1,
+      "ComponentID": "104684",
+      "ComponentType": "APAC",
+      "DeviceID": null,
+      "ElementName": "Dell EMC iDRAC Service Module Embedded Package v3.5.1, A00",
+      "HashValue": null,
+      "Id": "DCIM:INSTALLED_0x23_802__ServiceModule.Embedded.1",
+      "IdentityInfoType": [
+        "OrgID:ComponentType:ComponentID"
+      ],
+      "IdentityInfoType@odata.count": 1,
+      "IdentityInfoValue": [
+        "DCIM:firmware:104684"
+      ],
+      "IdentityInfoValue@odata.count": 1,
+      "InstallationDate": "2020-06-03T04:11:00Z",
+      "IsEntity": true,
+      "MajorVersion": 3,
+      "MinorVersion": 5,
+      "RevisionNumber": 1,
+      "RevisionString": null,
+      "Status": "Installed",
+      "SubDeviceID": null,
+      "SubVendorID": null,
+      "VendorID": null,
+      "impactsTPMmeasurements": false
+    },
+    {
+      "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+      "@odata.id": "/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_304_C_Disk.Direct.0-0:AHCI.Embedded.2-1",
+      "@odata.type": "#DellSoftwareInventory.v1_1_0.DellSoftwareInventory",
+      "BuildNumber": 0,
+      "Classifications": [
+        "Firmware"
+      ],
+      "Classifications@odata.count": 1,
+      "ComponentID": "106103",
+      "ComponentType": "FRMW",
+      "DeviceID": null,
+      "ElementName": "Disk 0 on Embedded AHCI Controller 2",
+      "HashValue": null,
+      "Id": "DCIM:INSTALLED_0x23_304_C_Disk.Direct.0-0:AHCI.Embedded.2-1",
+      "IdentityInfoType": [
+        "OrgID:ComponentType:ComponentID"
+      ],
+      "IdentityInfoType@odata.count": 1,
+      "IdentityInfoValue": [
+        "DCIM:firmware:106103"
+      ],
+      "IdentityInfoValue@odata.count": 1,
+      "InstallationDate": "2019-11-22T09:32:33Z",
+      "IsEntity": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0,
+      "RevisionNumber": 0,
+      "RevisionString": null,
+      "Status": "Installed",
+      "SubDeviceID": null,
+      "SubVendorID": null,
+      "VendorID": null,
+      "impactsTPMmeasurements": false
+    },
+    {
+      "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+      "@odata.id": "/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_304_C_Disk.Direct.0-0:AHCI.Slot.1-1",
+      "@odata.type": "#DellSoftwareInventory.v1_1_0.DellSoftwareInventory",
+      "BuildNumber": 0,
+      "Classifications": [
+        "Firmware"
+      ],
+      "Classifications@odata.count": 1,
+      "ComponentID": "106864",
+      "ComponentType": "FRMW",
+      "DeviceID": null,
+      "ElementName": "Disk 0 on AHCI Controller in slot 1",
+      "HashValue": null,
+      "Id": "DCIM:INSTALLED_0x23_304_C_Disk.Direct.0-0:AHCI.Slot.1-1",
+      "IdentityInfoType": [
+        "OrgID:ComponentType:ComponentID"
+      ],
+      "IdentityInfoType@odata.count": 1,
+      "IdentityInfoValue": [
+        "DCIM:firmware:106864"
+      ],
+      "IdentityInfoValue@odata.count": 1,
+      "InstallationDate": "2019-11-22T09:33:25Z",
+      "IsEntity": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0,
+      "RevisionNumber": 0,
+      "RevisionString": null,
+      "Status": "Installed",
+      "SubDeviceID": null,
+      "SubVendorID": null,
+      "VendorID": null,
+      "impactsTPMmeasurements": false
+    }
+  ],
+  "Members@odata.count": 20,
+  "Name": "DellSoftwareInventoryCollection"
+}

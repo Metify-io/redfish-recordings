@@ -1,1 +1,19 @@
-{"@odata.context":"/redfish/v1/$metadata#LogEntry.LogEntry","@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Sel/Entries/171","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-14T15:53:13-05:00","Description":" Log Entry 171","EntryCode":"Assert","EntryType":"SEL","Id":"171","Links":{},"Message":"The process of installing an operating system or hypervisor is successfully completed.","MessageArgs":[],"MessageArgs@odata.count":0,"MessageId":"800","Name":" Log Entry 171","SensorNumber":0,"SensorType":"BaseOSBoot/InstallationStatus","Severity":"OK"}
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Sel/Entries/171",
+  "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+  "Created": "2020-07-14T15:53:13-05:00",
+  "Description": " Log Entry 171",
+  "EntryCode": "Assert",
+  "EntryType": "SEL",
+  "Id": "171",
+  "Links": {},
+  "Message": "The process of installing an operating system or hypervisor is successfully completed.",
+  "MessageArgs": [],
+  "MessageArgs@odata.count": 0,
+  "MessageId": "800",
+  "Name": " Log Entry 171",
+  "SensorNumber": 0,
+  "SensorType": "BaseOSBoot/InstallationStatus",
+  "Severity": "OK"
+}

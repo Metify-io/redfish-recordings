@@ -1,1 +1,72 @@
-{"@odata.context":"/redfish/v1/$metadata#Memory.Memory","@odata.type":"#Memory.v1_6_0.Memory","@odata.id":"/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A1","AllowedSpeedsMHz":[2666],"AllowedSpeedsMHz@odata.count":1,"Assembly":{"@odata.id":"/redfish/v1/Chassis/System.Embedded.1/Assembly"},"BaseModuleType":null,"BusWidthBits":72,"CacheSizeMiB":0,"CapacityMiB":8192,"DataWidthBits":64,"Description":"DIMM A1","DeviceLocator":"DIMM A1","ErrorCorrection":"SingleBitECC","FirmwareRevision":"","Id":"DIMM.Socket.A1","Links":{"Chassis":{"@odata.id":"/redfish/v1/Chassis/System.Embedded.1"}},"LogicalSizeMiB":0,"Manufacturer":"Samsung","MaxTDPMilliWatts":[],"MaxTDPMilliWatts@odata.count":0,"MemoryDeviceType":"DDR4","MemoryMedia":[],"MemoryMedia@odata.count":0,"MemorySubsystemControllerManufacturerID":null,"MemorySubsystemControllerProductID":null,"MemoryType":null,"Metrics":{"@odata.id":"/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A1/MemoryMetrics"},"ModuleManufacturerID":null,"ModuleProductID":null,"Name":"DIMM A1","NonVolatileSizeMiB":0,"Oem":{"Dell":{"DellMemory":{"BankLabel":"A","LastSystemInventoryTime":"2020-07-24T13:57:09+00:00","LastUpdateTime":"2020-06-03T10:33:44+00:00","ManufactureDate":"Mon Sep 16 07:00:00 2019 UTC","MemoryTechnology":"InformationNotAvailable","Model":"DDR4 DIMM","RemainingRatedWriteEndurancePercent":null,"SystemEraseCapability":"NotSupported","@odata.context":"/redfish/v1/$metadata#DellMemory.DellMemory","@odata.type":"#DellMemory.v1_1_0.DellMemory","@odata.id":"/redfish/v1/Dell/Systems/System.Embedded.1/Memory/DellMemory/DIMM.Socket.A1"}}},"OperatingMemoryModes":[],"OperatingMemoryModes@odata.count":0,"OperatingSpeedMhz":2666,"PartNumber":"M391A1K43BB2-CTD","RankCount":1,"SerialNumber":"REMOVED_FROM_MOCK","Status":{"Health":"OK","State":"Unknown"},"VolatileSizeMiB":0}
+{
+  "@odata.context": "/redfish/v1/$metadata#Memory.Memory",
+  "@odata.type": "#Memory.v1_6_0.Memory",
+  "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A1",
+  "AllowedSpeedsMHz": [
+    2666
+  ],
+  "AllowedSpeedsMHz@odata.count": 1,
+  "Assembly": {
+    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly"
+  },
+  "BaseModuleType": null,
+  "BusWidthBits": 72,
+  "CacheSizeMiB": 0,
+  "CapacityMiB": 8192,
+  "DataWidthBits": 64,
+  "Description": "DIMM A1",
+  "DeviceLocator": "DIMM A1",
+  "ErrorCorrection": "SingleBitECC",
+  "FirmwareRevision": "",
+  "Id": "DIMM.Socket.A1",
+  "Links": {
+    "Chassis": {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1"
+    }
+  },
+  "LogicalSizeMiB": 0,
+  "Manufacturer": "Samsung",
+  "MaxTDPMilliWatts": [],
+  "MaxTDPMilliWatts@odata.count": 0,
+  "MemoryDeviceType": "DDR4",
+  "MemoryMedia": [],
+  "MemoryMedia@odata.count": 0,
+  "MemorySubsystemControllerManufacturerID": null,
+  "MemorySubsystemControllerProductID": null,
+  "MemoryType": null,
+  "Metrics": {
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A1/MemoryMetrics"
+  },
+  "ModuleManufacturerID": null,
+  "ModuleProductID": null,
+  "Name": "DIMM A1",
+  "NonVolatileSizeMiB": 0,
+  "Oem": {
+    "Dell": {
+      "DellMemory": {
+        "BankLabel": "A",
+        "LastSystemInventoryTime": "2020-07-24T13:57:09+00:00",
+        "LastUpdateTime": "2020-06-03T10:33:44+00:00",
+        "ManufactureDate": "Mon Sep 16 07:00:00 2019 UTC",
+        "MemoryTechnology": "InformationNotAvailable",
+        "Model": "DDR4 DIMM",
+        "RemainingRatedWriteEndurancePercent": null,
+        "SystemEraseCapability": "NotSupported",
+        "@odata.context": "/redfish/v1/$metadata#DellMemory.DellMemory",
+        "@odata.type": "#DellMemory.v1_1_0.DellMemory",
+        "@odata.id": "/redfish/v1/Dell/Systems/System.Embedded.1/Memory/DellMemory/DIMM.Socket.A1"
+      }
+    }
+  },
+  "OperatingMemoryModes": [],
+  "OperatingMemoryModes@odata.count": 0,
+  "OperatingSpeedMhz": 2666,
+  "PartNumber": "M391A1K43BB2-CTD",
+  "RankCount": 1,
+  "SerialNumber": "REMOVED_FROM_MOCK",
+  "Status": {
+    "Health": "OK",
+    "State": "Unknown"
+  },
+  "VolatileSizeMiB": 0
+}

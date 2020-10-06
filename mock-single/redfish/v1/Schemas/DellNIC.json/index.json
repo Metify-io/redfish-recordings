@@ -1,1 +1,31 @@
-{"$ref":"#/definitions/DellNIC","$schema":"/redfish/v1/Schemas/redfish-schema-v1.json","copyright":"Copyright 2014-2019 Dell, Inc. or its subsidiaries. All Rights Reserved.","definitions":{"DellNIC":{"anyOf":[{"$ref":"/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/idRef"},{"$ref":"/redfish/v1/Schemas/DellNIC.v1_0_0.json#/definitions/DellNIC"},{"$ref":"/redfish/v1/Schemas/DellNIC.v1_1_0.json#/definitions/DellNIC"}],"deletable":false,"description":"An instance of DellNIC will have NIC device specific data.","insertable":false,"longDescription":"An instance of DellNIC will have NIC device specific data.","updatable":false,"uris":["/redfish/v1/Dell/Systems/{ComputerSystemId}/NetworkDeviceFunctions/DellNIC/{NICId}"]}},"owningEntity":"Dell","title":"#DellNIC.DellNIC","@odata.id":"/redfish/v1/Schemas/DellNIC.json"}
+{
+  "$ref": "#/definitions/DellNIC",
+  "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+  "copyright": "Copyright 2014-2019 Dell, Inc. or its subsidiaries. All Rights Reserved.",
+  "definitions": {
+    "DellNIC": {
+      "anyOf": [
+        {
+          "$ref": "/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/idRef"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/DellNIC.v1_0_0.json#/definitions/DellNIC"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/DellNIC.v1_1_0.json#/definitions/DellNIC"
+        }
+      ],
+      "deletable": false,
+      "description": "An instance of DellNIC will have NIC device specific data.",
+      "insertable": false,
+      "longDescription": "An instance of DellNIC will have NIC device specific data.",
+      "updatable": false,
+      "uris": [
+        "/redfish/v1/Dell/Systems/{ComputerSystemId}/NetworkDeviceFunctions/DellNIC/{NICId}"
+      ]
+    }
+  },
+  "owningEntity": "Dell",
+  "title": "#DellNIC.DellNIC",
+  "@odata.id": "/redfish/v1/Schemas/DellNIC.json"
+}

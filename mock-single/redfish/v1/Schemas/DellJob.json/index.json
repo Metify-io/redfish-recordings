@@ -1,1 +1,34 @@
-{"$ref":"#/definitions/DellJob","$schema":"/redfish/v1/Schemas/redfish-schema-v1.json","copyright":"Copyright 2014-2019 Dell, Inc. or its subsidiaries. All Rights Reserved.","definitions":{"DellJob":{"anyOf":[{"$ref":"/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/idRef"},{"$ref":"/redfish/v1/Schemas/DellJob.v1_0_0.json#/definitions/DellJob"},{"$ref":"/redfish/v1/Schemas/DellJob.v1_0_1.json#/definitions/DellJob"},{"$ref":"/redfish/v1/Schemas/DellJob.v1_0_2.json#/definitions/DellJob"}],"deletable":true,"description":"This resource contains information about a specific configuration Job scheduled by or being executed by a Redfish service's Job Service.","insertable":false,"longDescription":"This resource shall be used to represent a Job for a Redfish implementation.","updatable":false,"uris":["/redfish/v1/Managers/{ManagerId}/Jobs/{JobId}"]}},"owningEntity":"Dell","title":"#DellJob.DellJob","@odata.id":"/redfish/v1/Schemas/DellJob.json"}
+{
+  "$ref": "#/definitions/DellJob",
+  "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+  "copyright": "Copyright 2014-2019 Dell, Inc. or its subsidiaries. All Rights Reserved.",
+  "definitions": {
+    "DellJob": {
+      "anyOf": [
+        {
+          "$ref": "/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/idRef"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/DellJob.v1_0_0.json#/definitions/DellJob"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/DellJob.v1_0_1.json#/definitions/DellJob"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/DellJob.v1_0_2.json#/definitions/DellJob"
+        }
+      ],
+      "deletable": true,
+      "description": "This resource contains information about a specific configuration Job scheduled by or being executed by a Redfish service's Job Service.",
+      "insertable": false,
+      "longDescription": "This resource shall be used to represent a Job for a Redfish implementation.",
+      "updatable": false,
+      "uris": [
+        "/redfish/v1/Managers/{ManagerId}/Jobs/{JobId}"
+      ]
+    }
+  },
+  "owningEntity": "Dell",
+  "title": "#DellJob.DellJob",
+  "@odata.id": "/redfish/v1/Schemas/DellJob.json"
+}

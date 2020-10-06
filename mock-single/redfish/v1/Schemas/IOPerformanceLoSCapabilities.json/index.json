@@ -1,1 +1,82 @@
-{"$ref":"#/definitions/IOPerformanceLoSCapabilities","$schema":"/redfish/v1/Schemas/redfish-schema-v1.json","copyright":"Copyright 2016-2018 Storage Networking Industry Association (SNIA), USA. All rights reserved. For the full SNIA copyright policy, see http://www.snia.org/about/corporate_info/copyright","definitions":{"IOPerformanceLoSCapabilities":{"anyOf":[{"$ref":"/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/idRef"},{"$ref":"/redfish/v1/Schemas/IOPerformanceLoSCapabilities.v1_0_0.json#/definitions/IOPerformanceLoSCapabilities"},{"$ref":"/redfish/v1/Schemas/IOPerformanceLoSCapabilities.v1_0_1.json#/definitions/IOPerformanceLoSCapabilities"},{"$ref":"/redfish/v1/Schemas/IOPerformanceLoSCapabilities.v1_1_0.json#/definitions/IOPerformanceLoSCapabilities"},{"$ref":"/redfish/v1/Schemas/IOPerformanceLoSCapabilities.v1_1_1.json#/definitions/IOPerformanceLoSCapabilities"},{"$ref":"/redfish/v1/Schemas/IOPerformanceLoSCapabilities.v1_1_2.json#/definitions/IOPerformanceLoSCapabilities"}],"deletable":false,"description":"Describe data protection capabilities","insertable":false,"longDescription":"The capabilities to protect data from loss by the use of a replica. The requirements must be met collectively by the communication path and the replica. There will be one instance associated to a class of service for each replica. Each replica has its own class of service that describes its characteristics.","updatable":false,"uris":["/redfish/v1/StorageServices/{StorageServiceId}/IOPerformanceLoSCapabilities"]},"IOWorkload":{"anyOf":[{"$ref":"/redfish/v1/Schemas/IOPerformanceLoSCapabilities.v1_0_0.json#/definitions/IOWorkload"},{"$ref":"/redfish/v1/Schemas/IOPerformanceLoSCapabilities.v1_0_1.json#/definitions/IOWorkload"},{"$ref":"/redfish/v1/Schemas/IOPerformanceLoSCapabilities.v1_1_0.json#/definitions/IOWorkload"},{"$ref":"/redfish/v1/Schemas/IOPerformanceLoSCapabilities.v1_1_1.json#/definitions/IOWorkload"},{"$ref":"/redfish/v1/Schemas/IOPerformanceLoSCapabilities.v1_1_2.json#/definitions/IOWorkload"}],"description":"An IO Workload description.","longDescription":"This structure may be used to describe an IO Workload.  "},"IOWorkloadComponent":{"anyOf":[{"$ref":"/redfish/v1/Schemas/IOPerformanceLoSCapabilities.v1_0_0.json#/definitions/IOWorkloadComponent"},{"$ref":"/redfish/v1/Schemas/IOPerformanceLoSCapabilities.v1_0_1.json#/definitions/IOWorkloadComponent"},{"$ref":"/redfish/v1/Schemas/IOPerformanceLoSCapabilities.v1_1_0.json#/definitions/IOWorkloadComponent"},{"$ref":"/redfish/v1/Schemas/IOPerformanceLoSCapabilities.v1_1_1.json#/definitions/IOWorkloadComponent"},{"$ref":"/redfish/v1/Schemas/IOPerformanceLoSCapabilities.v1_1_2.json#/definitions/IOWorkloadComponent"}],"description":"Describe a component of a IO workload.","longDescription":"This structure may be used to describe a component of an IO workload."}},"owningEntity":"SNIA","title":"#IOPerformanceLoSCapabilities.IOPerformanceLoSCapabilities","@odata.id":"/redfish/v1/Schemas/IOPerformanceLoSCapabilities.json"}
+{
+  "$ref": "#/definitions/IOPerformanceLoSCapabilities",
+  "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+  "copyright": "Copyright 2016-2018 Storage Networking Industry Association (SNIA), USA. All rights reserved. For the full SNIA copyright policy, see http://www.snia.org/about/corporate_info/copyright",
+  "definitions": {
+    "IOPerformanceLoSCapabilities": {
+      "anyOf": [
+        {
+          "$ref": "/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/idRef"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/IOPerformanceLoSCapabilities.v1_0_0.json#/definitions/IOPerformanceLoSCapabilities"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/IOPerformanceLoSCapabilities.v1_0_1.json#/definitions/IOPerformanceLoSCapabilities"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/IOPerformanceLoSCapabilities.v1_1_0.json#/definitions/IOPerformanceLoSCapabilities"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/IOPerformanceLoSCapabilities.v1_1_1.json#/definitions/IOPerformanceLoSCapabilities"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/IOPerformanceLoSCapabilities.v1_1_2.json#/definitions/IOPerformanceLoSCapabilities"
+        }
+      ],
+      "deletable": false,
+      "description": "Describe data protection capabilities",
+      "insertable": false,
+      "longDescription": "The capabilities to protect data from loss by the use of a replica. The requirements must be met collectively by the communication path and the replica. There will be one instance associated to a class of service for each replica. Each replica has its own class of service that describes its characteristics.",
+      "updatable": false,
+      "uris": [
+        "/redfish/v1/StorageServices/{StorageServiceId}/IOPerformanceLoSCapabilities"
+      ]
+    },
+    "IOWorkload": {
+      "anyOf": [
+        {
+          "$ref": "/redfish/v1/Schemas/IOPerformanceLoSCapabilities.v1_0_0.json#/definitions/IOWorkload"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/IOPerformanceLoSCapabilities.v1_0_1.json#/definitions/IOWorkload"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/IOPerformanceLoSCapabilities.v1_1_0.json#/definitions/IOWorkload"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/IOPerformanceLoSCapabilities.v1_1_1.json#/definitions/IOWorkload"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/IOPerformanceLoSCapabilities.v1_1_2.json#/definitions/IOWorkload"
+        }
+      ],
+      "description": "An IO Workload description.",
+      "longDescription": "This structure may be used to describe an IO Workload.  "
+    },
+    "IOWorkloadComponent": {
+      "anyOf": [
+        {
+          "$ref": "/redfish/v1/Schemas/IOPerformanceLoSCapabilities.v1_0_0.json#/definitions/IOWorkloadComponent"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/IOPerformanceLoSCapabilities.v1_0_1.json#/definitions/IOWorkloadComponent"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/IOPerformanceLoSCapabilities.v1_1_0.json#/definitions/IOWorkloadComponent"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/IOPerformanceLoSCapabilities.v1_1_1.json#/definitions/IOWorkloadComponent"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/IOPerformanceLoSCapabilities.v1_1_2.json#/definitions/IOWorkloadComponent"
+        }
+      ],
+      "description": "Describe a component of a IO workload.",
+      "longDescription": "This structure may be used to describe a component of an IO workload."
+    }
+  },
+  "owningEntity": "SNIA",
+  "title": "#IOPerformanceLoSCapabilities.IOPerformanceLoSCapabilities",
+  "@odata.id": "/redfish/v1/Schemas/IOPerformanceLoSCapabilities.json"
+}

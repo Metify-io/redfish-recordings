@@ -1,1 +1,9 @@
-{"@odata.context":"/redfish/v1/$metadata#DellPSNumericSensorCollection.DellPSNumericSensorCollection","@odata.id":"/redfish/v1/Dell/Systems/System.Embedded.1/DellPSNumericSensorCollection","@odata.type":"#DellPSNumericSensorCollection.DellPSNumericSensorCollection","Description":"A collection of DellPSNumericSensor resource","Members":[],"Members@odata.count":0,"Name":"DellPSNumericSensorCollection"}
+{
+  "@odata.context": "/redfish/v1/$metadata#DellPSNumericSensorCollection.DellPSNumericSensorCollection",
+  "@odata.id": "/redfish/v1/Dell/Systems/System.Embedded.1/DellPSNumericSensorCollection",
+  "@odata.type": "#DellPSNumericSensorCollection.DellPSNumericSensorCollection",
+  "Description": "A collection of DellPSNumericSensor resource",
+  "Members": [],
+  "Members@odata.count": 0,
+  "Name": "DellPSNumericSensorCollection"
+}
