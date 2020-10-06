@@ -1,1 +1,177 @@
-{"$ref":"#/definitions/DataSecurityLineOfService","$schema":"/redfish/v1/Schemas/redfish-schema-v1.json","copyright":"Copyright 2016-2018 Storage Networking Industry Association (SNIA), USA. All rights reserved. For the full SNIA copyright policy, see http://www.snia.org/about/corporate_info/copyright","definitions":{"DataSecurityLineOfService":{"additionalProperties":false,"description":"Describe data security service level requirements.","longDescription":"This structure shall be used to describe data security service level requirements. ","patternProperties":{"^([a-zA-Z_][a-zA-Z0-9_]*)?@(odata|Redfish|Message)\\.[a-zA-Z_][a-zA-Z0-9_.]+$":{"description":"This property shall specify a valid odata or Redfish property.","type":["array","boolean","integer","number","null","object","string"]}},"properties":{"@odata.context":{"$ref":"/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/context"},"@odata.etag":{"$ref":"/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/etag"},"@odata.id":{"$ref":"/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/id"},"@odata.type":{"$ref":"/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/type"},"AntivirusEngineProvider":{"description":"AntiVirus provider.","longDescription":"The value shall specify an AntiVirus provider.","readonly":false,"type":["string","null"]},"AntivirusScanPolicies":{"description":"Policy for triggering an AntiVirus scan.","items":{"anyOf":[{"$ref":"/redfish/v1/Schemas/DataSecurityLoSCapabilities.json#/definitions/AntiVirusScanTrigger"},{"type":"null"}]},"longDescription":"The enumeration literal shall specify the policy for triggering an AntiVirus scan.","readonly":false,"type":"array"},"ChannelEncryptionStrength":{"anyOf":[{"$ref":"/redfish/v1/Schemas/DataSecurityLoSCapabilities.json#/definitions/KeySize"},{"type":"null"}],"description":"Key size for transport channel encryption.","longDescription":"The enumeration literal shall specify a key size in a symmetric encryption algorithm for transport channel encryption.","readonly":false},"DataSanitizationPolicy":{"anyOf":[{"$ref":"/redfish/v1/Schemas/DataSecurityLoSCapabilities.json#/definitions/DataSanitizationPolicy"},{"type":"null"}],"description":"Data sanitization policy.","longDescription":"The enumeration literal shall specify the data sanitization policy.","readonly":false},"Description":{"anyOf":[{"$ref":"/redfish/v1/Schemas/Resource.json#/definitions/Description"},{"type":"null"}],"readonly":true},"HostAuthenticationType":{"anyOf":[{"$ref":"/redfish/v1/Schemas/DataSecurityLoSCapabilities.json#/definitions/AuthenticationType"},{"type":"null"}],"description":"Authentication type for hosts (servers) or initiator endpoints.","longDescription":"The enumeration literal shall specify the authentication type for hosts (servers) or initiator endpoints.","readonly":false},"Id":{"$ref":"/redfish/v1/Schemas/Resource.json#/definitions/Id","readonly":true},"MediaEncryptionStrength":{"anyOf":[{"$ref":"/redfish/v1/Schemas/DataSecurityLoSCapabilities.json#/definitions/KeySize"},{"type":"null"}],"description":"Key size for media encryption.","longDescription":"The enumeration literal shall specify a key size in a symmetric encryption algorithm for media encryption.","readonly":false},"Name":{"$ref":"/redfish/v1/Schemas/Resource.json#/definitions/Name","readonly":true},"Oem":{"$ref":"/redfish/v1/Schemas/Resource.json#/definitions/Oem","description":"This is the manufacturer/provider specific extension moniker used to divide the Oem object into sections.","longDescription":"The value of this string shall be of the format for the reserved word *Oem*."},"SecureChannelProtocol":{"anyOf":[{"$ref":"/redfish/v1/Schemas/DataSecurityLoSCapabilities.json#/definitions/SecureChannelProtocol"},{"type":"null"}],"description":"Protocol that provide encrypted communication.","longDescription":"The enumeration literal shall specify the protocol that provide encrypted communication.","readonly":false},"UserAuthenticationType":{"anyOf":[{"$ref":"/redfish/v1/Schemas/DataSecurityLoSCapabilities.json#/definitions/AuthenticationType"},{"type":"null"}],"description":"Authentication type for users (or programs).","longDescription":"The enumeration literal shall specify the authentication type for users (or programs).","readonly":false}},"required":["@odata.id","@odata.type","Id","Name"],"type":"object"}},"owningEntity":"SNIA","title":"#DataSecurityLineOfService.v1_0_1.DataSecurityLineOfService","@odata.id":"/redfish/v1/Schemas/DataSecurityLineOfService.v1_0_1.json"}
+{
+  "$ref": "#/definitions/DataSecurityLineOfService",
+  "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+  "copyright": "Copyright 2016-2018 Storage Networking Industry Association (SNIA), USA. All rights reserved. For the full SNIA copyright policy, see http://www.snia.org/about/corporate_info/copyright",
+  "definitions": {
+    "DataSecurityLineOfService": {
+      "additionalProperties": false,
+      "description": "Describe data security service level requirements.",
+      "longDescription": "This structure shall be used to describe data security service level requirements. ",
+      "patternProperties": {
+        "^([a-zA-Z_][a-zA-Z0-9_]*)?@(odata|Redfish|Message)\\.[a-zA-Z_][a-zA-Z0-9_.]+$": {
+          "description": "This property shall specify a valid odata or Redfish property.",
+          "type": [
+            "array",
+            "boolean",
+            "integer",
+            "number",
+            "null",
+            "object",
+            "string"
+          ]
+        }
+      },
+      "properties": {
+        "@odata.context": {
+          "$ref": "/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/context"
+        },
+        "@odata.etag": {
+          "$ref": "/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/etag"
+        },
+        "@odata.id": {
+          "$ref": "/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/id"
+        },
+        "@odata.type": {
+          "$ref": "/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/type"
+        },
+        "AntivirusEngineProvider": {
+          "description": "AntiVirus provider.",
+          "longDescription": "The value shall specify an AntiVirus provider.",
+          "readonly": false,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "AntivirusScanPolicies": {
+          "description": "Policy for triggering an AntiVirus scan.",
+          "items": {
+            "anyOf": [
+              {
+                "$ref": "/redfish/v1/Schemas/DataSecurityLoSCapabilities.json#/definitions/AntiVirusScanTrigger"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "longDescription": "The enumeration literal shall specify the policy for triggering an AntiVirus scan.",
+          "readonly": false,
+          "type": "array"
+        },
+        "ChannelEncryptionStrength": {
+          "anyOf": [
+            {
+              "$ref": "/redfish/v1/Schemas/DataSecurityLoSCapabilities.json#/definitions/KeySize"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Key size for transport channel encryption.",
+          "longDescription": "The enumeration literal shall specify a key size in a symmetric encryption algorithm for transport channel encryption.",
+          "readonly": false
+        },
+        "DataSanitizationPolicy": {
+          "anyOf": [
+            {
+              "$ref": "/redfish/v1/Schemas/DataSecurityLoSCapabilities.json#/definitions/DataSanitizationPolicy"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Data sanitization policy.",
+          "longDescription": "The enumeration literal shall specify the data sanitization policy.",
+          "readonly": false
+        },
+        "Description": {
+          "anyOf": [
+            {
+              "$ref": "/redfish/v1/Schemas/Resource.json#/definitions/Description"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "readonly": true
+        },
+        "HostAuthenticationType": {
+          "anyOf": [
+            {
+              "$ref": "/redfish/v1/Schemas/DataSecurityLoSCapabilities.json#/definitions/AuthenticationType"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Authentication type for hosts (servers) or initiator endpoints.",
+          "longDescription": "The enumeration literal shall specify the authentication type for hosts (servers) or initiator endpoints.",
+          "readonly": false
+        },
+        "Id": {
+          "$ref": "/redfish/v1/Schemas/Resource.json#/definitions/Id",
+          "readonly": true
+        },
+        "MediaEncryptionStrength": {
+          "anyOf": [
+            {
+              "$ref": "/redfish/v1/Schemas/DataSecurityLoSCapabilities.json#/definitions/KeySize"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Key size for media encryption.",
+          "longDescription": "The enumeration literal shall specify a key size in a symmetric encryption algorithm for media encryption.",
+          "readonly": false
+        },
+        "Name": {
+          "$ref": "/redfish/v1/Schemas/Resource.json#/definitions/Name",
+          "readonly": true
+        },
+        "Oem": {
+          "$ref": "/redfish/v1/Schemas/Resource.json#/definitions/Oem",
+          "description": "This is the manufacturer/provider specific extension moniker used to divide the Oem object into sections.",
+          "longDescription": "The value of this string shall be of the format for the reserved word *Oem*."
+        },
+        "SecureChannelProtocol": {
+          "anyOf": [
+            {
+              "$ref": "/redfish/v1/Schemas/DataSecurityLoSCapabilities.json#/definitions/SecureChannelProtocol"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Protocol that provide encrypted communication.",
+          "longDescription": "The enumeration literal shall specify the protocol that provide encrypted communication.",
+          "readonly": false
+        },
+        "UserAuthenticationType": {
+          "anyOf": [
+            {
+              "$ref": "/redfish/v1/Schemas/DataSecurityLoSCapabilities.json#/definitions/AuthenticationType"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Authentication type for users (or programs).",
+          "longDescription": "The enumeration literal shall specify the authentication type for users (or programs).",
+          "readonly": false
+        }
+      },
+      "required": [
+        "@odata.id",
+        "@odata.type",
+        "Id",
+        "Name"
+      ],
+      "type": "object"
+    }
+  },
+  "owningEntity": "SNIA",
+  "title": "#DataSecurityLineOfService.v1_0_1.DataSecurityLineOfService",
+  "@odata.id": "/redfish/v1/Schemas/DataSecurityLineOfService.v1_0_1.json"
+}

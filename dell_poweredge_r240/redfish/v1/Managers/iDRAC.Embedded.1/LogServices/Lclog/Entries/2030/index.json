@@ -1,1 +1,25 @@
-{"@odata.context":"/redfish/v1/$metadata#LogEntry.LogEntry","@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2030","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:07:40-05:00","Description":" Log Entry 2030","EntryType":"Oem","Id":"2030","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"Successfully logged in using root, from 10.228.103.244 and GUI.","MessageArgs":["root","10.228.103.244","GUI"],"MessageArgs@odata.count":3,"MessageId":"USR0030","Name":" Log Entry 2030","OemRecordFormat":"Dell","Severity":"OK"}
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2030",
+  "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+  "Created": "2020-06-03T04:07:40-05:00",
+  "Description": " Log Entry 2030",
+  "EntryType": "Oem",
+  "Id": "2030",
+  "Links": {
+    "OriginOfCondition": {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+    }
+  },
+  "Message": "Successfully logged in using root, from 10.228.103.244 and GUI.",
+  "MessageArgs": [
+    "root",
+    "10.228.103.244",
+    "GUI"
+  ],
+  "MessageArgs@odata.count": 3,
+  "MessageId": "USR0030",
+  "Name": " Log Entry 2030",
+  "OemRecordFormat": "Dell",
+  "Severity": "OK"
+}

@@ -1,1 +1,859 @@
-{"@odata.context":"/redfish/v1/$metadata#LogEntryCollection.LogEntryCollection","@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries?$skip=1000","@odata.type":"#LogEntryCollection.LogEntryCollection","Description":"LC Logs for this manager","Members":[{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2137","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:27:21-05:00","Description":" Log Entry 2137","EntryType":"Oem","Id":"2137","Links":{},"Message":"System is turning off.","MessageId":"SYS1001","Name":" Log Entry 2137","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2136","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:27:21-05:00","Description":" Log Entry 2136","EntryType":"Oem","Id":"2136","Links":{},"Message":"System CPU Resetting.","MessageId":"SYS1003","Name":" Log Entry 2136","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2135","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:27:17-05:00","Description":" Log Entry 2135","EntryType":"Oem","Id":"2135","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"Requested system graceful shutdown.","MessageId":"RAC0705","Name":" Log Entry 2135","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2134","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:27:12-05:00","Description":" Log Entry 2134","EntryType":"Oem","Id":"2134","Links":{},"Message":"A reboot job RID_911764324299 was created.","MessageArgs":["RID_911764324299"],"MessageArgs@odata.count":1,"MessageId":"RED055","Name":" Log Entry 2134","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2133","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:27:12-05:00","Description":" Log Entry 2133","EntryType":"Oem","Id":"2133","Links":{},"Message":"A reboot is pending.","MessageId":"RED029","Name":" Log Entry 2133","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2132","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:27:12-05:00","Description":" Log Entry 2132","EntryType":"Oem","Id":"2132","Links":{},"Message":"The (installation or configuration) job RID_911764324299 is successfully created on iDRAC.","MessageArgs":["RID_911764324299"],"MessageArgs@odata.count":1,"MessageId":"JCP027","Name":" Log Entry 2132","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2131","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:27:05-05:00","Description":" Log Entry 2131","EntryType":"Oem","Id":"2131","Links":{},"Message":"Package successfully downloaded.","MessageId":"RED002","Name":" Log Entry 2131","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2130","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:27:02-05:00","Description":" Log Entry 2130","EntryType":"Oem","Id":"2130","Links":{},"Message":"An update job JID_911764213597 was created.","MessageArgs":["JID_911764213597"],"MessageArgs@odata.count":1,"MessageId":"RED054","Name":" Log Entry 2130","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2129","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:27:02-05:00","Description":" Log Entry 2129","EntryType":"Oem","Id":"2129","Links":{},"Message":"Downloading the BIOS_NN73G_WN64_2.2.3.EXE update package.","MessageArgs":["BIOS_NN73G_WN64_2.2.3.EXE"],"MessageArgs@odata.count":1,"MessageId":"RED110","Name":" Log Entry 2129","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2128","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:27:01-05:00","Description":" Log Entry 2128","EntryType":"Oem","Id":"2128","Links":{},"Message":"The (installation or configuration) job JID_911764213597 is successfully created on iDRAC.","MessageArgs":["JID_911764213597"],"MessageArgs@odata.count":1,"MessageId":"JCP027","Name":" Log Entry 2128","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2127","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:27:01-05:00","Description":" Log Entry 2127","EntryType":"Oem","Id":"2127","Links":{},"Message":"Processing of update packages is starting.","MessageId":"RED052","Name":" Log Entry 2127","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2126","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:26:57-05:00","Description":" Log Entry 2126","EntryType":"Oem","Id":"2126","Links":{},"Message":"Package successfully downloaded.","MessageId":"RED002","Name":" Log Entry 2126","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2125","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:26:41-05:00","Description":" Log Entry 2125","EntryType":"Oem","Id":"2125","Links":{},"Message":"The job JID_758175326454 is successfully deleted.","MessageArgs":["JID_758175326454"],"MessageArgs@odata.count":1,"MessageId":"JCP036","Name":" Log Entry 2125","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2124","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:26:40-05:00","Description":" Log Entry 2124","EntryType":"Oem","Id":"2124","Links":{},"Message":"The job JID_911756257000 is successfully deleted.","MessageArgs":["JID_911756257000"],"MessageArgs@odata.count":1,"MessageId":"JCP036","Name":" Log Entry 2124","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2123","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:24:21-05:00","Description":" Log Entry 2123","EntryType":"Oem","Id":"2123","Links":{},"Message":"The job JID_750813574596 is successfully deleted.","MessageArgs":["JID_750813574596"],"MessageArgs@odata.count":1,"MessageId":"JCP036","Name":" Log Entry 2123","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2122","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:24:21-05:00","Description":" Log Entry 2122","EntryType":"Oem","Id":"2122","Links":{},"Message":"The job JID_750813818090 is successfully deleted.","MessageArgs":["JID_750813818090"],"MessageArgs@odata.count":1,"MessageId":"JCP036","Name":" Log Entry 2122","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2121","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:24:21-05:00","Description":" Log Entry 2121","EntryType":"Oem","Id":"2121","Links":{},"Message":"The job JID_750813822667 is successfully deleted.","MessageArgs":["JID_750813822667"],"MessageArgs@odata.count":1,"MessageId":"JCP036","Name":" Log Entry 2121","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2120","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:24:21-05:00","Description":" Log Entry 2120","EntryType":"Oem","Id":"2120","Links":{},"Message":"The job JID_758174955501 is successfully deleted.","MessageArgs":["JID_758174955501"],"MessageArgs@odata.count":1,"MessageId":"JCP036","Name":" Log Entry 2120","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2119","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:24:21-05:00","Description":" Log Entry 2119","EntryType":"Oem","Id":"2119","Links":{},"Message":"The job JID_758175322238 is successfully deleted.","MessageArgs":["JID_758175322238"],"MessageArgs@odata.count":1,"MessageId":"JCP036","Name":" Log Entry 2119","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2118","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:24:21-05:00","Description":" Log Entry 2118","EntryType":"Oem","Id":"2118","Links":{},"Message":"The job JID_758175490146 is successfully deleted.","MessageArgs":["JID_758175490146"],"MessageArgs@odata.count":1,"MessageId":"JCP036","Name":" Log Entry 2118","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2117","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:24:19-05:00","Description":" Log Entry 2117","EntryType":"Oem","Id":"2117","Links":{},"Message":"The job JID_911753888249 is successfully deleted.","MessageArgs":["JID_911753888249"],"MessageArgs@odata.count":1,"MessageId":"JCP036","Name":" Log Entry 2117","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2116","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:24:19-05:00","Description":" Log Entry 2116","EntryType":"Oem","Id":"2116","Links":{},"Message":"The job JID_911754433660 is successfully deleted.","MessageArgs":["JID_911754433660"],"MessageArgs@odata.count":1,"MessageId":"JCP036","Name":" Log Entry 2116","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2115","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:24:19-05:00","Description":" Log Entry 2115","EntryType":"Oem","Id":"2115","Links":{},"Message":"The job JID_911754438115 is successfully deleted.","MessageArgs":["JID_911754438115"],"MessageArgs@odata.count":1,"MessageId":"JCP036","Name":" Log Entry 2115","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2114","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:24:19-05:00","Description":" Log Entry 2114","EntryType":"Oem","Id":"2114","Links":{},"Message":"The job JID_911754699209 is successfully deleted.","MessageArgs":["JID_911754699209"],"MessageArgs@odata.count":1,"MessageId":"JCP036","Name":" Log Entry 2114","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2113","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:24:19-05:00","Description":" Log Entry 2113","EntryType":"Oem","Id":"2113","Links":{},"Message":"The job JID_911754910633 is successfully deleted.","MessageArgs":["JID_911754910633"],"MessageArgs@odata.count":1,"MessageId":"JCP036","Name":" Log Entry 2113","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2112","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:24:19-05:00","Description":" Log Entry 2112","EntryType":"Oem","Id":"2112","Links":{},"Message":"The job JID_911755773098 is successfully deleted.","MessageArgs":["JID_911755773098"],"MessageArgs@odata.count":1,"MessageId":"JCP036","Name":" Log Entry 2112","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2111","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:24:19-05:00","Description":" Log Entry 2111","EntryType":"Oem","Id":"2111","Links":{},"Message":"The job JID_911755934459 is successfully deleted.","MessageArgs":["JID_911755934459"],"MessageArgs@odata.count":1,"MessageId":"JCP036","Name":" Log Entry 2111","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2110","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:24:19-05:00","Description":" Log Entry 2110","EntryType":"Oem","Id":"2110","Links":{},"Message":"The job JID_911756096134 is successfully deleted.","MessageArgs":["JID_911756096134"],"MessageArgs@odata.count":1,"MessageId":"JCP036","Name":" Log Entry 2110","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2109","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:24:19-05:00","Description":" Log Entry 2109","EntryType":"Oem","Id":"2109","Links":{},"Message":"The job JID_911758630598 is successfully deleted.","MessageArgs":["JID_911758630598"],"MessageArgs@odata.count":1,"MessageId":"JCP036","Name":" Log Entry 2109","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2108","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:24:19-05:00","Description":" Log Entry 2108","EntryType":"Oem","Id":"2108","Links":{},"Message":"The job RID_758175651029 is successfully deleted.","MessageArgs":["RID_758175651029"],"MessageArgs@odata.count":1,"MessageId":"JCP036","Name":" Log Entry 2108","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2107","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:24:18-05:00","Description":" Log Entry 2107","EntryType":"Oem","Id":"2107","Links":{},"Message":"The job RID_911756367792 is successfully deleted.","MessageArgs":["RID_911756367792"],"MessageArgs@odata.count":1,"MessageId":"JCP036","Name":" Log Entry 2107","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2106","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:23:09-05:00","Description":" Log Entry 2106","EntryType":"Oem","Id":"2106","Links":{},"Message":"System is turning on.","MessageId":"SYS1000","Name":" Log Entry 2106","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2105","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:23:02-05:00","Description":" Log Entry 2105","EntryType":"Oem","Id":"2105","Links":{},"Message":"System CPU Resetting.","MessageId":"SYS1003","Name":" Log Entry 2105","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2104","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:23:02-05:00","Description":" Log Entry 2104","EntryType":"Oem","Id":"2104","Links":{},"Message":"System is turning off.","MessageId":"SYS1001","Name":" Log Entry 2104","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2103","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:22:57-05:00","Description":" Log Entry 2103","EntryType":"Oem","Id":"2103","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"Requested system powercycle.","MessageId":"RAC0702","Name":" Log Entry 2103","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2102","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:22:57-05:00","Description":" Log Entry 2102","EntryType":"Oem","Id":"2102","Links":{},"Message":"User root via IP 10.228.103.244 requested state / configuration change to Power Control using GUI.","MessageArgs":["root","10.228.103.244","Power Control","GUI"],"MessageArgs@odata.count":4,"MessageId":"RAC1195","Name":" Log Entry 2102","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2101","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:17:45-05:00","Description":" Log Entry 2101","EntryType":"Oem","Id":"2101","Links":{},"Message":"Unable to run the (installation or configuration) job JID_911758630598 because Job for this device is already present..","MessageArgs":["JID_911758630598","Job for this device is already present."],"MessageArgs@odata.count":2,"MessageId":"JCP042","Name":" Log Entry 2101","OemRecordFormat":"Dell","Severity":"Warning"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2100","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:17:45-05:00","Description":" Log Entry 2100","EntryType":"Oem","Id":"2100","Links":{},"Message":"Job for this device is already present.","MessageId":"RED014","Name":" Log Entry 2100","OemRecordFormat":"Dell","Severity":"Warning"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2099","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:17:44-05:00","Description":" Log Entry 2099","EntryType":"Oem","Id":"2099","Links":{},"Message":"An update job JID_911758630598 was created.","MessageArgs":["JID_911758630598"],"MessageArgs@odata.count":1,"MessageId":"RED054","Name":" Log Entry 2099","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2098","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:17:43-05:00","Description":" Log Entry 2098","EntryType":"Oem","Id":"2098","Links":{},"Message":"Downloading the BIOS_NN73G_WN64_2.2.3.EXE update package.","MessageArgs":["BIOS_NN73G_WN64_2.2.3.EXE"],"MessageArgs@odata.count":1,"MessageId":"RED110","Name":" Log Entry 2098","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2097","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:17:43-05:00","Description":" Log Entry 2097","EntryType":"Oem","Id":"2097","Links":{},"Message":"The (installation or configuration) job JID_911758630598 is successfully created on iDRAC.","MessageArgs":["JID_911758630598"],"MessageArgs@odata.count":1,"MessageId":"JCP027","Name":" Log Entry 2097","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2096","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:17:42-05:00","Description":" Log Entry 2096","EntryType":"Oem","Id":"2096","Links":{},"Message":"Processing of update packages is starting.","MessageId":"RED052","Name":" Log Entry 2096","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2095","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:17:29-05:00","Description":" Log Entry 2095","EntryType":"Oem","Id":"2095","Links":{},"Message":"Package successfully downloaded.","MessageId":"RED002","Name":" Log Entry 2095","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2094","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:13:56-05:00","Description":" Log Entry 2094","EntryType":"Oem","Id":"2094","Links":{},"Message":"A reboot job RID_911756367792 was created.","MessageArgs":["RID_911756367792"],"MessageArgs@odata.count":1,"MessageId":"RED055","Name":" Log Entry 2094","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2093","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:13:56-05:00","Description":" Log Entry 2093","EntryType":"Oem","Id":"2093","Links":{},"Message":"A reboot is pending.","MessageId":"RED029","Name":" Log Entry 2093","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2092","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:13:56-05:00","Description":" Log Entry 2092","EntryType":"Oem","Id":"2092","Links":{},"Message":"The (installation or configuration) job RID_911756367792 is successfully created on iDRAC.","MessageArgs":["RID_911756367792"],"MessageArgs@odata.count":1,"MessageId":"JCP027","Name":" Log Entry 2092","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2091","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:13:50-05:00","Description":" Log Entry 2091","EntryType":"Oem","Id":"2091","Links":{},"Message":"Package successfully downloaded.","MessageId":"RED002","Name":" Log Entry 2091","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2090","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:13:50-05:00","Description":" Log Entry 2090","EntryType":"Oem","Id":"2090","Links":{},"Message":"Successfully downloaded the update package details 6.99302 MB in 0.19 secs at 36.8054 MBps (294.443 Mbps) [Network_Firmware_RG25N_WN64_21.60.2_02.EXE].","MessageArgs":["6.99302 MB in 0.19 secs at 36.8054 MBps (294.443 Mbps) [Network_Firmware_RG25N_WN64_21.60.2_02.EXE]"],"MessageArgs@odata.count":1,"MessageId":"RED111","Name":" Log Entry 2090","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2089","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:13:49-05:00","Description":" Log Entry 2089","EntryType":"Oem","Id":"2089","Links":{},"Message":"Downloading the Network_Firmware_RG25N_WN64_21.60.2_02.EXE update package.","MessageArgs":["Network_Firmware_RG25N_WN64_21.60.2_02.EXE"],"MessageArgs@odata.count":1,"MessageId":"RED110","Name":" Log Entry 2089","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2088","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:13:46-05:00","Description":" Log Entry 2088","EntryType":"Oem","Id":"2088","Links":{},"Message":"An update job JID_911756257000 was created.","MessageArgs":["JID_911756257000"],"MessageArgs@odata.count":1,"MessageId":"RED054","Name":" Log Entry 2088","OemRecordFormat":"Dell","Severity":"OK"}],"Members@odata.count":3137,"Members@odata.nextLink":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries?$skip=1050","Name":"Log Entry Collection"}
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntryCollection.LogEntryCollection",
+  "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries?$skip=1000",
+  "@odata.type": "#LogEntryCollection.LogEntryCollection",
+  "Description": "LC Logs for this manager",
+  "Members": [
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2137",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:27:21-05:00",
+      "Description": " Log Entry 2137",
+      "EntryType": "Oem",
+      "Id": "2137",
+      "Links": {},
+      "Message": "System is turning off.",
+      "MessageId": "SYS1001",
+      "Name": " Log Entry 2137",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2136",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:27:21-05:00",
+      "Description": " Log Entry 2136",
+      "EntryType": "Oem",
+      "Id": "2136",
+      "Links": {},
+      "Message": "System CPU Resetting.",
+      "MessageId": "SYS1003",
+      "Name": " Log Entry 2136",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2135",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:27:17-05:00",
+      "Description": " Log Entry 2135",
+      "EntryType": "Oem",
+      "Id": "2135",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "Requested system graceful shutdown.",
+      "MessageId": "RAC0705",
+      "Name": " Log Entry 2135",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2134",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:27:12-05:00",
+      "Description": " Log Entry 2134",
+      "EntryType": "Oem",
+      "Id": "2134",
+      "Links": {},
+      "Message": "A reboot job RID_911764324299 was created.",
+      "MessageArgs": [
+        "RID_911764324299"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "RED055",
+      "Name": " Log Entry 2134",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2133",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:27:12-05:00",
+      "Description": " Log Entry 2133",
+      "EntryType": "Oem",
+      "Id": "2133",
+      "Links": {},
+      "Message": "A reboot is pending.",
+      "MessageId": "RED029",
+      "Name": " Log Entry 2133",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2132",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:27:12-05:00",
+      "Description": " Log Entry 2132",
+      "EntryType": "Oem",
+      "Id": "2132",
+      "Links": {},
+      "Message": "The (installation or configuration) job RID_911764324299 is successfully created on iDRAC.",
+      "MessageArgs": [
+        "RID_911764324299"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "JCP027",
+      "Name": " Log Entry 2132",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2131",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:27:05-05:00",
+      "Description": " Log Entry 2131",
+      "EntryType": "Oem",
+      "Id": "2131",
+      "Links": {},
+      "Message": "Package successfully downloaded.",
+      "MessageId": "RED002",
+      "Name": " Log Entry 2131",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2130",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:27:02-05:00",
+      "Description": " Log Entry 2130",
+      "EntryType": "Oem",
+      "Id": "2130",
+      "Links": {},
+      "Message": "An update job JID_911764213597 was created.",
+      "MessageArgs": [
+        "JID_911764213597"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "RED054",
+      "Name": " Log Entry 2130",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2129",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:27:02-05:00",
+      "Description": " Log Entry 2129",
+      "EntryType": "Oem",
+      "Id": "2129",
+      "Links": {},
+      "Message": "Downloading the BIOS_NN73G_WN64_2.2.3.EXE update package.",
+      "MessageArgs": [
+        "BIOS_NN73G_WN64_2.2.3.EXE"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "RED110",
+      "Name": " Log Entry 2129",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2128",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:27:01-05:00",
+      "Description": " Log Entry 2128",
+      "EntryType": "Oem",
+      "Id": "2128",
+      "Links": {},
+      "Message": "The (installation or configuration) job JID_911764213597 is successfully created on iDRAC.",
+      "MessageArgs": [
+        "JID_911764213597"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "JCP027",
+      "Name": " Log Entry 2128",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2127",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:27:01-05:00",
+      "Description": " Log Entry 2127",
+      "EntryType": "Oem",
+      "Id": "2127",
+      "Links": {},
+      "Message": "Processing of update packages is starting.",
+      "MessageId": "RED052",
+      "Name": " Log Entry 2127",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2126",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:26:57-05:00",
+      "Description": " Log Entry 2126",
+      "EntryType": "Oem",
+      "Id": "2126",
+      "Links": {},
+      "Message": "Package successfully downloaded.",
+      "MessageId": "RED002",
+      "Name": " Log Entry 2126",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2125",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:26:41-05:00",
+      "Description": " Log Entry 2125",
+      "EntryType": "Oem",
+      "Id": "2125",
+      "Links": {},
+      "Message": "The job JID_758175326454 is successfully deleted.",
+      "MessageArgs": [
+        "JID_758175326454"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "JCP036",
+      "Name": " Log Entry 2125",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2124",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:26:40-05:00",
+      "Description": " Log Entry 2124",
+      "EntryType": "Oem",
+      "Id": "2124",
+      "Links": {},
+      "Message": "The job JID_911756257000 is successfully deleted.",
+      "MessageArgs": [
+        "JID_911756257000"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "JCP036",
+      "Name": " Log Entry 2124",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2123",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:24:21-05:00",
+      "Description": " Log Entry 2123",
+      "EntryType": "Oem",
+      "Id": "2123",
+      "Links": {},
+      "Message": "The job JID_750813574596 is successfully deleted.",
+      "MessageArgs": [
+        "JID_750813574596"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "JCP036",
+      "Name": " Log Entry 2123",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2122",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:24:21-05:00",
+      "Description": " Log Entry 2122",
+      "EntryType": "Oem",
+      "Id": "2122",
+      "Links": {},
+      "Message": "The job JID_750813818090 is successfully deleted.",
+      "MessageArgs": [
+        "JID_750813818090"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "JCP036",
+      "Name": " Log Entry 2122",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2121",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:24:21-05:00",
+      "Description": " Log Entry 2121",
+      "EntryType": "Oem",
+      "Id": "2121",
+      "Links": {},
+      "Message": "The job JID_750813822667 is successfully deleted.",
+      "MessageArgs": [
+        "JID_750813822667"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "JCP036",
+      "Name": " Log Entry 2121",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2120",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:24:21-05:00",
+      "Description": " Log Entry 2120",
+      "EntryType": "Oem",
+      "Id": "2120",
+      "Links": {},
+      "Message": "The job JID_758174955501 is successfully deleted.",
+      "MessageArgs": [
+        "JID_758174955501"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "JCP036",
+      "Name": " Log Entry 2120",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2119",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:24:21-05:00",
+      "Description": " Log Entry 2119",
+      "EntryType": "Oem",
+      "Id": "2119",
+      "Links": {},
+      "Message": "The job JID_758175322238 is successfully deleted.",
+      "MessageArgs": [
+        "JID_758175322238"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "JCP036",
+      "Name": " Log Entry 2119",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2118",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:24:21-05:00",
+      "Description": " Log Entry 2118",
+      "EntryType": "Oem",
+      "Id": "2118",
+      "Links": {},
+      "Message": "The job JID_758175490146 is successfully deleted.",
+      "MessageArgs": [
+        "JID_758175490146"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "JCP036",
+      "Name": " Log Entry 2118",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2117",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:24:19-05:00",
+      "Description": " Log Entry 2117",
+      "EntryType": "Oem",
+      "Id": "2117",
+      "Links": {},
+      "Message": "The job JID_911753888249 is successfully deleted.",
+      "MessageArgs": [
+        "JID_911753888249"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "JCP036",
+      "Name": " Log Entry 2117",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2116",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:24:19-05:00",
+      "Description": " Log Entry 2116",
+      "EntryType": "Oem",
+      "Id": "2116",
+      "Links": {},
+      "Message": "The job JID_911754433660 is successfully deleted.",
+      "MessageArgs": [
+        "JID_911754433660"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "JCP036",
+      "Name": " Log Entry 2116",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2115",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:24:19-05:00",
+      "Description": " Log Entry 2115",
+      "EntryType": "Oem",
+      "Id": "2115",
+      "Links": {},
+      "Message": "The job JID_911754438115 is successfully deleted.",
+      "MessageArgs": [
+        "JID_911754438115"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "JCP036",
+      "Name": " Log Entry 2115",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2114",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:24:19-05:00",
+      "Description": " Log Entry 2114",
+      "EntryType": "Oem",
+      "Id": "2114",
+      "Links": {},
+      "Message": "The job JID_911754699209 is successfully deleted.",
+      "MessageArgs": [
+        "JID_911754699209"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "JCP036",
+      "Name": " Log Entry 2114",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2113",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:24:19-05:00",
+      "Description": " Log Entry 2113",
+      "EntryType": "Oem",
+      "Id": "2113",
+      "Links": {},
+      "Message": "The job JID_911754910633 is successfully deleted.",
+      "MessageArgs": [
+        "JID_911754910633"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "JCP036",
+      "Name": " Log Entry 2113",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2112",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:24:19-05:00",
+      "Description": " Log Entry 2112",
+      "EntryType": "Oem",
+      "Id": "2112",
+      "Links": {},
+      "Message": "The job JID_911755773098 is successfully deleted.",
+      "MessageArgs": [
+        "JID_911755773098"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "JCP036",
+      "Name": " Log Entry 2112",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2111",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:24:19-05:00",
+      "Description": " Log Entry 2111",
+      "EntryType": "Oem",
+      "Id": "2111",
+      "Links": {},
+      "Message": "The job JID_911755934459 is successfully deleted.",
+      "MessageArgs": [
+        "JID_911755934459"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "JCP036",
+      "Name": " Log Entry 2111",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2110",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:24:19-05:00",
+      "Description": " Log Entry 2110",
+      "EntryType": "Oem",
+      "Id": "2110",
+      "Links": {},
+      "Message": "The job JID_911756096134 is successfully deleted.",
+      "MessageArgs": [
+        "JID_911756096134"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "JCP036",
+      "Name": " Log Entry 2110",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2109",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:24:19-05:00",
+      "Description": " Log Entry 2109",
+      "EntryType": "Oem",
+      "Id": "2109",
+      "Links": {},
+      "Message": "The job JID_911758630598 is successfully deleted.",
+      "MessageArgs": [
+        "JID_911758630598"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "JCP036",
+      "Name": " Log Entry 2109",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2108",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:24:19-05:00",
+      "Description": " Log Entry 2108",
+      "EntryType": "Oem",
+      "Id": "2108",
+      "Links": {},
+      "Message": "The job RID_758175651029 is successfully deleted.",
+      "MessageArgs": [
+        "RID_758175651029"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "JCP036",
+      "Name": " Log Entry 2108",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2107",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:24:18-05:00",
+      "Description": " Log Entry 2107",
+      "EntryType": "Oem",
+      "Id": "2107",
+      "Links": {},
+      "Message": "The job RID_911756367792 is successfully deleted.",
+      "MessageArgs": [
+        "RID_911756367792"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "JCP036",
+      "Name": " Log Entry 2107",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2106",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:23:09-05:00",
+      "Description": " Log Entry 2106",
+      "EntryType": "Oem",
+      "Id": "2106",
+      "Links": {},
+      "Message": "System is turning on.",
+      "MessageId": "SYS1000",
+      "Name": " Log Entry 2106",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2105",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:23:02-05:00",
+      "Description": " Log Entry 2105",
+      "EntryType": "Oem",
+      "Id": "2105",
+      "Links": {},
+      "Message": "System CPU Resetting.",
+      "MessageId": "SYS1003",
+      "Name": " Log Entry 2105",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2104",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:23:02-05:00",
+      "Description": " Log Entry 2104",
+      "EntryType": "Oem",
+      "Id": "2104",
+      "Links": {},
+      "Message": "System is turning off.",
+      "MessageId": "SYS1001",
+      "Name": " Log Entry 2104",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2103",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:22:57-05:00",
+      "Description": " Log Entry 2103",
+      "EntryType": "Oem",
+      "Id": "2103",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "Requested system powercycle.",
+      "MessageId": "RAC0702",
+      "Name": " Log Entry 2103",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2102",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:22:57-05:00",
+      "Description": " Log Entry 2102",
+      "EntryType": "Oem",
+      "Id": "2102",
+      "Links": {},
+      "Message": "User root via IP 10.228.103.244 requested state / configuration change to Power Control using GUI.",
+      "MessageArgs": [
+        "root",
+        "10.228.103.244",
+        "Power Control",
+        "GUI"
+      ],
+      "MessageArgs@odata.count": 4,
+      "MessageId": "RAC1195",
+      "Name": " Log Entry 2102",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2101",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:17:45-05:00",
+      "Description": " Log Entry 2101",
+      "EntryType": "Oem",
+      "Id": "2101",
+      "Links": {},
+      "Message": "Unable to run the (installation or configuration) job JID_911758630598 because Job for this device is already present..",
+      "MessageArgs": [
+        "JID_911758630598",
+        "Job for this device is already present."
+      ],
+      "MessageArgs@odata.count": 2,
+      "MessageId": "JCP042",
+      "Name": " Log Entry 2101",
+      "OemRecordFormat": "Dell",
+      "Severity": "Warning"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2100",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:17:45-05:00",
+      "Description": " Log Entry 2100",
+      "EntryType": "Oem",
+      "Id": "2100",
+      "Links": {},
+      "Message": "Job for this device is already present.",
+      "MessageId": "RED014",
+      "Name": " Log Entry 2100",
+      "OemRecordFormat": "Dell",
+      "Severity": "Warning"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2099",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:17:44-05:00",
+      "Description": " Log Entry 2099",
+      "EntryType": "Oem",
+      "Id": "2099",
+      "Links": {},
+      "Message": "An update job JID_911758630598 was created.",
+      "MessageArgs": [
+        "JID_911758630598"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "RED054",
+      "Name": " Log Entry 2099",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2098",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:17:43-05:00",
+      "Description": " Log Entry 2098",
+      "EntryType": "Oem",
+      "Id": "2098",
+      "Links": {},
+      "Message": "Downloading the BIOS_NN73G_WN64_2.2.3.EXE update package.",
+      "MessageArgs": [
+        "BIOS_NN73G_WN64_2.2.3.EXE"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "RED110",
+      "Name": " Log Entry 2098",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2097",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:17:43-05:00",
+      "Description": " Log Entry 2097",
+      "EntryType": "Oem",
+      "Id": "2097",
+      "Links": {},
+      "Message": "The (installation or configuration) job JID_911758630598 is successfully created on iDRAC.",
+      "MessageArgs": [
+        "JID_911758630598"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "JCP027",
+      "Name": " Log Entry 2097",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2096",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:17:42-05:00",
+      "Description": " Log Entry 2096",
+      "EntryType": "Oem",
+      "Id": "2096",
+      "Links": {},
+      "Message": "Processing of update packages is starting.",
+      "MessageId": "RED052",
+      "Name": " Log Entry 2096",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2095",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:17:29-05:00",
+      "Description": " Log Entry 2095",
+      "EntryType": "Oem",
+      "Id": "2095",
+      "Links": {},
+      "Message": "Package successfully downloaded.",
+      "MessageId": "RED002",
+      "Name": " Log Entry 2095",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2094",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:13:56-05:00",
+      "Description": " Log Entry 2094",
+      "EntryType": "Oem",
+      "Id": "2094",
+      "Links": {},
+      "Message": "A reboot job RID_911756367792 was created.",
+      "MessageArgs": [
+        "RID_911756367792"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "RED055",
+      "Name": " Log Entry 2094",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2093",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:13:56-05:00",
+      "Description": " Log Entry 2093",
+      "EntryType": "Oem",
+      "Id": "2093",
+      "Links": {},
+      "Message": "A reboot is pending.",
+      "MessageId": "RED029",
+      "Name": " Log Entry 2093",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2092",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:13:56-05:00",
+      "Description": " Log Entry 2092",
+      "EntryType": "Oem",
+      "Id": "2092",
+      "Links": {},
+      "Message": "The (installation or configuration) job RID_911756367792 is successfully created on iDRAC.",
+      "MessageArgs": [
+        "RID_911756367792"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "JCP027",
+      "Name": " Log Entry 2092",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2091",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:13:50-05:00",
+      "Description": " Log Entry 2091",
+      "EntryType": "Oem",
+      "Id": "2091",
+      "Links": {},
+      "Message": "Package successfully downloaded.",
+      "MessageId": "RED002",
+      "Name": " Log Entry 2091",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2090",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:13:50-05:00",
+      "Description": " Log Entry 2090",
+      "EntryType": "Oem",
+      "Id": "2090",
+      "Links": {},
+      "Message": "Successfully downloaded the update package details 6.99302 MB in 0.19 secs at 36.8054 MBps (294.443 Mbps) [Network_Firmware_RG25N_WN64_21.60.2_02.EXE].",
+      "MessageArgs": [
+        "6.99302 MB in 0.19 secs at 36.8054 MBps (294.443 Mbps) [Network_Firmware_RG25N_WN64_21.60.2_02.EXE]"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "RED111",
+      "Name": " Log Entry 2090",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2089",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:13:49-05:00",
+      "Description": " Log Entry 2089",
+      "EntryType": "Oem",
+      "Id": "2089",
+      "Links": {},
+      "Message": "Downloading the Network_Firmware_RG25N_WN64_21.60.2_02.EXE update package.",
+      "MessageArgs": [
+        "Network_Firmware_RG25N_WN64_21.60.2_02.EXE"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "RED110",
+      "Name": " Log Entry 2089",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2088",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-03T04:13:46-05:00",
+      "Description": " Log Entry 2088",
+      "EntryType": "Oem",
+      "Id": "2088",
+      "Links": {},
+      "Message": "An update job JID_911756257000 was created.",
+      "MessageArgs": [
+        "JID_911756257000"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "RED054",
+      "Name": " Log Entry 2088",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    }
+  ],
+  "Members@odata.count": 3137,
+  "Members@odata.nextLink": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries?$skip=1050",
+  "Name": "Log Entry Collection"
+}

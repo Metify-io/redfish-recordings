@@ -1,1 +1,25 @@
-{"@odata.context":"/redfish/v1/$metadata#LogEntry.LogEntry","@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2294","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T10:29:48-05:00","Description":" Log Entry 2294","EntryType":"Oem","Id":"2294","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"The session for root from 10.228.103.249 using Virtual Console is logged off.","MessageArgs":["root","10.228.103.249","Virtual Console"],"MessageArgs@odata.count":3,"MessageId":"USR0032","Name":" Log Entry 2294","OemRecordFormat":"Dell","Severity":"OK"}
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2294",
+  "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+  "Created": "2020-06-03T10:29:48-05:00",
+  "Description": " Log Entry 2294",
+  "EntryType": "Oem",
+  "Id": "2294",
+  "Links": {
+    "OriginOfCondition": {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+    }
+  },
+  "Message": "The session for root from 10.228.103.249 using Virtual Console is logged off.",
+  "MessageArgs": [
+    "root",
+    "10.228.103.249",
+    "Virtual Console"
+  ],
+  "MessageArgs@odata.count": 3,
+  "MessageId": "USR0032",
+  "Name": " Log Entry 2294",
+  "OemRecordFormat": "Dell",
+  "Severity": "OK"
+}

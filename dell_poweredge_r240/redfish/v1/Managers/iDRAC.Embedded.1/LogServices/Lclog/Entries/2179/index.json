@@ -1,1 +1,19 @@
-{"@odata.context":"/redfish/v1/$metadata#LogEntry.LogEntry","@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2179","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T05:39:55-05:00","Description":" Log Entry 2179","EntryType":"Oem","Id":"2179","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"Requested system powerup.","MessageId":"RAC0701","Name":" Log Entry 2179","OemRecordFormat":"Dell","Severity":"OK"}
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2179",
+  "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+  "Created": "2020-06-03T05:39:55-05:00",
+  "Description": " Log Entry 2179",
+  "EntryType": "Oem",
+  "Id": "2179",
+  "Links": {
+    "OriginOfCondition": {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+    }
+  },
+  "Message": "Requested system powerup.",
+  "MessageId": "RAC0701",
+  "Name": " Log Entry 2179",
+  "OemRecordFormat": "Dell",
+  "Severity": "OK"
+}

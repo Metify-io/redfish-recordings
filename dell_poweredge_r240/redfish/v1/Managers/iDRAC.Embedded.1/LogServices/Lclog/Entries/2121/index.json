@@ -1,1 +1,19 @@
-{"@odata.context":"/redfish/v1/$metadata#LogEntry.LogEntry","@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2121","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:24:21-05:00","Description":" Log Entry 2121","EntryType":"Oem","Id":"2121","Links":{},"Message":"The job JID_750813822667 is successfully deleted.","MessageArgs":["JID_750813822667"],"MessageArgs@odata.count":1,"MessageId":"JCP036","Name":" Log Entry 2121","OemRecordFormat":"Dell","Severity":"OK"}
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2121",
+  "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+  "Created": "2020-06-03T04:24:21-05:00",
+  "Description": " Log Entry 2121",
+  "EntryType": "Oem",
+  "Id": "2121",
+  "Links": {},
+  "Message": "The job JID_750813822667 is successfully deleted.",
+  "MessageArgs": [
+    "JID_750813822667"
+  ],
+  "MessageArgs@odata.count": 1,
+  "MessageId": "JCP036",
+  "Name": " Log Entry 2121",
+  "OemRecordFormat": "Dell",
+  "Severity": "OK"
+}

@@ -1,1 +1,19 @@
-{"@odata.context":"/redfish/v1/$metadata#LogEntry.LogEntry","@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1760","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-21T17:11:18-05:00","Description":" Log Entry 1760","EntryType":"Oem","Id":"1760","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"Virtual Console session created.","MessageId":"VME0007","Name":" Log Entry 1760","OemRecordFormat":"Dell","Severity":"OK"}
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1760",
+  "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+  "Created": "2020-05-21T17:11:18-05:00",
+  "Description": " Log Entry 1760",
+  "EntryType": "Oem",
+  "Id": "1760",
+  "Links": {
+    "OriginOfCondition": {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+    }
+  },
+  "Message": "Virtual Console session created.",
+  "MessageId": "VME0007",
+  "Name": " Log Entry 1760",
+  "OemRecordFormat": "Dell",
+  "Severity": "OK"
+}

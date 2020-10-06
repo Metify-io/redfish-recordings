@@ -1,1 +1,19 @@
-{"@odata.context":"/redfish/v1/$metadata#LogEntry.LogEntry","@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2064","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:11:48-05:00","Description":" Log Entry 2064","EntryType":"Oem","Id":"2064","Links":{},"Message":"Successfully downloaded the update package details 148.649 MB in 12.63 secs at 11.7695 MBps (94.1564 Mbps) [Drivers-for-OS-Deployment_Application_6GCV7_WN64_19.12.05_A00.EXE].","MessageArgs":["148.649 MB in 12.63 secs at 11.7695 MBps (94.1564 Mbps) [Drivers-for-OS-Deployment_Application_6GCV7_WN64_19.12.05_A00.EXE]"],"MessageArgs@odata.count":1,"MessageId":"RED111","Name":" Log Entry 2064","OemRecordFormat":"Dell","Severity":"OK"}
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2064",
+  "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+  "Created": "2020-06-03T04:11:48-05:00",
+  "Description": " Log Entry 2064",
+  "EntryType": "Oem",
+  "Id": "2064",
+  "Links": {},
+  "Message": "Successfully downloaded the update package details 148.649 MB in 12.63 secs at 11.7695 MBps (94.1564 Mbps) [Drivers-for-OS-Deployment_Application_6GCV7_WN64_19.12.05_A00.EXE].",
+  "MessageArgs": [
+    "148.649 MB in 12.63 secs at 11.7695 MBps (94.1564 Mbps) [Drivers-for-OS-Deployment_Application_6GCV7_WN64_19.12.05_A00.EXE]"
+  ],
+  "MessageArgs@odata.count": 1,
+  "MessageId": "RED111",
+  "Name": " Log Entry 2064",
+  "OemRecordFormat": "Dell",
+  "Severity": "OK"
+}

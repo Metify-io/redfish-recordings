@@ -1,1 +1,19 @@
-{"@odata.context":"/redfish/v1/$metadata#LogEntry.LogEntry","@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2070","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:13:01-05:00","Description":" Log Entry 2070","EntryType":"Oem","Id":"2070","Links":{},"Message":"Downloading the Diagnostics_Application_CH7FG_WN64_4301A42_4301.43.EXE update package.","MessageArgs":["Diagnostics_Application_CH7FG_WN64_4301A42_4301.43.EXE"],"MessageArgs@odata.count":1,"MessageId":"RED110","Name":" Log Entry 2070","OemRecordFormat":"Dell","Severity":"OK"}
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2070",
+  "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+  "Created": "2020-06-03T04:13:01-05:00",
+  "Description": " Log Entry 2070",
+  "EntryType": "Oem",
+  "Id": "2070",
+  "Links": {},
+  "Message": "Downloading the Diagnostics_Application_CH7FG_WN64_4301A42_4301.43.EXE update package.",
+  "MessageArgs": [
+    "Diagnostics_Application_CH7FG_WN64_4301A42_4301.43.EXE"
+  ],
+  "MessageArgs@odata.count": 1,
+  "MessageId": "RED110",
+  "Name": " Log Entry 2070",
+  "OemRecordFormat": "Dell",
+  "Severity": "OK"
+}

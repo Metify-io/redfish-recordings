@@ -1,1 +1,19 @@
-{"@odata.context":"/redfish/v1/$metadata#LogEntry.LogEntry","@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2871","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-17T15:26:38-05:00","Description":" Log Entry 2871","EntryType":"Oem","Id":"2871","Links":{},"Message":"The remote VNC session from the IP address 10.228.103.249 is logging off.","MessageArgs":["10.228.103.249"],"MessageArgs@odata.count":1,"MessageId":"USR0151","Name":" Log Entry 2871","OemRecordFormat":"Dell","Severity":"OK"}
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2871",
+  "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+  "Created": "2020-07-17T15:26:38-05:00",
+  "Description": " Log Entry 2871",
+  "EntryType": "Oem",
+  "Id": "2871",
+  "Links": {},
+  "Message": "The remote VNC session from the IP address 10.228.103.249 is logging off.",
+  "MessageArgs": [
+    "10.228.103.249"
+  ],
+  "MessageArgs@odata.count": 1,
+  "MessageId": "USR0151",
+  "Name": " Log Entry 2871",
+  "OemRecordFormat": "Dell",
+  "Severity": "OK"
+}

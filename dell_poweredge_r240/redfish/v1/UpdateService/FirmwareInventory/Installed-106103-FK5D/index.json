@@ -1,1 +1,54 @@
-{"@odata.context":"/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory","@odata.id":"/redfish/v1/UpdateService/FirmwareInventory/Installed-106103-FK5D","@odata.type":"#SoftwareInventory.v1_2_1.SoftwareInventory","Description":"Represents Firmware Inventory","Id":"Installed-106103-FK5D","Name":"Disk 0 on Embedded AHCI Controller 2","Oem":{"Dell":{"DellSoftwareInventory":{"@odata.context":"/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory","@odata.id":"/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_304_C_Disk.Direct.0-0:AHCI.Embedded.2-1","@odata.type":"#DellSoftwareInventory.v1_1_0.DellSoftwareInventory","BuildNumber":0,"Classifications":["Firmware"],"Classifications@odata.count":1,"ComponentID":"106103","ComponentType":"FRMW","DeviceID":null,"ElementName":"Disk 0 on Embedded AHCI Controller 2","HashValue":null,"IdentityInfoType":["OrgID:ComponentType:ComponentID"],"IdentityInfoType@odata.count":1,"IdentityInfoValue":["DCIM:firmware:106103"],"IdentityInfoValue@odata.count":1,"InstallationDate":"2019-11-22T09:32:33Z","IsEntity":true,"MajorVersion":0,"MinorVersion":0,"RevisionNumber":0,"RevisionString":null,"Status":"Installed","SubDeviceID":null,"SubVendorID":null,"VendorID":null,"impactsTPMmeasurements":false}}},"ReleaseDate":"00:00:00Z","SoftwareId":"106103","Status":{"Health":"OK","State":"Enabled"},"Updateable":true,"Version":"FK5D"}
+{
+  "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+  "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-106103-FK5D",
+  "@odata.type": "#SoftwareInventory.v1_2_1.SoftwareInventory",
+  "Description": "Represents Firmware Inventory",
+  "Id": "Installed-106103-FK5D",
+  "Name": "Disk 0 on Embedded AHCI Controller 2",
+  "Oem": {
+    "Dell": {
+      "DellSoftwareInventory": {
+        "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+        "@odata.id": "/redfish/v1/Dell/UpdateService/FirmwareInventory/DellSoftwareInventory/DCIM:INSTALLED_0x23_304_C_Disk.Direct.0-0:AHCI.Embedded.2-1",
+        "@odata.type": "#DellSoftwareInventory.v1_1_0.DellSoftwareInventory",
+        "BuildNumber": 0,
+        "Classifications": [
+          "Firmware"
+        ],
+        "Classifications@odata.count": 1,
+        "ComponentID": "106103",
+        "ComponentType": "FRMW",
+        "DeviceID": null,
+        "ElementName": "Disk 0 on Embedded AHCI Controller 2",
+        "HashValue": null,
+        "IdentityInfoType": [
+          "OrgID:ComponentType:ComponentID"
+        ],
+        "IdentityInfoType@odata.count": 1,
+        "IdentityInfoValue": [
+          "DCIM:firmware:106103"
+        ],
+        "IdentityInfoValue@odata.count": 1,
+        "InstallationDate": "2019-11-22T09:32:33Z",
+        "IsEntity": true,
+        "MajorVersion": 0,
+        "MinorVersion": 0,
+        "RevisionNumber": 0,
+        "RevisionString": null,
+        "Status": "Installed",
+        "SubDeviceID": null,
+        "SubVendorID": null,
+        "VendorID": null,
+        "impactsTPMmeasurements": false
+      }
+    }
+  },
+  "ReleaseDate": "00:00:00Z",
+  "SoftwareId": "106103",
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Updateable": true,
+  "Version": "FK5D"
+}

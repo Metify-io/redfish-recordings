@@ -1,1 +1,28 @@
-{"$ref":"#/definitions/IOPerformanceLineOfService","$schema":"/redfish/v1/Schemas/redfish-schema-v1.json","copyright":"Copyright 2016-2018 Storage Networking Industry Association (SNIA), USA. All rights reserved. For the full SNIA copyright policy, see http://www.snia.org/about/corporate_info/copyright","definitions":{"IOPerformanceLineOfService":{"anyOf":[{"$ref":"/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/idRef"},{"$ref":"/redfish/v1/Schemas/IOPerformanceLineOfService.v1_0_0.json#/definitions/IOPerformanceLineOfService"},{"$ref":"/redfish/v1/Schemas/IOPerformanceLineOfService.v1_0_1.json#/definitions/IOPerformanceLineOfService"},{"$ref":"/redfish/v1/Schemas/IOPerformanceLineOfService.v1_0_2.json#/definitions/IOPerformanceLineOfService"}],"description":"Describe data protection capabilities","longDescription":"The capabilities to protect data from loss by the use of a replica. The requirements must be met collectively by the communication path and the replica. There will be one instance associated to a class of service for each replica. Each replica has its own class of service that describes its characteristics."}},"owningEntity":"SNIA","title":"#IOPerformanceLineOfService.IOPerformanceLineOfService","@odata.id":"/redfish/v1/Schemas/IOPerformanceLineOfService.json"}
+{
+  "$ref": "#/definitions/IOPerformanceLineOfService",
+  "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+  "copyright": "Copyright 2016-2018 Storage Networking Industry Association (SNIA), USA. All rights reserved. For the full SNIA copyright policy, see http://www.snia.org/about/corporate_info/copyright",
+  "definitions": {
+    "IOPerformanceLineOfService": {
+      "anyOf": [
+        {
+          "$ref": "/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/idRef"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/IOPerformanceLineOfService.v1_0_0.json#/definitions/IOPerformanceLineOfService"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/IOPerformanceLineOfService.v1_0_1.json#/definitions/IOPerformanceLineOfService"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/IOPerformanceLineOfService.v1_0_2.json#/definitions/IOPerformanceLineOfService"
+        }
+      ],
+      "description": "Describe data protection capabilities",
+      "longDescription": "The capabilities to protect data from loss by the use of a replica. The requirements must be met collectively by the communication path and the replica. There will be one instance associated to a class of service for each replica. Each replica has its own class of service that describes its characteristics."
+    }
+  },
+  "owningEntity": "SNIA",
+  "title": "#IOPerformanceLineOfService.IOPerformanceLineOfService",
+  "@odata.id": "/redfish/v1/Schemas/IOPerformanceLineOfService.json"
+}

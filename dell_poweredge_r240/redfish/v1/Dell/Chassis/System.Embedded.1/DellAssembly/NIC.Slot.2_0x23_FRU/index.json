@@ -1,1 +1,11 @@
-{"@odata.context":"/redfish/v1/$metadata#DellAssembly.DellAssembly","@odata.id":"/redfish/v1/Dell/Chassis/System.Embedded.1/DellAssembly/NIC.Slot.2_0x23_FRU","@odata.type":"#DellAssembly.v1_0_0.DellAssembly","Description":"This resource shall be used to represent an assembly information.","DeviceFQDD":"NIC.Slot.2","Id":"NIC.Slot.2_0x23_FRU","Name":"DellAssembly","PackageType":"Module/Card","SerialNumber":"REMOVED_FROM_MOCK"}
+{
+  "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
+  "@odata.id": "/redfish/v1/Dell/Chassis/System.Embedded.1/DellAssembly/NIC.Slot.2_0x23_FRU",
+  "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
+  "Description": "This resource shall be used to represent an assembly information.",
+  "DeviceFQDD": "NIC.Slot.2",
+  "Id": "NIC.Slot.2_0x23_FRU",
+  "Name": "DellAssembly",
+  "PackageType": "Module/Card",
+  "SerialNumber": "REMOVED_FROM_MOCK"
+}

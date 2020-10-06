@@ -1,1 +1,15 @@
-{"@odata.context":"/redfish/v1/$metadata#LogEntry.LogEntry","@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2091","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:13:50-05:00","Description":" Log Entry 2091","EntryType":"Oem","Id":"2091","Links":{},"Message":"Package successfully downloaded.","MessageId":"RED002","Name":" Log Entry 2091","OemRecordFormat":"Dell","Severity":"OK"}
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2091",
+  "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+  "Created": "2020-06-03T04:13:50-05:00",
+  "Description": " Log Entry 2091",
+  "EntryType": "Oem",
+  "Id": "2091",
+  "Links": {},
+  "Message": "Package successfully downloaded.",
+  "MessageId": "RED002",
+  "Name": " Log Entry 2091",
+  "OemRecordFormat": "Dell",
+  "Severity": "OK"
+}

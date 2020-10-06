@@ -1,1 +1,19 @@
-{"@odata.context":"/redfish/v1/$metadata#LogEntry.LogEntry","@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2050","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:10:52-05:00","Description":" Log Entry 2050","EntryType":"Oem","Id":"2050","Links":{},"Message":"Successfully downloaded the update package details 34.5742 MB in 4.64 secs at 7.45133 MBps (59.6107 Mbps) [Systems-Management_Application_1K45F_WN64_3.5.1_A00.EXE].","MessageArgs":["34.5742 MB in 4.64 secs at 7.45133 MBps (59.6107 Mbps) [Systems-Management_Application_1K45F_WN64_3.5.1_A00.EXE]"],"MessageArgs@odata.count":1,"MessageId":"RED111","Name":" Log Entry 2050","OemRecordFormat":"Dell","Severity":"OK"}
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2050",
+  "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+  "Created": "2020-06-03T04:10:52-05:00",
+  "Description": " Log Entry 2050",
+  "EntryType": "Oem",
+  "Id": "2050",
+  "Links": {},
+  "Message": "Successfully downloaded the update package details 34.5742 MB in 4.64 secs at 7.45133 MBps (59.6107 Mbps) [Systems-Management_Application_1K45F_WN64_3.5.1_A00.EXE].",
+  "MessageArgs": [
+    "34.5742 MB in 4.64 secs at 7.45133 MBps (59.6107 Mbps) [Systems-Management_Application_1K45F_WN64_3.5.1_A00.EXE]"
+  ],
+  "MessageArgs@odata.count": 1,
+  "MessageId": "RED111",
+  "Name": " Log Entry 2050",
+  "OemRecordFormat": "Dell",
+  "Severity": "OK"
+}

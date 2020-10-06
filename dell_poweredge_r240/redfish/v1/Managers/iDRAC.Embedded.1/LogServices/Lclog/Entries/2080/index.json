@@ -1,1 +1,20 @@
-{"@odata.context":"/redfish/v1/$metadata#LogEntry.LogEntry","@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2080","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:13:20-05:00","Description":" Log Entry 2080","EntryType":"Oem","Id":"2080","Links":{},"Message":"Unable to run the (installation or configuration) job JID_911755934459 because Job for this device is already present..","MessageArgs":["JID_911755934459","Job for this device is already present."],"MessageArgs@odata.count":2,"MessageId":"JCP042","Name":" Log Entry 2080","OemRecordFormat":"Dell","Severity":"Warning"}
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2080",
+  "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+  "Created": "2020-06-03T04:13:20-05:00",
+  "Description": " Log Entry 2080",
+  "EntryType": "Oem",
+  "Id": "2080",
+  "Links": {},
+  "Message": "Unable to run the (installation or configuration) job JID_911755934459 because Job for this device is already present..",
+  "MessageArgs": [
+    "JID_911755934459",
+    "Job for this device is already present."
+  ],
+  "MessageArgs@odata.count": 2,
+  "MessageId": "JCP042",
+  "Name": " Log Entry 2080",
+  "OemRecordFormat": "Dell",
+  "Severity": "Warning"
+}

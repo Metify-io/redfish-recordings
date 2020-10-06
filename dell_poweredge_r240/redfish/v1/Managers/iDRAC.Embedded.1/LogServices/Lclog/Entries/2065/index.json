@@ -1,1 +1,20 @@
-{"@odata.context":"/redfish/v1/$metadata#LogEntry.LogEntry","@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2065","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:12:47-05:00","Description":" Log Entry 2065","EntryType":"Oem","Id":"2065","Links":{},"Message":"Dell OS Driver Pack, 19.12.05, A00 firmware updated successfully. Current version:19.12.05","MessageArgs":["Dell OS Driver Pack, 19.12.05, A00","19.12.05"],"MessageArgs@odata.count":2,"MessageId":"RED025","Name":" Log Entry 2065","OemRecordFormat":"Dell","Severity":"OK"}
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2065",
+  "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+  "Created": "2020-06-03T04:12:47-05:00",
+  "Description": " Log Entry 2065",
+  "EntryType": "Oem",
+  "Id": "2065",
+  "Links": {},
+  "Message": "Dell OS Driver Pack, 19.12.05, A00 firmware updated successfully. Current version:19.12.05",
+  "MessageArgs": [
+    "Dell OS Driver Pack, 19.12.05, A00",
+    "19.12.05"
+  ],
+  "MessageArgs@odata.count": 2,
+  "MessageId": "RED025",
+  "Name": " Log Entry 2065",
+  "OemRecordFormat": "Dell",
+  "Severity": "OK"
+}

@@ -1,1 +1,15 @@
-{"@odata.context":"/redfish/v1/$metadata#LogEntry.LogEntry","@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1631","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-04-10T14:28:50-05:00","Description":" Log Entry 1631","EntryType":"Oem","Id":"1631","Links":{},"Message":"System CPU Resetting.","MessageId":"SYS1003","Name":" Log Entry 1631","OemRecordFormat":"Dell","Severity":"OK"}
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1631",
+  "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+  "Created": "2020-04-10T14:28:50-05:00",
+  "Description": " Log Entry 1631",
+  "EntryType": "Oem",
+  "Id": "1631",
+  "Links": {},
+  "Message": "System CPU Resetting.",
+  "MessageId": "SYS1003",
+  "Name": " Log Entry 1631",
+  "OemRecordFormat": "Dell",
+  "Severity": "OK"
+}

@@ -1,1 +1,28 @@
-{"$ref":"#/definitions/DellUSBDevice","$schema":"/redfish/v1/Schemas/redfish-schema-v1.json","copyright":"Copyright 2014-2019 Dell, Inc. or its subsidiaries. All Rights Reserved.","definitions":{"DellUSBDevice":{"anyOf":[{"$ref":"/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/idRef"},{"$ref":"/redfish/v1/Schemas/DellUSBDevice.v1_0_0.json#/definitions/DellUSBDevice"}],"deletable":false,"description":"DellUSBDeviceView provides USB Device specific data.","insertable":false,"longDescription":"DellUSBDeviceView provides USB Device specific data.","updatable":false,"uris":["/redfish/v1/Dell/Managers/{ManagerId}/DellUSBDevice/{USBDeviceId}"]}},"owningEntity":"Dell","title":"#DellUSBDevice.DellUSBDevice","@odata.id":"/redfish/v1/Schemas/DellUSBDevice.json"}
+{
+  "$ref": "#/definitions/DellUSBDevice",
+  "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+  "copyright": "Copyright 2014-2019 Dell, Inc. or its subsidiaries. All Rights Reserved.",
+  "definitions": {
+    "DellUSBDevice": {
+      "anyOf": [
+        {
+          "$ref": "/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/idRef"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/DellUSBDevice.v1_0_0.json#/definitions/DellUSBDevice"
+        }
+      ],
+      "deletable": false,
+      "description": "DellUSBDeviceView provides USB Device specific data.",
+      "insertable": false,
+      "longDescription": "DellUSBDeviceView provides USB Device specific data.",
+      "updatable": false,
+      "uris": [
+        "/redfish/v1/Dell/Managers/{ManagerId}/DellUSBDevice/{USBDeviceId}"
+      ]
+    }
+  },
+  "owningEntity": "Dell",
+  "title": "#DellUSBDevice.DellUSBDevice",
+  "@odata.id": "/redfish/v1/Schemas/DellUSBDevice.json"
+}

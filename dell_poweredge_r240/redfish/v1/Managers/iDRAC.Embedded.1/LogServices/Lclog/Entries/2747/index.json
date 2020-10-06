@@ -1,1 +1,22 @@
-{"@odata.context":"/redfish/v1/$metadata#LogEntry.LogEntry","@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2747","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-15T08:50:14-05:00","Description":" Log Entry 2747","EntryType":"Oem","Id":"2747","Links":{},"Message":"User root via IP 10.228.103.249 requested state / configuration change to VNC Server using GUI.","MessageArgs":["root","10.228.103.249","VNC Server","GUI"],"MessageArgs@odata.count":4,"MessageId":"RAC1195","Name":" Log Entry 2747","OemRecordFormat":"Dell","Severity":"OK"}
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2747",
+  "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+  "Created": "2020-07-15T08:50:14-05:00",
+  "Description": " Log Entry 2747",
+  "EntryType": "Oem",
+  "Id": "2747",
+  "Links": {},
+  "Message": "User root via IP 10.228.103.249 requested state / configuration change to VNC Server using GUI.",
+  "MessageArgs": [
+    "root",
+    "10.228.103.249",
+    "VNC Server",
+    "GUI"
+  ],
+  "MessageArgs@odata.count": 4,
+  "MessageId": "RAC1195",
+  "Name": " Log Entry 2747",
+  "OemRecordFormat": "Dell",
+  "Severity": "OK"
+}

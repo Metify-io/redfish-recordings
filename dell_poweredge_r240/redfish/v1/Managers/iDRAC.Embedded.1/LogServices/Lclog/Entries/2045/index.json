@@ -1,1 +1,15 @@
-{"@odata.context":"/redfish/v1/$metadata#LogEntry.LogEntry","@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2045","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:10:43-05:00","Description":" Log Entry 2045","EntryType":"Oem","Id":"2045","Links":{},"Message":"iDRAC initiated the download update package files operation. Wait for a few minutes.","MessageId":"RED100","Name":" Log Entry 2045","OemRecordFormat":"Dell","Severity":"OK"}
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2045",
+  "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+  "Created": "2020-06-03T04:10:43-05:00",
+  "Description": " Log Entry 2045",
+  "EntryType": "Oem",
+  "Id": "2045",
+  "Links": {},
+  "Message": "iDRAC initiated the download update package files operation. Wait for a few minutes.",
+  "MessageId": "RED100",
+  "Name": " Log Entry 2045",
+  "OemRecordFormat": "Dell",
+  "Severity": "OK"
+}

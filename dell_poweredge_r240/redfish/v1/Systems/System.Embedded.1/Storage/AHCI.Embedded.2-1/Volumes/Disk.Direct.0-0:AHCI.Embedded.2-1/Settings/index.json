@@ -1,1 +1,30 @@
-{"@odata.context":"/redfish/v1/$metadata#Volume.Volume","@odata.id":"/redfish/v1/Systems/System.Embedded.1/Storage/AHCI.Embedded.2-1/Volumes/Disk.Direct.0-0:AHCI.Embedded.2-1/Settings","@odata.type":"#Volume.v1_0_3.Volume","Actions":{},"BlockSizeBytes":512,"CapacityBytes":1000204886016,"Description":"Physical Disk 0:1:0","Encrypted":null,"EncryptionTypes":[],"Id":"Disk.Direct.0-0:AHCI.Embedded.2-1","Identifiers":[],"Links":{"Drives":[{"@odata.id":"/redfish/v1/Systems/System.Embedded.1/Storage/AHCI.Embedded.2-1/Drives/Disk.Direct.0-0:AHCI.Embedded.2-1"}],"Drives@odata.count":1},"Name":"Physical Disk 0:1:0","Operations":[],"OptimumIOSizeBytes":null,"Status":{"Health":"OK","HealthRollup":"OK","State":"Enabled"},"VolumeType":"RawDevice"}
+{
+  "@odata.context": "/redfish/v1/$metadata#Volume.Volume",
+  "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/AHCI.Embedded.2-1/Volumes/Disk.Direct.0-0:AHCI.Embedded.2-1/Settings",
+  "@odata.type": "#Volume.v1_0_3.Volume",
+  "Actions": {},
+  "BlockSizeBytes": 512,
+  "CapacityBytes": 1000204886016,
+  "Description": "Physical Disk 0:1:0",
+  "Encrypted": null,
+  "EncryptionTypes": [],
+  "Id": "Disk.Direct.0-0:AHCI.Embedded.2-1",
+  "Identifiers": [],
+  "Links": {
+    "Drives": [
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/AHCI.Embedded.2-1/Drives/Disk.Direct.0-0:AHCI.Embedded.2-1"
+      }
+    ],
+    "Drives@odata.count": 1
+  },
+  "Name": "Physical Disk 0:1:0",
+  "Operations": [],
+  "OptimumIOSizeBytes": null,
+  "Status": {
+    "Health": "OK",
+    "HealthRollup": "OK",
+    "State": "Enabled"
+  },
+  "VolumeType": "RawDevice"
+}

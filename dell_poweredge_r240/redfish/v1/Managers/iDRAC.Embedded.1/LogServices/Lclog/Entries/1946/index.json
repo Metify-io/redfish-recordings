@@ -1,1 +1,24 @@
-{"@odata.context":"/redfish/v1/$metadata#LogEntry.LogEntry","@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1946","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-02T13:32:17-05:00","Description":" Log Entry 1946","EntryType":"Oem","Id":"1946","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Systems/System.Embedded.1/EthernetInterfaces/NIC.Embedded.2-1-1"}},"Message":"The Embedded NIC 1 Port 2 network link is started.","MessageArgs":["Embedded NIC 1","2"],"MessageArgs@odata.count":2,"MessageId":"NIC101","Name":" Log Entry 1946","OemRecordFormat":"Dell","Severity":"OK"}
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1946",
+  "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+  "Created": "2020-06-02T13:32:17-05:00",
+  "Description": " Log Entry 1946",
+  "EntryType": "Oem",
+  "Id": "1946",
+  "Links": {
+    "OriginOfCondition": {
+      "@odata.id": "/redfish/v1/Systems/System.Embedded.1/EthernetInterfaces/NIC.Embedded.2-1-1"
+    }
+  },
+  "Message": "The Embedded NIC 1 Port 2 network link is started.",
+  "MessageArgs": [
+    "Embedded NIC 1",
+    "2"
+  ],
+  "MessageArgs@odata.count": 2,
+  "MessageId": "NIC101",
+  "Name": " Log Entry 1946",
+  "OemRecordFormat": "Dell",
+  "Severity": "OK"
+}

@@ -1,1 +1,19 @@
-{"@odata.context":"/redfish/v1/$metadata#LogEntry.LogEntry","@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2077","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:13:19-05:00","Description":" Log Entry 2077","EntryType":"Oem","Id":"2077","Links":{},"Message":"Downloading the Serial-ATA_Firmware_TTPGY_WN64_E012_A00.EXE update package.","MessageArgs":["Serial-ATA_Firmware_TTPGY_WN64_E012_A00.EXE"],"MessageArgs@odata.count":1,"MessageId":"RED110","Name":" Log Entry 2077","OemRecordFormat":"Dell","Severity":"OK"}
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2077",
+  "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+  "Created": "2020-06-03T04:13:19-05:00",
+  "Description": " Log Entry 2077",
+  "EntryType": "Oem",
+  "Id": "2077",
+  "Links": {},
+  "Message": "Downloading the Serial-ATA_Firmware_TTPGY_WN64_E012_A00.EXE update package.",
+  "MessageArgs": [
+    "Serial-ATA_Firmware_TTPGY_WN64_E012_A00.EXE"
+  ],
+  "MessageArgs@odata.count": 1,
+  "MessageId": "RED110",
+  "Name": " Log Entry 2077",
+  "OemRecordFormat": "Dell",
+  "Severity": "OK"
+}

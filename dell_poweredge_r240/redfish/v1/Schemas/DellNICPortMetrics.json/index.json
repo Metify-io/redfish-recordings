@@ -1,1 +1,28 @@
-{"$ref":"#/definitions/DellNICPortMetrics","$schema":"/redfish/v1/Schemas/redfish-schema-v1.json","copyright":"Copyright 2014-2019 Dell, Inc. or its subsidiaries. All Rights Reserved.","definitions":{"DellNICPortMetrics":{"anyOf":[{"$ref":"/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/idRef"},{"$ref":"/redfish/v1/Schemas/DellNICPortMetrics.v1_0_0.json#/definitions/DellNICPortMetrics"}],"deletable":false,"description":"Represents the statistics of the NIC, NIC port, or partition.","insertable":false,"longDescription":"Represents the statistics of the NIC, NIC port, or partition.","updatable":false,"uris":["/redfish/v1/Dell/Systems/{ComputerSystemId}/NetworkAdapters/NetworkDeviceFunctions/DellNICPortMetrics/{NICPortMetricsId}"]}},"owningEntity":"Dell","title":"#DellNICPortMetrics.DellNICPortMetrics","@odata.id":"/redfish/v1/Schemas/DellNICPortMetrics.json"}
+{
+  "$ref": "#/definitions/DellNICPortMetrics",
+  "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+  "copyright": "Copyright 2014-2019 Dell, Inc. or its subsidiaries. All Rights Reserved.",
+  "definitions": {
+    "DellNICPortMetrics": {
+      "anyOf": [
+        {
+          "$ref": "/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/idRef"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/DellNICPortMetrics.v1_0_0.json#/definitions/DellNICPortMetrics"
+        }
+      ],
+      "deletable": false,
+      "description": "Represents the statistics of the NIC, NIC port, or partition.",
+      "insertable": false,
+      "longDescription": "Represents the statistics of the NIC, NIC port, or partition.",
+      "updatable": false,
+      "uris": [
+        "/redfish/v1/Dell/Systems/{ComputerSystemId}/NetworkAdapters/NetworkDeviceFunctions/DellNICPortMetrics/{NICPortMetricsId}"
+      ]
+    }
+  },
+  "owningEntity": "Dell",
+  "title": "#DellNICPortMetrics.DellNICPortMetrics",
+  "@odata.id": "/redfish/v1/Schemas/DellNICPortMetrics.json"
+}

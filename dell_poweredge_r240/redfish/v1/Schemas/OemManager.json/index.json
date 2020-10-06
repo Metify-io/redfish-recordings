@@ -1,1 +1,33 @@
-{"$ref":"#/definitions/OemManager","$schema":"/redfish/v1/Schemas/redfish-schema-v1.json","copyright":"Copyright 2014-2019 Dell, Inc. or its subsidiaries. All Rights Reserved.","definitions":{"OemManager":{"anyOf":[{"$ref":"/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/idRef"},{"$ref":"/redfish/v1/Schemas/OemManager.v1_0_0.json#/definitions/OemManager"},{"$ref":"/redfish/v1/Schemas/OemManager.v1_1_0.json#/definitions/OemManager"},{"$ref":"/redfish/v1/Schemas/OemManager.v1_1_1.json#/definitions/OemManager"},{"$ref":"/redfish/v1/Schemas/OemManager.v1_1_0.json#/definitions/OemManager"},{"$ref":"/redfish/v1/Schemas/OemManager.v1_1_1.json#/definitions/OemManager"}],"description":"OemManager contains properties of additional actions to complement the Manager DMTF schema.","longDescription":"This resource shall be used to represent Oem Manager actions for a Redfish implementation."}},"title":"#OemManager.OemManager","@odata.id":"/redfish/v1/Schemas/OemManager.json"}
+{
+  "$ref": "#/definitions/OemManager",
+  "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+  "copyright": "Copyright 2014-2019 Dell, Inc. or its subsidiaries. All Rights Reserved.",
+  "definitions": {
+    "OemManager": {
+      "anyOf": [
+        {
+          "$ref": "/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/idRef"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/OemManager.v1_0_0.json#/definitions/OemManager"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/OemManager.v1_1_0.json#/definitions/OemManager"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/OemManager.v1_1_1.json#/definitions/OemManager"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/OemManager.v1_1_0.json#/definitions/OemManager"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/OemManager.v1_1_1.json#/definitions/OemManager"
+        }
+      ],
+      "description": "OemManager contains properties of additional actions to complement the Manager DMTF schema.",
+      "longDescription": "This resource shall be used to represent Oem Manager actions for a Redfish implementation."
+    }
+  },
+  "title": "#OemManager.OemManager",
+  "@odata.id": "/redfish/v1/Schemas/OemManager.json"
+}

@@ -1,1 +1,19 @@
-{"@odata.context":"/redfish/v1/$metadata#LogEntry.LogEntry","@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2049","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:10:47-05:00","Description":" Log Entry 2049","EntryType":"Oem","Id":"2049","Links":{},"Message":"Downloading the Systems-Management_Application_1K45F_WN64_3.5.1_A00.EXE update package.","MessageArgs":["Systems-Management_Application_1K45F_WN64_3.5.1_A00.EXE"],"MessageArgs@odata.count":1,"MessageId":"RED110","Name":" Log Entry 2049","OemRecordFormat":"Dell","Severity":"OK"}
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2049",
+  "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+  "Created": "2020-06-03T04:10:47-05:00",
+  "Description": " Log Entry 2049",
+  "EntryType": "Oem",
+  "Id": "2049",
+  "Links": {},
+  "Message": "Downloading the Systems-Management_Application_1K45F_WN64_3.5.1_A00.EXE update package.",
+  "MessageArgs": [
+    "Systems-Management_Application_1K45F_WN64_3.5.1_A00.EXE"
+  ],
+  "MessageArgs@odata.count": 1,
+  "MessageId": "RED110",
+  "Name": " Log Entry 2049",
+  "OemRecordFormat": "Dell",
+  "Severity": "OK"
+}

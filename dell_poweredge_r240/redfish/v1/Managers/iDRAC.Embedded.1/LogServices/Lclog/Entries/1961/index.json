@@ -1,1 +1,25 @@
-{"@odata.context":"/redfish/v1/$metadata#LogEntry.LogEntry","@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1961","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-02T14:19:27-05:00","Description":" Log Entry 1961","EntryType":"Oem","Id":"1961","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"Successfully logged in using root, from 10.228.103.244 and Virtual Console.","MessageArgs":["root","10.228.103.244","Virtual Console"],"MessageArgs@odata.count":3,"MessageId":"USR0030","Name":" Log Entry 1961","OemRecordFormat":"Dell","Severity":"OK"}
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1961",
+  "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+  "Created": "2020-06-02T14:19:27-05:00",
+  "Description": " Log Entry 1961",
+  "EntryType": "Oem",
+  "Id": "1961",
+  "Links": {
+    "OriginOfCondition": {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+    }
+  },
+  "Message": "Successfully logged in using root, from 10.228.103.244 and Virtual Console.",
+  "MessageArgs": [
+    "root",
+    "10.228.103.244",
+    "Virtual Console"
+  ],
+  "MessageArgs@odata.count": 3,
+  "MessageId": "USR0030",
+  "Name": " Log Entry 1961",
+  "OemRecordFormat": "Dell",
+  "Severity": "OK"
+}

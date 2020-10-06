@@ -1,1 +1,19 @@
-{"@odata.context":"/redfish/v1/$metadata#LogEntry.LogEntry","@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2048","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:10:44-05:00","Description":" Log Entry 2048","EntryType":"Oem","Id":"2048","Links":{},"Message":"An update job JID_911754438115 was created.","MessageArgs":["JID_911754438115"],"MessageArgs@odata.count":1,"MessageId":"RED054","Name":" Log Entry 2048","OemRecordFormat":"Dell","Severity":"OK"}
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2048",
+  "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+  "Created": "2020-06-03T04:10:44-05:00",
+  "Description": " Log Entry 2048",
+  "EntryType": "Oem",
+  "Id": "2048",
+  "Links": {},
+  "Message": "An update job JID_911754438115 was created.",
+  "MessageArgs": [
+    "JID_911754438115"
+  ],
+  "MessageArgs@odata.count": 1,
+  "MessageId": "RED054",
+  "Name": " Log Entry 2048",
+  "OemRecordFormat": "Dell",
+  "Severity": "OK"
+}

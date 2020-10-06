@@ -1,1 +1,21 @@
-{"$ref":"#/definitions/DellCertificate","$schema":"/redfish/v1/Schemas/redfish-schema-v1.json","copyright":"Copyright 2014-2019 Dell, Inc. or its subsidiaries. All Rights Reserved.","definitions":{"DellCertificate":{"anyOf":[{"$ref":"/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/idRef"},{"$ref":"/redfish/v1/Schemas/DellCertificate.v1_0_0.json#/definitions/DellCertificate"}],"description":"This resource contains information about a SecureBoot Certificate.","longDescription":"This resource shall be used to represent a SecureBoot Certificate."}},"title":"#DellCertificate.DellCertificate","@odata.id":"/redfish/v1/Schemas/DellCertificate.json"}
+{
+  "$ref": "#/definitions/DellCertificate",
+  "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+  "copyright": "Copyright 2014-2019 Dell, Inc. or its subsidiaries. All Rights Reserved.",
+  "definitions": {
+    "DellCertificate": {
+      "anyOf": [
+        {
+          "$ref": "/redfish/v1/Schemas/odata.v4_0_3.json#/definitions/idRef"
+        },
+        {
+          "$ref": "/redfish/v1/Schemas/DellCertificate.v1_0_0.json#/definitions/DellCertificate"
+        }
+      ],
+      "description": "This resource contains information about a SecureBoot Certificate.",
+      "longDescription": "This resource shall be used to represent a SecureBoot Certificate."
+    }
+  },
+  "title": "#DellCertificate.DellCertificate",
+  "@odata.id": "/redfish/v1/Schemas/DellCertificate.json"
+}

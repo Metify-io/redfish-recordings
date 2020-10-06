@@ -1,1 +1,15 @@
-{"@odata.context":"/redfish/v1/$metadata#LogEntry.LogEntry","@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2863","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-17T13:26:09-05:00","Description":" Log Entry 2863","EntryType":"Oem","Id":"2863","Links":{},"Message":"The process of installing an operating system or hypervisor is abruptly stopped either by the user or the installation infrastructure.","MessageId":"OSD064","Name":" Log Entry 2863","OemRecordFormat":"Dell","Severity":"OK"}
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2863",
+  "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+  "Created": "2020-07-17T13:26:09-05:00",
+  "Description": " Log Entry 2863",
+  "EntryType": "Oem",
+  "Id": "2863",
+  "Links": {},
+  "Message": "The process of installing an operating system or hypervisor is abruptly stopped either by the user or the installation infrastructure.",
+  "MessageId": "OSD064",
+  "Name": " Log Entry 2863",
+  "OemRecordFormat": "Dell",
+  "Severity": "OK"
+}

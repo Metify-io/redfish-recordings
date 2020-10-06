@@ -1,1 +1,25 @@
-{"@odata.context":"/redfish/v1/$metadata#LogEntry.LogEntry","@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1850","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-25T14:13:39-05:00","Description":" Log Entry 1850","EntryType":"Oem","Id":"1850","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"The session for root from 10.228.103.244 using GUI is logged off.","MessageArgs":["root","10.228.103.244","GUI"],"MessageArgs@odata.count":3,"MessageId":"USR0032","Name":" Log Entry 1850","OemRecordFormat":"Dell","Severity":"OK"}
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1850",
+  "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+  "Created": "2020-05-25T14:13:39-05:00",
+  "Description": " Log Entry 1850",
+  "EntryType": "Oem",
+  "Id": "1850",
+  "Links": {
+    "OriginOfCondition": {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+    }
+  },
+  "Message": "The session for root from 10.228.103.244 using GUI is logged off.",
+  "MessageArgs": [
+    "root",
+    "10.228.103.244",
+    "GUI"
+  ],
+  "MessageArgs@odata.count": 3,
+  "MessageId": "USR0032",
+  "Name": " Log Entry 1850",
+  "OemRecordFormat": "Dell",
+  "Severity": "OK"
+}

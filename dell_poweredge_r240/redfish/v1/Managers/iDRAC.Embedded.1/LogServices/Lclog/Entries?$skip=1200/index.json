@@ -1,1 +1,1075 @@
-{"@odata.context":"/redfish/v1/$metadata#LogEntryCollection.LogEntryCollection","@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries?$skip=1200","@odata.type":"#LogEntryCollection.LogEntryCollection","Description":"LC Logs for this manager","Members":[{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1937","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-02T13:23:13-05:00","Description":" Log Entry 1937","EntryType":"Oem","Id":"1937","Links":{},"Message":"System CPU Resetting.","MessageId":"SYS1003","Name":" Log Entry 1937","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1936","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-02T13:23:09-05:00","Description":" Log Entry 1936","EntryType":"Oem","Id":"1936","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"Requested system powerdown.","MessageId":"RAC0704","Name":" Log Entry 1936","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1935","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-02T13:23:09-05:00","Description":" Log Entry 1935","EntryType":"Oem","Id":"1935","Links":{},"Message":"The previous log entry was repeated 3 times.","MessageArgs":["3"],"MessageArgs@odata.count":1,"MessageId":"LOG007","Name":" Log Entry 1935","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1934","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-02T13:23:02-05:00","Description":" Log Entry 1934","EntryType":"Oem","Id":"1934","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"Successfully logged in using root, from 10.228.101.7 and REDFISH.","MessageArgs":["root","10.228.101.7","REDFISH"],"MessageArgs@odata.count":3,"MessageId":"USR0030","Name":" Log Entry 1934","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1933","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-31T04:22:54-05:00","Description":" Log Entry 1933","EntryType":"Oem","Id":"1933","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"The session for root from 10.228.101.7 using REDFISH is logged off.","MessageArgs":["root","10.228.101.7","REDFISH"],"MessageArgs@odata.count":3,"MessageId":"USR0032","Name":" Log Entry 1933","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1932","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-31T04:15:50-05:00","Description":" Log Entry 1932","EntryType":"Oem","Id":"1932","Links":{},"Message":"The previous log entry was repeated 1 times.","MessageArgs":["1"],"MessageArgs@odata.count":1,"MessageId":"LOG007","Name":" Log Entry 1932","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1931","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-31T04:10:48-05:00","Description":" Log Entry 1931","EntryType":"Oem","Id":"1931","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"The session for root from 10.228.101.7 using REDFISH is logged off.","MessageArgs":["root","10.228.101.7","REDFISH"],"MessageArgs@odata.count":3,"MessageId":"USR0032","Name":" Log Entry 1931","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1930","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-31T03:55:19-05:00","Description":" Log Entry 1930","EntryType":"Oem","Id":"1930","Links":{},"Message":"The previous log entry was repeated 1 times.","MessageArgs":["1"],"MessageArgs@odata.count":1,"MessageId":"LOG007","Name":" Log Entry 1930","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1929","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-31T03:52:56-05:00","Description":" Log Entry 1929","EntryType":"Oem","Id":"1929","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"The session for root from 10.228.101.7 using REDFISH is logged off.","MessageArgs":["root","10.228.101.7","REDFISH"],"MessageArgs@odata.count":3,"MessageId":"USR0032","Name":" Log Entry 1929","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1928","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-31T03:52:56-05:00","Description":" Log Entry 1928","EntryType":"Oem","Id":"1928","Links":{},"Message":"The previous log entry was repeated 3 times.","MessageArgs":["3"],"MessageArgs@odata.count":1,"MessageId":"LOG007","Name":" Log Entry 1928","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1927","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-31T03:52:53-05:00","Description":" Log Entry 1927","EntryType":"Oem","Id":"1927","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"Successfully logged in using root, from 10.228.101.7 and REDFISH.","MessageArgs":["root","10.228.101.7","REDFISH"],"MessageArgs@odata.count":3,"MessageId":"USR0030","Name":" Log Entry 1927","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1926","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-31T03:45:50-05:00","Description":" Log Entry 1926","EntryType":"Oem","Id":"1926","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"The session for root from 10.228.101.7 using REDFISH is logged off.","MessageArgs":["root","10.228.101.7","REDFISH"],"MessageArgs@odata.count":3,"MessageId":"USR0032","Name":" Log Entry 1926","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1925","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-31T03:45:48-05:00","Description":" Log Entry 1925","EntryType":"Oem","Id":"1925","Links":{},"Message":"The previous log entry was repeated 3 times.","MessageArgs":["3"],"MessageArgs@odata.count":1,"MessageId":"LOG007","Name":" Log Entry 1925","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1924","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-31T03:45:47-05:00","Description":" Log Entry 1924","EntryType":"Oem","Id":"1924","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"Successfully logged in using root, from 10.228.101.7 and REDFISH.","MessageArgs":["root","10.228.101.7","REDFISH"],"MessageArgs@odata.count":3,"MessageId":"USR0030","Name":" Log Entry 1924","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1923","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-31T03:40:50-05:00","Description":" Log Entry 1923","EntryType":"Oem","Id":"1923","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"The session for root from 10.228.101.7 using REDFISH is logged off.","MessageArgs":["root","10.228.101.7","REDFISH"],"MessageArgs@odata.count":3,"MessageId":"USR0032","Name":" Log Entry 1923","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1922","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-31T03:40:50-05:00","Description":" Log Entry 1922","EntryType":"Oem","Id":"1922","Links":{},"Message":"The previous log entry was repeated 1 times.","MessageArgs":["1"],"MessageArgs@odata.count":1,"MessageId":"LOG007","Name":" Log Entry 1922","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1921","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-31T03:40:48-05:00","Description":" Log Entry 1921","EntryType":"Oem","Id":"1921","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"Successfully logged in using root, from 10.228.101.7 and REDFISH.","MessageArgs":["root","10.228.101.7","REDFISH"],"MessageArgs@odata.count":3,"MessageId":"USR0030","Name":" Log Entry 1921","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1920","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-31T03:40:48-05:00","Description":" Log Entry 1920","EntryType":"Oem","Id":"1920","Links":{},"Message":"The previous log entry was repeated 1 times.","MessageArgs":["1"],"MessageArgs@odata.count":1,"MessageId":"LOG007","Name":" Log Entry 1920","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1919","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-31T03:40:47-05:00","Description":" Log Entry 1919","EntryType":"Oem","Id":"1919","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"Successfully logged in using root, from 10.228.101.7 and REDFISH.","MessageArgs":["root","10.228.101.7","REDFISH"],"MessageArgs@odata.count":3,"MessageId":"USR0030","Name":" Log Entry 1919","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1918","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-31T03:25:11-05:00","Description":" Log Entry 1918","EntryType":"Oem","Id":"1918","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"The session for root from 10.228.101.7 using REDFISH is logged off.","MessageArgs":["root","10.228.101.7","REDFISH"],"MessageArgs@odata.count":3,"MessageId":"USR0032","Name":" Log Entry 1918","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1917","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-31T03:25:11-05:00","Description":" Log Entry 1917","EntryType":"Oem","Id":"1917","Links":{},"Message":"The previous log entry was repeated 3 times.","MessageArgs":["3"],"MessageArgs@odata.count":1,"MessageId":"LOG007","Name":" Log Entry 1917","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1916","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-31T03:25:08-05:00","Description":" Log Entry 1916","EntryType":"Oem","Id":"1916","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"Successfully logged in using root, from 10.228.101.7 and REDFISH.","MessageArgs":["root","10.228.101.7","REDFISH"],"MessageArgs@odata.count":3,"MessageId":"USR0030","Name":" Log Entry 1916","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1915","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-29T15:50:40-05:00","Description":" Log Entry 1915","EntryType":"Oem","Id":"1915","Links":{},"Message":"The previous log entry was repeated 1 times.","MessageArgs":["1"],"MessageArgs@odata.count":1,"MessageId":"LOG007","Name":" Log Entry 1915","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1914","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-29T15:20:37-05:00","Description":" Log Entry 1914","EntryType":"Oem","Id":"1914","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"The session for root from 10.228.103.249 using REDFISH is logged off.","MessageArgs":["root","10.228.103.249","REDFISH"],"MessageArgs@odata.count":3,"MessageId":"USR0032","Name":" Log Entry 1914","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1913","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-29T15:20:37-05:00","Description":" Log Entry 1913","EntryType":"Oem","Id":"1913","Links":{},"Message":"The previous log entry was repeated 3 times.","MessageArgs":["3"],"MessageArgs@odata.count":1,"MessageId":"LOG007","Name":" Log Entry 1913","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1912","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-29T15:20:30-05:00","Description":" Log Entry 1912","EntryType":"Oem","Id":"1912","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"Successfully logged in using root, from 10.228.103.249 and REDFISH.","MessageArgs":["root","10.228.103.249","REDFISH"],"MessageArgs@odata.count":3,"MessageId":"USR0030","Name":" Log Entry 1912","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1911","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-29T00:50:29-05:00","Description":" Log Entry 1911","EntryType":"Oem","Id":"1911","Links":{},"Message":"The previous log entry was repeated 1 times.","MessageArgs":["1"],"MessageArgs@odata.count":1,"MessageId":"LOG007","Name":" Log Entry 1911","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1910","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-29T00:20:11-05:00","Description":" Log Entry 1910","EntryType":"Oem","Id":"1910","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"The session for root from 10.228.101.7 using REDFISH is logged off.","MessageArgs":["root","10.228.101.7","REDFISH"],"MessageArgs@odata.count":3,"MessageId":"USR0032","Name":" Log Entry 1910","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1909","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-29T00:20:11-05:00","Description":" Log Entry 1909","EntryType":"Oem","Id":"1909","Links":{},"Message":"The previous log entry was repeated 3 times.","MessageArgs":["3"],"MessageArgs@odata.count":1,"MessageId":"LOG007","Name":" Log Entry 1909","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1908","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-29T00:20:08-05:00","Description":" Log Entry 1908","EntryType":"Oem","Id":"1908","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"Successfully logged in using root, from 10.228.101.7 and REDFISH.","MessageArgs":["root","10.228.101.7","REDFISH"],"MessageArgs@odata.count":3,"MessageId":"USR0030","Name":" Log Entry 1908","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1907","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-28T23:11:55-05:00","Description":" Log Entry 1907","EntryType":"Oem","Id":"1907","Links":{},"Message":"The previous log entry was repeated 1 times.","MessageArgs":["1"],"MessageArgs@odata.count":1,"MessageId":"LOG007","Name":" Log Entry 1907","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1906","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-28T22:41:31-05:00","Description":" Log Entry 1906","EntryType":"Oem","Id":"1906","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"The session for root from 10.228.103.249 using REDFISH is logged off.","MessageArgs":["root","10.228.103.249","REDFISH"],"MessageArgs@odata.count":3,"MessageId":"USR0032","Name":" Log Entry 1906","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1905","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-28T22:41:31-05:00","Description":" Log Entry 1905","EntryType":"Oem","Id":"1905","Links":{},"Message":"The previous log entry was repeated 3 times.","MessageArgs":["3"],"MessageArgs@odata.count":1,"MessageId":"LOG007","Name":" Log Entry 1905","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1904","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-28T22:41:24-05:00","Description":" Log Entry 1904","EntryType":"Oem","Id":"1904","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"Successfully logged in using root, from 10.228.103.249 and REDFISH.","MessageArgs":["root","10.228.103.249","REDFISH"],"MessageArgs@odata.count":3,"MessageId":"USR0030","Name":" Log Entry 1904","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1903","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-28T16:24:04-05:00","Description":" Log Entry 1903","EntryType":"Oem","Id":"1903","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"The session for root from 10.228.103.244 using GUI is logged off.","MessageArgs":["root","10.228.103.244","GUI"],"MessageArgs@odata.count":3,"MessageId":"USR0032","Name":" Log Entry 1903","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1902","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-28T15:54:03-05:00","Description":" Log Entry 1902","EntryType":"Oem","Id":"1902","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"Successfully logged in using root, from 10.228.103.244 and GUI.","MessageArgs":["root","10.228.103.244","GUI"],"MessageArgs@odata.count":3,"MessageId":"USR0030","Name":" Log Entry 1902","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1901","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-27T15:47:58-05:00","Description":" Log Entry 1901","EntryType":"Oem","Id":"1901","Links":{},"Message":"The previous log entry was repeated 1 times.","MessageArgs":["1"],"MessageArgs@odata.count":1,"MessageId":"LOG007","Name":" Log Entry 1901","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1900","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-27T15:17:59-05:00","Description":" Log Entry 1900","EntryType":"Oem","Id":"1900","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"The session for root from 10.228.103.249 using REDFISH is logged off.","MessageArgs":["root","10.228.103.249","REDFISH"],"MessageArgs@odata.count":3,"MessageId":"USR0032","Name":" Log Entry 1900","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1899","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-27T15:17:57-05:00","Description":" Log Entry 1899","EntryType":"Oem","Id":"1899","Links":{},"Message":"The previous log entry was repeated 3 times.","MessageArgs":["3"],"MessageArgs@odata.count":1,"MessageId":"LOG007","Name":" Log Entry 1899","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1898","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-27T15:17:53-05:00","Description":" Log Entry 1898","EntryType":"Oem","Id":"1898","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"Successfully logged in using root, from 10.228.103.249 and REDFISH.","MessageArgs":["root","10.228.103.249","REDFISH"],"MessageArgs@odata.count":3,"MessageId":"USR0030","Name":" Log Entry 1898","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1897","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-27T03:16:55-05:00","Description":" Log Entry 1897","EntryType":"Oem","Id":"1897","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"The session for root from 10.228.101.7 using REDFISH is logged off.","MessageArgs":["root","10.228.101.7","REDFISH"],"MessageArgs@odata.count":3,"MessageId":"USR0032","Name":" Log Entry 1897","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1896","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-27T02:59:53-05:00","Description":" Log Entry 1896","EntryType":"Oem","Id":"1896","Links":{},"Message":"The previous log entry was repeated 1 times.","MessageArgs":["1"],"MessageArgs@odata.count":1,"MessageId":"LOG007","Name":" Log Entry 1896","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1895","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-27T02:46:57-05:00","Description":" Log Entry 1895","EntryType":"Oem","Id":"1895","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"The session for root from 10.228.101.7 using REDFISH is logged off.","MessageArgs":["root","10.228.101.7","REDFISH"],"MessageArgs@odata.count":3,"MessageId":"USR0032","Name":" Log Entry 1895","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1894","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-27T02:46:57-05:00","Description":" Log Entry 1894","EntryType":"Oem","Id":"1894","Links":{},"Message":"The previous log entry was repeated 3 times.","MessageArgs":["3"],"MessageArgs@odata.count":1,"MessageId":"LOG007","Name":" Log Entry 1894","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1893","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-27T02:46:54-05:00","Description":" Log Entry 1893","EntryType":"Oem","Id":"1893","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"Successfully logged in using root, from 10.228.101.7 and REDFISH.","MessageArgs":["root","10.228.101.7","REDFISH"],"MessageArgs@odata.count":3,"MessageId":"USR0030","Name":" Log Entry 1893","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1892","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-27T02:44:53-05:00","Description":" Log Entry 1892","EntryType":"Oem","Id":"1892","Links":{},"Message":"The previous log entry was repeated 1 times.","MessageArgs":["1"],"MessageArgs@odata.count":1,"MessageId":"LOG007","Name":" Log Entry 1892","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1891","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-27T02:29:33-05:00","Description":" Log Entry 1891","EntryType":"Oem","Id":"1891","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"The session for root from 10.228.101.7 using REDFISH is logged off.","MessageArgs":["root","10.228.101.7","REDFISH"],"MessageArgs@odata.count":3,"MessageId":"USR0032","Name":" Log Entry 1891","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1890","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-27T02:29:33-05:00","Description":" Log Entry 1890","EntryType":"Oem","Id":"1890","Links":{},"Message":"The previous log entry was repeated 3 times.","MessageArgs":["3"],"MessageArgs@odata.count":1,"MessageId":"LOG007","Name":" Log Entry 1890","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1889","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-27T02:29:30-05:00","Description":" Log Entry 1889","EntryType":"Oem","Id":"1889","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"Successfully logged in using root, from 10.228.101.7 and REDFISH.","MessageArgs":["root","10.228.101.7","REDFISH"],"MessageArgs@odata.count":3,"MessageId":"USR0030","Name":" Log Entry 1889","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1888","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-05-27T02:14:42-05:00","Description":" Log Entry 1888","EntryType":"Oem","Id":"1888","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"The session for root from 10.228.101.7 using REDFISH is logged off.","MessageArgs":["root","10.228.101.7","REDFISH"],"MessageArgs@odata.count":3,"MessageId":"USR0032","Name":" Log Entry 1888","OemRecordFormat":"Dell","Severity":"OK"}],"Members@odata.count":3137,"Members@odata.nextLink":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries?$skip=1250","Name":"Log Entry Collection"}
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntryCollection.LogEntryCollection",
+  "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries?$skip=1200",
+  "@odata.type": "#LogEntryCollection.LogEntryCollection",
+  "Description": "LC Logs for this manager",
+  "Members": [
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1937",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-02T13:23:13-05:00",
+      "Description": " Log Entry 1937",
+      "EntryType": "Oem",
+      "Id": "1937",
+      "Links": {},
+      "Message": "System CPU Resetting.",
+      "MessageId": "SYS1003",
+      "Name": " Log Entry 1937",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1936",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-02T13:23:09-05:00",
+      "Description": " Log Entry 1936",
+      "EntryType": "Oem",
+      "Id": "1936",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "Requested system powerdown.",
+      "MessageId": "RAC0704",
+      "Name": " Log Entry 1936",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1935",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-02T13:23:09-05:00",
+      "Description": " Log Entry 1935",
+      "EntryType": "Oem",
+      "Id": "1935",
+      "Links": {},
+      "Message": "The previous log entry was repeated 3 times.",
+      "MessageArgs": [
+        "3"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "LOG007",
+      "Name": " Log Entry 1935",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1934",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-06-02T13:23:02-05:00",
+      "Description": " Log Entry 1934",
+      "EntryType": "Oem",
+      "Id": "1934",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "Successfully logged in using root, from 10.228.101.7 and REDFISH.",
+      "MessageArgs": [
+        "root",
+        "10.228.101.7",
+        "REDFISH"
+      ],
+      "MessageArgs@odata.count": 3,
+      "MessageId": "USR0030",
+      "Name": " Log Entry 1934",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1933",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-31T04:22:54-05:00",
+      "Description": " Log Entry 1933",
+      "EntryType": "Oem",
+      "Id": "1933",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "The session for root from 10.228.101.7 using REDFISH is logged off.",
+      "MessageArgs": [
+        "root",
+        "10.228.101.7",
+        "REDFISH"
+      ],
+      "MessageArgs@odata.count": 3,
+      "MessageId": "USR0032",
+      "Name": " Log Entry 1933",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1932",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-31T04:15:50-05:00",
+      "Description": " Log Entry 1932",
+      "EntryType": "Oem",
+      "Id": "1932",
+      "Links": {},
+      "Message": "The previous log entry was repeated 1 times.",
+      "MessageArgs": [
+        "1"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "LOG007",
+      "Name": " Log Entry 1932",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1931",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-31T04:10:48-05:00",
+      "Description": " Log Entry 1931",
+      "EntryType": "Oem",
+      "Id": "1931",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "The session for root from 10.228.101.7 using REDFISH is logged off.",
+      "MessageArgs": [
+        "root",
+        "10.228.101.7",
+        "REDFISH"
+      ],
+      "MessageArgs@odata.count": 3,
+      "MessageId": "USR0032",
+      "Name": " Log Entry 1931",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1930",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-31T03:55:19-05:00",
+      "Description": " Log Entry 1930",
+      "EntryType": "Oem",
+      "Id": "1930",
+      "Links": {},
+      "Message": "The previous log entry was repeated 1 times.",
+      "MessageArgs": [
+        "1"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "LOG007",
+      "Name": " Log Entry 1930",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1929",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-31T03:52:56-05:00",
+      "Description": " Log Entry 1929",
+      "EntryType": "Oem",
+      "Id": "1929",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "The session for root from 10.228.101.7 using REDFISH is logged off.",
+      "MessageArgs": [
+        "root",
+        "10.228.101.7",
+        "REDFISH"
+      ],
+      "MessageArgs@odata.count": 3,
+      "MessageId": "USR0032",
+      "Name": " Log Entry 1929",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1928",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-31T03:52:56-05:00",
+      "Description": " Log Entry 1928",
+      "EntryType": "Oem",
+      "Id": "1928",
+      "Links": {},
+      "Message": "The previous log entry was repeated 3 times.",
+      "MessageArgs": [
+        "3"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "LOG007",
+      "Name": " Log Entry 1928",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1927",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-31T03:52:53-05:00",
+      "Description": " Log Entry 1927",
+      "EntryType": "Oem",
+      "Id": "1927",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "Successfully logged in using root, from 10.228.101.7 and REDFISH.",
+      "MessageArgs": [
+        "root",
+        "10.228.101.7",
+        "REDFISH"
+      ],
+      "MessageArgs@odata.count": 3,
+      "MessageId": "USR0030",
+      "Name": " Log Entry 1927",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1926",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-31T03:45:50-05:00",
+      "Description": " Log Entry 1926",
+      "EntryType": "Oem",
+      "Id": "1926",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "The session for root from 10.228.101.7 using REDFISH is logged off.",
+      "MessageArgs": [
+        "root",
+        "10.228.101.7",
+        "REDFISH"
+      ],
+      "MessageArgs@odata.count": 3,
+      "MessageId": "USR0032",
+      "Name": " Log Entry 1926",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1925",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-31T03:45:48-05:00",
+      "Description": " Log Entry 1925",
+      "EntryType": "Oem",
+      "Id": "1925",
+      "Links": {},
+      "Message": "The previous log entry was repeated 3 times.",
+      "MessageArgs": [
+        "3"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "LOG007",
+      "Name": " Log Entry 1925",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1924",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-31T03:45:47-05:00",
+      "Description": " Log Entry 1924",
+      "EntryType": "Oem",
+      "Id": "1924",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "Successfully logged in using root, from 10.228.101.7 and REDFISH.",
+      "MessageArgs": [
+        "root",
+        "10.228.101.7",
+        "REDFISH"
+      ],
+      "MessageArgs@odata.count": 3,
+      "MessageId": "USR0030",
+      "Name": " Log Entry 1924",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1923",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-31T03:40:50-05:00",
+      "Description": " Log Entry 1923",
+      "EntryType": "Oem",
+      "Id": "1923",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "The session for root from 10.228.101.7 using REDFISH is logged off.",
+      "MessageArgs": [
+        "root",
+        "10.228.101.7",
+        "REDFISH"
+      ],
+      "MessageArgs@odata.count": 3,
+      "MessageId": "USR0032",
+      "Name": " Log Entry 1923",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1922",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-31T03:40:50-05:00",
+      "Description": " Log Entry 1922",
+      "EntryType": "Oem",
+      "Id": "1922",
+      "Links": {},
+      "Message": "The previous log entry was repeated 1 times.",
+      "MessageArgs": [
+        "1"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "LOG007",
+      "Name": " Log Entry 1922",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1921",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-31T03:40:48-05:00",
+      "Description": " Log Entry 1921",
+      "EntryType": "Oem",
+      "Id": "1921",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "Successfully logged in using root, from 10.228.101.7 and REDFISH.",
+      "MessageArgs": [
+        "root",
+        "10.228.101.7",
+        "REDFISH"
+      ],
+      "MessageArgs@odata.count": 3,
+      "MessageId": "USR0030",
+      "Name": " Log Entry 1921",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1920",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-31T03:40:48-05:00",
+      "Description": " Log Entry 1920",
+      "EntryType": "Oem",
+      "Id": "1920",
+      "Links": {},
+      "Message": "The previous log entry was repeated 1 times.",
+      "MessageArgs": [
+        "1"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "LOG007",
+      "Name": " Log Entry 1920",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1919",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-31T03:40:47-05:00",
+      "Description": " Log Entry 1919",
+      "EntryType": "Oem",
+      "Id": "1919",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "Successfully logged in using root, from 10.228.101.7 and REDFISH.",
+      "MessageArgs": [
+        "root",
+        "10.228.101.7",
+        "REDFISH"
+      ],
+      "MessageArgs@odata.count": 3,
+      "MessageId": "USR0030",
+      "Name": " Log Entry 1919",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1918",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-31T03:25:11-05:00",
+      "Description": " Log Entry 1918",
+      "EntryType": "Oem",
+      "Id": "1918",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "The session for root from 10.228.101.7 using REDFISH is logged off.",
+      "MessageArgs": [
+        "root",
+        "10.228.101.7",
+        "REDFISH"
+      ],
+      "MessageArgs@odata.count": 3,
+      "MessageId": "USR0032",
+      "Name": " Log Entry 1918",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1917",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-31T03:25:11-05:00",
+      "Description": " Log Entry 1917",
+      "EntryType": "Oem",
+      "Id": "1917",
+      "Links": {},
+      "Message": "The previous log entry was repeated 3 times.",
+      "MessageArgs": [
+        "3"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "LOG007",
+      "Name": " Log Entry 1917",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1916",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-31T03:25:08-05:00",
+      "Description": " Log Entry 1916",
+      "EntryType": "Oem",
+      "Id": "1916",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "Successfully logged in using root, from 10.228.101.7 and REDFISH.",
+      "MessageArgs": [
+        "root",
+        "10.228.101.7",
+        "REDFISH"
+      ],
+      "MessageArgs@odata.count": 3,
+      "MessageId": "USR0030",
+      "Name": " Log Entry 1916",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1915",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-29T15:50:40-05:00",
+      "Description": " Log Entry 1915",
+      "EntryType": "Oem",
+      "Id": "1915",
+      "Links": {},
+      "Message": "The previous log entry was repeated 1 times.",
+      "MessageArgs": [
+        "1"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "LOG007",
+      "Name": " Log Entry 1915",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1914",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-29T15:20:37-05:00",
+      "Description": " Log Entry 1914",
+      "EntryType": "Oem",
+      "Id": "1914",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "The session for root from 10.228.103.249 using REDFISH is logged off.",
+      "MessageArgs": [
+        "root",
+        "10.228.103.249",
+        "REDFISH"
+      ],
+      "MessageArgs@odata.count": 3,
+      "MessageId": "USR0032",
+      "Name": " Log Entry 1914",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1913",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-29T15:20:37-05:00",
+      "Description": " Log Entry 1913",
+      "EntryType": "Oem",
+      "Id": "1913",
+      "Links": {},
+      "Message": "The previous log entry was repeated 3 times.",
+      "MessageArgs": [
+        "3"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "LOG007",
+      "Name": " Log Entry 1913",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1912",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-29T15:20:30-05:00",
+      "Description": " Log Entry 1912",
+      "EntryType": "Oem",
+      "Id": "1912",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "Successfully logged in using root, from 10.228.103.249 and REDFISH.",
+      "MessageArgs": [
+        "root",
+        "10.228.103.249",
+        "REDFISH"
+      ],
+      "MessageArgs@odata.count": 3,
+      "MessageId": "USR0030",
+      "Name": " Log Entry 1912",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1911",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-29T00:50:29-05:00",
+      "Description": " Log Entry 1911",
+      "EntryType": "Oem",
+      "Id": "1911",
+      "Links": {},
+      "Message": "The previous log entry was repeated 1 times.",
+      "MessageArgs": [
+        "1"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "LOG007",
+      "Name": " Log Entry 1911",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1910",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-29T00:20:11-05:00",
+      "Description": " Log Entry 1910",
+      "EntryType": "Oem",
+      "Id": "1910",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "The session for root from 10.228.101.7 using REDFISH is logged off.",
+      "MessageArgs": [
+        "root",
+        "10.228.101.7",
+        "REDFISH"
+      ],
+      "MessageArgs@odata.count": 3,
+      "MessageId": "USR0032",
+      "Name": " Log Entry 1910",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1909",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-29T00:20:11-05:00",
+      "Description": " Log Entry 1909",
+      "EntryType": "Oem",
+      "Id": "1909",
+      "Links": {},
+      "Message": "The previous log entry was repeated 3 times.",
+      "MessageArgs": [
+        "3"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "LOG007",
+      "Name": " Log Entry 1909",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1908",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-29T00:20:08-05:00",
+      "Description": " Log Entry 1908",
+      "EntryType": "Oem",
+      "Id": "1908",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "Successfully logged in using root, from 10.228.101.7 and REDFISH.",
+      "MessageArgs": [
+        "root",
+        "10.228.101.7",
+        "REDFISH"
+      ],
+      "MessageArgs@odata.count": 3,
+      "MessageId": "USR0030",
+      "Name": " Log Entry 1908",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1907",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-28T23:11:55-05:00",
+      "Description": " Log Entry 1907",
+      "EntryType": "Oem",
+      "Id": "1907",
+      "Links": {},
+      "Message": "The previous log entry was repeated 1 times.",
+      "MessageArgs": [
+        "1"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "LOG007",
+      "Name": " Log Entry 1907",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1906",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-28T22:41:31-05:00",
+      "Description": " Log Entry 1906",
+      "EntryType": "Oem",
+      "Id": "1906",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "The session for root from 10.228.103.249 using REDFISH is logged off.",
+      "MessageArgs": [
+        "root",
+        "10.228.103.249",
+        "REDFISH"
+      ],
+      "MessageArgs@odata.count": 3,
+      "MessageId": "USR0032",
+      "Name": " Log Entry 1906",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1905",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-28T22:41:31-05:00",
+      "Description": " Log Entry 1905",
+      "EntryType": "Oem",
+      "Id": "1905",
+      "Links": {},
+      "Message": "The previous log entry was repeated 3 times.",
+      "MessageArgs": [
+        "3"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "LOG007",
+      "Name": " Log Entry 1905",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1904",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-28T22:41:24-05:00",
+      "Description": " Log Entry 1904",
+      "EntryType": "Oem",
+      "Id": "1904",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "Successfully logged in using root, from 10.228.103.249 and REDFISH.",
+      "MessageArgs": [
+        "root",
+        "10.228.103.249",
+        "REDFISH"
+      ],
+      "MessageArgs@odata.count": 3,
+      "MessageId": "USR0030",
+      "Name": " Log Entry 1904",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1903",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-28T16:24:04-05:00",
+      "Description": " Log Entry 1903",
+      "EntryType": "Oem",
+      "Id": "1903",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "The session for root from 10.228.103.244 using GUI is logged off.",
+      "MessageArgs": [
+        "root",
+        "10.228.103.244",
+        "GUI"
+      ],
+      "MessageArgs@odata.count": 3,
+      "MessageId": "USR0032",
+      "Name": " Log Entry 1903",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1902",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-28T15:54:03-05:00",
+      "Description": " Log Entry 1902",
+      "EntryType": "Oem",
+      "Id": "1902",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "Successfully logged in using root, from 10.228.103.244 and GUI.",
+      "MessageArgs": [
+        "root",
+        "10.228.103.244",
+        "GUI"
+      ],
+      "MessageArgs@odata.count": 3,
+      "MessageId": "USR0030",
+      "Name": " Log Entry 1902",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1901",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-27T15:47:58-05:00",
+      "Description": " Log Entry 1901",
+      "EntryType": "Oem",
+      "Id": "1901",
+      "Links": {},
+      "Message": "The previous log entry was repeated 1 times.",
+      "MessageArgs": [
+        "1"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "LOG007",
+      "Name": " Log Entry 1901",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1900",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-27T15:17:59-05:00",
+      "Description": " Log Entry 1900",
+      "EntryType": "Oem",
+      "Id": "1900",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "The session for root from 10.228.103.249 using REDFISH is logged off.",
+      "MessageArgs": [
+        "root",
+        "10.228.103.249",
+        "REDFISH"
+      ],
+      "MessageArgs@odata.count": 3,
+      "MessageId": "USR0032",
+      "Name": " Log Entry 1900",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1899",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-27T15:17:57-05:00",
+      "Description": " Log Entry 1899",
+      "EntryType": "Oem",
+      "Id": "1899",
+      "Links": {},
+      "Message": "The previous log entry was repeated 3 times.",
+      "MessageArgs": [
+        "3"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "LOG007",
+      "Name": " Log Entry 1899",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1898",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-27T15:17:53-05:00",
+      "Description": " Log Entry 1898",
+      "EntryType": "Oem",
+      "Id": "1898",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "Successfully logged in using root, from 10.228.103.249 and REDFISH.",
+      "MessageArgs": [
+        "root",
+        "10.228.103.249",
+        "REDFISH"
+      ],
+      "MessageArgs@odata.count": 3,
+      "MessageId": "USR0030",
+      "Name": " Log Entry 1898",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1897",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-27T03:16:55-05:00",
+      "Description": " Log Entry 1897",
+      "EntryType": "Oem",
+      "Id": "1897",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "The session for root from 10.228.101.7 using REDFISH is logged off.",
+      "MessageArgs": [
+        "root",
+        "10.228.101.7",
+        "REDFISH"
+      ],
+      "MessageArgs@odata.count": 3,
+      "MessageId": "USR0032",
+      "Name": " Log Entry 1897",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1896",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-27T02:59:53-05:00",
+      "Description": " Log Entry 1896",
+      "EntryType": "Oem",
+      "Id": "1896",
+      "Links": {},
+      "Message": "The previous log entry was repeated 1 times.",
+      "MessageArgs": [
+        "1"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "LOG007",
+      "Name": " Log Entry 1896",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1895",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-27T02:46:57-05:00",
+      "Description": " Log Entry 1895",
+      "EntryType": "Oem",
+      "Id": "1895",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "The session for root from 10.228.101.7 using REDFISH is logged off.",
+      "MessageArgs": [
+        "root",
+        "10.228.101.7",
+        "REDFISH"
+      ],
+      "MessageArgs@odata.count": 3,
+      "MessageId": "USR0032",
+      "Name": " Log Entry 1895",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1894",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-27T02:46:57-05:00",
+      "Description": " Log Entry 1894",
+      "EntryType": "Oem",
+      "Id": "1894",
+      "Links": {},
+      "Message": "The previous log entry was repeated 3 times.",
+      "MessageArgs": [
+        "3"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "LOG007",
+      "Name": " Log Entry 1894",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1893",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-27T02:46:54-05:00",
+      "Description": " Log Entry 1893",
+      "EntryType": "Oem",
+      "Id": "1893",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "Successfully logged in using root, from 10.228.101.7 and REDFISH.",
+      "MessageArgs": [
+        "root",
+        "10.228.101.7",
+        "REDFISH"
+      ],
+      "MessageArgs@odata.count": 3,
+      "MessageId": "USR0030",
+      "Name": " Log Entry 1893",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1892",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-27T02:44:53-05:00",
+      "Description": " Log Entry 1892",
+      "EntryType": "Oem",
+      "Id": "1892",
+      "Links": {},
+      "Message": "The previous log entry was repeated 1 times.",
+      "MessageArgs": [
+        "1"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "LOG007",
+      "Name": " Log Entry 1892",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1891",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-27T02:29:33-05:00",
+      "Description": " Log Entry 1891",
+      "EntryType": "Oem",
+      "Id": "1891",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "The session for root from 10.228.101.7 using REDFISH is logged off.",
+      "MessageArgs": [
+        "root",
+        "10.228.101.7",
+        "REDFISH"
+      ],
+      "MessageArgs@odata.count": 3,
+      "MessageId": "USR0032",
+      "Name": " Log Entry 1891",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1890",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-27T02:29:33-05:00",
+      "Description": " Log Entry 1890",
+      "EntryType": "Oem",
+      "Id": "1890",
+      "Links": {},
+      "Message": "The previous log entry was repeated 3 times.",
+      "MessageArgs": [
+        "3"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "LOG007",
+      "Name": " Log Entry 1890",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1889",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-27T02:29:30-05:00",
+      "Description": " Log Entry 1889",
+      "EntryType": "Oem",
+      "Id": "1889",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "Successfully logged in using root, from 10.228.101.7 and REDFISH.",
+      "MessageArgs": [
+        "root",
+        "10.228.101.7",
+        "REDFISH"
+      ],
+      "MessageArgs@odata.count": 3,
+      "MessageId": "USR0030",
+      "Name": " Log Entry 1889",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/1888",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-05-27T02:14:42-05:00",
+      "Description": " Log Entry 1888",
+      "EntryType": "Oem",
+      "Id": "1888",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "The session for root from 10.228.101.7 using REDFISH is logged off.",
+      "MessageArgs": [
+        "root",
+        "10.228.101.7",
+        "REDFISH"
+      ],
+      "MessageArgs@odata.count": 3,
+      "MessageId": "USR0032",
+      "Name": " Log Entry 1888",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    }
+  ],
+  "Members@odata.count": 3137,
+  "Members@odata.nextLink": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries?$skip=1250",
+  "Name": "Log Entry Collection"
+}

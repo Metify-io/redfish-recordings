@@ -1,1 +1,15 @@
-{"@odata.context":"/redfish/v1/$metadata#LogEntry.LogEntry","@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2234","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T07:30:39-05:00","Description":" Log Entry 2234","EntryType":"Oem","Id":"2234","Links":{},"Message":"System is turning off.","MessageId":"SYS1001","Name":" Log Entry 2234","OemRecordFormat":"Dell","Severity":"OK"}
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2234",
+  "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+  "Created": "2020-06-03T07:30:39-05:00",
+  "Description": " Log Entry 2234",
+  "EntryType": "Oem",
+  "Id": "2234",
+  "Links": {},
+  "Message": "System is turning off.",
+  "MessageId": "SYS1001",
+  "Name": " Log Entry 2234",
+  "OemRecordFormat": "Dell",
+  "Severity": "OK"
+}

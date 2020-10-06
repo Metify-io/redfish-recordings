@@ -1,1 +1,19 @@
-{"@odata.context":"/redfish/v1/$metadata#LogEntry.LogEntry","@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2090","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-06-03T04:13:50-05:00","Description":" Log Entry 2090","EntryType":"Oem","Id":"2090","Links":{},"Message":"Successfully downloaded the update package details 6.99302 MB in 0.19 secs at 36.8054 MBps (294.443 Mbps) [Network_Firmware_RG25N_WN64_21.60.2_02.EXE].","MessageArgs":["6.99302 MB in 0.19 secs at 36.8054 MBps (294.443 Mbps) [Network_Firmware_RG25N_WN64_21.60.2_02.EXE]"],"MessageArgs@odata.count":1,"MessageId":"RED111","Name":" Log Entry 2090","OemRecordFormat":"Dell","Severity":"OK"}
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2090",
+  "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+  "Created": "2020-06-03T04:13:50-05:00",
+  "Description": " Log Entry 2090",
+  "EntryType": "Oem",
+  "Id": "2090",
+  "Links": {},
+  "Message": "Successfully downloaded the update package details 6.99302 MB in 0.19 secs at 36.8054 MBps (294.443 Mbps) [Network_Firmware_RG25N_WN64_21.60.2_02.EXE].",
+  "MessageArgs": [
+    "6.99302 MB in 0.19 secs at 36.8054 MBps (294.443 Mbps) [Network_Firmware_RG25N_WN64_21.60.2_02.EXE]"
+  ],
+  "MessageArgs@odata.count": 1,
+  "MessageId": "RED111",
+  "Name": " Log Entry 2090",
+  "OemRecordFormat": "Dell",
+  "Severity": "OK"
+}

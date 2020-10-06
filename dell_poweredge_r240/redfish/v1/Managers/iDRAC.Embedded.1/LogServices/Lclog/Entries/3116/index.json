@@ -1,1 +1,15 @@
-{"@odata.context":"/redfish/v1/$metadata#LogEntry.LogEntry","@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/3116","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-24T08:25:45-05:00","Description":" Log Entry 3116","EntryType":"Oem","Id":"3116","Links":{},"Message":"The process of installing an operating system or hypervisor is started and is in progress.","MessageId":"OSD062","Name":" Log Entry 3116","OemRecordFormat":"Dell","Severity":"OK"}
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/3116",
+  "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+  "Created": "2020-07-24T08:25:45-05:00",
+  "Description": " Log Entry 3116",
+  "EntryType": "Oem",
+  "Id": "3116",
+  "Links": {},
+  "Message": "The process of installing an operating system or hypervisor is started and is in progress.",
+  "MessageId": "OSD062",
+  "Name": " Log Entry 3116",
+  "OemRecordFormat": "Dell",
+  "Severity": "OK"
+}

@@ -1,1 +1,938 @@
-{"@odata.context":"/redfish/v1/$metadata#LogEntryCollection.LogEntryCollection","@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries?$skip=600","@odata.type":"#LogEntryCollection.LogEntryCollection","Description":"LC Logs for this manager","Members":[{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2537","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T06:57:54-05:00","Description":" Log Entry 2537","EntryType":"Oem","Id":"2537","Links":{},"Message":"The previous log entry was repeated 3 times.","MessageArgs":["3"],"MessageArgs@odata.count":1,"MessageId":"LOG007","Name":" Log Entry 2537","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2536","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T06:57:53-05:00","Description":" Log Entry 2536","EntryType":"Oem","Id":"2536","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"Successfully logged in using root, from 10.228.101.7 and REDFISH.","MessageArgs":["root","10.228.101.7","REDFISH"],"MessageArgs@odata.count":3,"MessageId":"USR0030","Name":" Log Entry 2536","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2535","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T06:21:25-05:00","Description":" Log Entry 2535","EntryType":"Oem","Id":"2535","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"The session for root from 10.228.103.249 using GUI is logged off.","MessageArgs":["root","10.228.103.249","GUI"],"MessageArgs@odata.count":3,"MessageId":"USR0032","Name":" Log Entry 2535","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2534","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T06:16:18-05:00","Description":" Log Entry 2534","EntryType":"Oem","Id":"2534","Links":{},"Message":"System CPU Resetting.","MessageId":"SYS1003","Name":" Log Entry 2534","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2533","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T06:16:17-05:00","Description":" Log Entry 2533","EntryType":"Oem","Id":"2533","Links":{},"Message":"The process of installing an operating system or hypervisor is abruptly stopped either by the user or the installation infrastructure.","MessageId":"OSD064","Name":" Log Entry 2533","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2532","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T06:16:16-05:00","Description":" Log Entry 2532","EntryType":"Oem","Id":"2532","Links":{},"Message":"The process of installing an operating system or hypervisor is successfully completed.","MessageId":"OSD063","Name":" Log Entry 2532","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2531","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T06:12:25-05:00","Description":" Log Entry 2531","EntryType":"Oem","Id":"2531","Links":{},"Message":"The process of installing an operating system or hypervisor is started and is in progress.","MessageId":"OSD062","Name":" Log Entry 2531","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2530","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T06:10:13-05:00","Description":" Log Entry 2530","EntryType":"Oem","Id":"2530","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Systems/System.Embedded.1/EthernetInterfaces/NIC.Embedded.2-1-1"}},"Message":"The Embedded NIC 1 Port 2 network link is started.","MessageArgs":["Embedded NIC 1","2"],"MessageArgs@odata.count":2,"MessageId":"NIC101","Name":" Log Entry 2530","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2529","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T06:09:01-05:00","Description":" Log Entry 2529","EntryType":"Oem","Id":"2529","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"The session for root from 10.228.101.7 using REDFISH is logged off.","MessageArgs":["root","10.228.101.7","REDFISH"],"MessageArgs@odata.count":3,"MessageId":"USR0032","Name":" Log Entry 2529","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2528","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T06:09:00-05:00","Description":" Log Entry 2528","EntryType":"Oem","Id":"2528","Links":{},"Message":"System is turning on.","MessageId":"SYS1000","Name":" Log Entry 2528","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2527","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T06:08:59-05:00","Description":" Log Entry 2527","EntryType":"Oem","Id":"2527","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"Requested system powerup.","MessageId":"RAC0701","Name":" Log Entry 2527","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2526","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T06:08:52-05:00","Description":" Log Entry 2526","EntryType":"Oem","Id":"2526","Links":{},"Message":"System is turning off.","MessageId":"SYS1001","Name":" Log Entry 2526","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2525","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T06:08:52-05:00","Description":" Log Entry 2525","EntryType":"Oem","Id":"2525","Links":{},"Message":"System CPU Resetting.","MessageId":"SYS1003","Name":" Log Entry 2525","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2524","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T06:08:48-05:00","Description":" Log Entry 2524","EntryType":"Oem","Id":"2524","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"Requested system powerdown.","MessageId":"RAC0704","Name":" Log Entry 2524","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2523","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T06:08:48-05:00","Description":" Log Entry 2523","EntryType":"Oem","Id":"2523","Links":{},"Message":"The previous log entry was repeated 3 times.","MessageArgs":["3"],"MessageArgs@odata.count":1,"MessageId":"LOG007","Name":" Log Entry 2523","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2522","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T06:08:47-05:00","Description":" Log Entry 2522","EntryType":"Oem","Id":"2522","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"Successfully logged in using root, from 10.228.101.7 and REDFISH.","MessageArgs":["root","10.228.101.7","REDFISH"],"MessageArgs@odata.count":3,"MessageId":"USR0030","Name":" Log Entry 2522","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2521","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T06:01:38-05:00","Description":" Log Entry 2521","EntryType":"Oem","Id":"2521","Links":{},"Message":"System CPU Resetting.","MessageId":"SYS1003","Name":" Log Entry 2521","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2520","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T06:01:36-05:00","Description":" Log Entry 2520","EntryType":"Oem","Id":"2520","Links":{},"Message":"The process of installing an operating system or hypervisor is abruptly stopped either by the user or the installation infrastructure.","MessageId":"OSD064","Name":" Log Entry 2520","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2519","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T06:01:36-05:00","Description":" Log Entry 2519","EntryType":"Oem","Id":"2519","Links":{},"Message":"The process of installing an operating system or hypervisor is successfully completed.","MessageId":"OSD063","Name":" Log Entry 2519","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2518","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T05:57:46-05:00","Description":" Log Entry 2518","EntryType":"Oem","Id":"2518","Links":{},"Message":"The process of installing an operating system or hypervisor is started and is in progress.","MessageId":"OSD062","Name":" Log Entry 2518","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2517","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T05:54:32-05:00","Description":" Log Entry 2517","EntryType":"Oem","Id":"2517","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"The session for root from 10.228.101.7 using REDFISH is logged off.","MessageArgs":["root","10.228.101.7","REDFISH"],"MessageArgs@odata.count":3,"MessageId":"USR0032","Name":" Log Entry 2517","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2516","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T05:54:29-05:00","Description":" Log Entry 2516","EntryType":"Oem","Id":"2516","Links":{},"Message":"System is turning on.","MessageId":"SYS1000","Name":" Log Entry 2516","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2515","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T05:54:27-05:00","Description":" Log Entry 2515","EntryType":"Oem","Id":"2515","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"Requested system powerup.","MessageId":"RAC0701","Name":" Log Entry 2515","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2514","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T05:54:16-05:00","Description":" Log Entry 2514","EntryType":"Oem","Id":"2514","Links":{},"Message":"System is turning off.","MessageId":"SYS1001","Name":" Log Entry 2514","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2513","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T05:54:16-05:00","Description":" Log Entry 2513","EntryType":"Oem","Id":"2513","Links":{},"Message":"System CPU Resetting.","MessageId":"SYS1003","Name":" Log Entry 2513","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2512","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T05:54:16-05:00","Description":" Log Entry 2512","EntryType":"Oem","Id":"2512","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"Requested system powerdown.","MessageId":"RAC0704","Name":" Log Entry 2512","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2511","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T05:54:16-05:00","Description":" Log Entry 2511","EntryType":"Oem","Id":"2511","Links":{},"Message":"The previous log entry was repeated 3 times.","MessageArgs":["3"],"MessageArgs@odata.count":1,"MessageId":"LOG007","Name":" Log Entry 2511","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2510","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T05:54:15-05:00","Description":" Log Entry 2510","EntryType":"Oem","Id":"2510","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"Successfully logged in using root, from 10.228.101.7 and REDFISH.","MessageArgs":["root","10.228.101.7","REDFISH"],"MessageArgs@odata.count":3,"MessageId":"USR0030","Name":" Log Entry 2510","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2509","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T05:51:29-05:00","Description":" Log Entry 2509","EntryType":"Oem","Id":"2509","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"Virtual Console session created.","MessageId":"VME0007","Name":" Log Entry 2509","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2508","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T05:51:29-05:00","Description":" Log Entry 2508","EntryType":"Oem","Id":"2508","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"Virtual Console session started.","MessageId":"VME0001","Name":" Log Entry 2508","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2507","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T05:51:29-05:00","Description":" Log Entry 2507","EntryType":"Oem","Id":"2507","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"Successfully logged in using root, from 10.228.103.249 and Virtual Console.","MessageArgs":["root","10.228.103.249","Virtual Console"],"MessageArgs@odata.count":3,"MessageId":"USR0030","Name":" Log Entry 2507","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2506","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T05:51:19-05:00","Description":" Log Entry 2506","EntryType":"Oem","Id":"2506","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"Successfully logged in using root, from 10.228.103.249 and GUI.","MessageArgs":["root","10.228.103.249","GUI"],"MessageArgs@odata.count":3,"MessageId":"USR0030","Name":" Log Entry 2506","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2505","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T05:37:26-05:00","Description":" Log Entry 2505","EntryType":"Oem","Id":"2505","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"The session for root from 10.228.101.7 using REDFISH is logged off.","MessageArgs":["root","10.228.101.7","REDFISH"],"MessageArgs@odata.count":3,"MessageId":"USR0032","Name":" Log Entry 2505","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2504","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T05:37:23-05:00","Description":" Log Entry 2504","EntryType":"Oem","Id":"2504","Links":{},"Message":"System is turning on.","MessageId":"SYS1000","Name":" Log Entry 2504","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2503","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T05:37:22-05:00","Description":" Log Entry 2503","EntryType":"Oem","Id":"2503","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"Requested system powerup.","MessageId":"RAC0701","Name":" Log Entry 2503","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2502","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T05:37:15-05:00","Description":" Log Entry 2502","EntryType":"Oem","Id":"2502","Links":{},"Message":"System is turning off.","MessageId":"SYS1001","Name":" Log Entry 2502","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2501","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T05:37:15-05:00","Description":" Log Entry 2501","EntryType":"Oem","Id":"2501","Links":{},"Message":"System CPU Resetting.","MessageId":"SYS1003","Name":" Log Entry 2501","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2500","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T05:37:11-05:00","Description":" Log Entry 2500","EntryType":"Oem","Id":"2500","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"Requested system powerdown.","MessageId":"RAC0704","Name":" Log Entry 2500","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2499","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T05:37:11-05:00","Description":" Log Entry 2499","EntryType":"Oem","Id":"2499","Links":{},"Message":"The previous log entry was repeated 3 times.","MessageArgs":["3"],"MessageArgs@odata.count":1,"MessageId":"LOG007","Name":" Log Entry 2499","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2498","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T05:37:09-05:00","Description":" Log Entry 2498","EntryType":"Oem","Id":"2498","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"Successfully logged in using root, from 10.228.101.7 and REDFISH.","MessageArgs":["root","10.228.101.7","REDFISH"],"MessageArgs@odata.count":3,"MessageId":"USR0030","Name":" Log Entry 2498","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2497","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T05:25:17-05:00","Description":" Log Entry 2497","EntryType":"Oem","Id":"2497","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"The session for root from 10.228.103.249 using GUI is logged off.","MessageArgs":["root","10.228.103.249","GUI"],"MessageArgs@odata.count":3,"MessageId":"USR0032","Name":" Log Entry 2497","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2496","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T04:56:02-05:00","Description":" Log Entry 2496","EntryType":"Oem","Id":"2496","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"The session for root from 10.228.103.249 using Virtual Console is logged off.","MessageArgs":["root","10.228.103.249","Virtual Console"],"MessageArgs@odata.count":3,"MessageId":"USR0032","Name":" Log Entry 2496","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2495","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T04:56:02-05:00","Description":" Log Entry 2495","EntryType":"Oem","Id":"2495","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"Virtual Console session exited.","MessageId":"VME0005","Name":" Log Entry 2495","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2494","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T04:55:21-05:00","Description":" Log Entry 2494","EntryType":"Oem","Id":"2494","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"Virtual Console session created.","MessageId":"VME0007","Name":" Log Entry 2494","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2493","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T04:55:21-05:00","Description":" Log Entry 2493","EntryType":"Oem","Id":"2493","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"Virtual Console session started.","MessageId":"VME0001","Name":" Log Entry 2493","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2492","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T04:55:21-05:00","Description":" Log Entry 2492","EntryType":"Oem","Id":"2492","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"Successfully logged in using root, from 10.228.103.249 and Virtual Console.","MessageArgs":["root","10.228.103.249","Virtual Console"],"MessageArgs@odata.count":3,"MessageId":"USR0030","Name":" Log Entry 2492","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2491","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T04:55:00-05:00","Description":" Log Entry 2491","EntryType":"Oem","Id":"2491","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"Successfully logged in using root, from 10.228.103.249 and GUI.","MessageArgs":["root","10.228.103.249","GUI"],"MessageArgs@odata.count":3,"MessageId":"USR0030","Name":" Log Entry 2491","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2490","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-09T04:55:00-05:00","Description":" Log Entry 2490","EntryType":"Oem","Id":"2490","Links":{},"Message":"The previous log entry was repeated 1 times.","MessageArgs":["1"],"MessageArgs@odata.count":1,"MessageId":"LOG007","Name":" Log Entry 2490","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2489","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-07T10:30:11-05:00","Description":" Log Entry 2489","EntryType":"Oem","Id":"2489","Links":{"OriginOfCondition":{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1"}},"Message":"The session for root from 10.228.101.7 using REDFISH is logged off.","MessageArgs":["root","10.228.101.7","REDFISH"],"MessageArgs@odata.count":3,"MessageId":"USR0032","Name":" Log Entry 2489","OemRecordFormat":"Dell","Severity":"OK"},{"@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2488","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-07T10:30:11-05:00","Description":" Log Entry 2488","EntryType":"Oem","Id":"2488","Links":{},"Message":"The previous log entry was repeated 3 times.","MessageArgs":["3"],"MessageArgs@odata.count":1,"MessageId":"LOG007","Name":" Log Entry 2488","OemRecordFormat":"Dell","Severity":"OK"}],"Members@odata.count":3137,"Members@odata.nextLink":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries?$skip=650","Name":"Log Entry Collection"}
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntryCollection.LogEntryCollection",
+  "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries?$skip=600",
+  "@odata.type": "#LogEntryCollection.LogEntryCollection",
+  "Description": "LC Logs for this manager",
+  "Members": [
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2537",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T06:57:54-05:00",
+      "Description": " Log Entry 2537",
+      "EntryType": "Oem",
+      "Id": "2537",
+      "Links": {},
+      "Message": "The previous log entry was repeated 3 times.",
+      "MessageArgs": [
+        "3"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "LOG007",
+      "Name": " Log Entry 2537",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2536",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T06:57:53-05:00",
+      "Description": " Log Entry 2536",
+      "EntryType": "Oem",
+      "Id": "2536",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "Successfully logged in using root, from 10.228.101.7 and REDFISH.",
+      "MessageArgs": [
+        "root",
+        "10.228.101.7",
+        "REDFISH"
+      ],
+      "MessageArgs@odata.count": 3,
+      "MessageId": "USR0030",
+      "Name": " Log Entry 2536",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2535",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T06:21:25-05:00",
+      "Description": " Log Entry 2535",
+      "EntryType": "Oem",
+      "Id": "2535",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "The session for root from 10.228.103.249 using GUI is logged off.",
+      "MessageArgs": [
+        "root",
+        "10.228.103.249",
+        "GUI"
+      ],
+      "MessageArgs@odata.count": 3,
+      "MessageId": "USR0032",
+      "Name": " Log Entry 2535",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2534",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T06:16:18-05:00",
+      "Description": " Log Entry 2534",
+      "EntryType": "Oem",
+      "Id": "2534",
+      "Links": {},
+      "Message": "System CPU Resetting.",
+      "MessageId": "SYS1003",
+      "Name": " Log Entry 2534",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2533",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T06:16:17-05:00",
+      "Description": " Log Entry 2533",
+      "EntryType": "Oem",
+      "Id": "2533",
+      "Links": {},
+      "Message": "The process of installing an operating system or hypervisor is abruptly stopped either by the user or the installation infrastructure.",
+      "MessageId": "OSD064",
+      "Name": " Log Entry 2533",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2532",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T06:16:16-05:00",
+      "Description": " Log Entry 2532",
+      "EntryType": "Oem",
+      "Id": "2532",
+      "Links": {},
+      "Message": "The process of installing an operating system or hypervisor is successfully completed.",
+      "MessageId": "OSD063",
+      "Name": " Log Entry 2532",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2531",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T06:12:25-05:00",
+      "Description": " Log Entry 2531",
+      "EntryType": "Oem",
+      "Id": "2531",
+      "Links": {},
+      "Message": "The process of installing an operating system or hypervisor is started and is in progress.",
+      "MessageId": "OSD062",
+      "Name": " Log Entry 2531",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2530",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T06:10:13-05:00",
+      "Description": " Log Entry 2530",
+      "EntryType": "Oem",
+      "Id": "2530",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Systems/System.Embedded.1/EthernetInterfaces/NIC.Embedded.2-1-1"
+        }
+      },
+      "Message": "The Embedded NIC 1 Port 2 network link is started.",
+      "MessageArgs": [
+        "Embedded NIC 1",
+        "2"
+      ],
+      "MessageArgs@odata.count": 2,
+      "MessageId": "NIC101",
+      "Name": " Log Entry 2530",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2529",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T06:09:01-05:00",
+      "Description": " Log Entry 2529",
+      "EntryType": "Oem",
+      "Id": "2529",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "The session for root from 10.228.101.7 using REDFISH is logged off.",
+      "MessageArgs": [
+        "root",
+        "10.228.101.7",
+        "REDFISH"
+      ],
+      "MessageArgs@odata.count": 3,
+      "MessageId": "USR0032",
+      "Name": " Log Entry 2529",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2528",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T06:09:00-05:00",
+      "Description": " Log Entry 2528",
+      "EntryType": "Oem",
+      "Id": "2528",
+      "Links": {},
+      "Message": "System is turning on.",
+      "MessageId": "SYS1000",
+      "Name": " Log Entry 2528",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2527",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T06:08:59-05:00",
+      "Description": " Log Entry 2527",
+      "EntryType": "Oem",
+      "Id": "2527",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "Requested system powerup.",
+      "MessageId": "RAC0701",
+      "Name": " Log Entry 2527",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2526",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T06:08:52-05:00",
+      "Description": " Log Entry 2526",
+      "EntryType": "Oem",
+      "Id": "2526",
+      "Links": {},
+      "Message": "System is turning off.",
+      "MessageId": "SYS1001",
+      "Name": " Log Entry 2526",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2525",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T06:08:52-05:00",
+      "Description": " Log Entry 2525",
+      "EntryType": "Oem",
+      "Id": "2525",
+      "Links": {},
+      "Message": "System CPU Resetting.",
+      "MessageId": "SYS1003",
+      "Name": " Log Entry 2525",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2524",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T06:08:48-05:00",
+      "Description": " Log Entry 2524",
+      "EntryType": "Oem",
+      "Id": "2524",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "Requested system powerdown.",
+      "MessageId": "RAC0704",
+      "Name": " Log Entry 2524",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2523",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T06:08:48-05:00",
+      "Description": " Log Entry 2523",
+      "EntryType": "Oem",
+      "Id": "2523",
+      "Links": {},
+      "Message": "The previous log entry was repeated 3 times.",
+      "MessageArgs": [
+        "3"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "LOG007",
+      "Name": " Log Entry 2523",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2522",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T06:08:47-05:00",
+      "Description": " Log Entry 2522",
+      "EntryType": "Oem",
+      "Id": "2522",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "Successfully logged in using root, from 10.228.101.7 and REDFISH.",
+      "MessageArgs": [
+        "root",
+        "10.228.101.7",
+        "REDFISH"
+      ],
+      "MessageArgs@odata.count": 3,
+      "MessageId": "USR0030",
+      "Name": " Log Entry 2522",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2521",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T06:01:38-05:00",
+      "Description": " Log Entry 2521",
+      "EntryType": "Oem",
+      "Id": "2521",
+      "Links": {},
+      "Message": "System CPU Resetting.",
+      "MessageId": "SYS1003",
+      "Name": " Log Entry 2521",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2520",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T06:01:36-05:00",
+      "Description": " Log Entry 2520",
+      "EntryType": "Oem",
+      "Id": "2520",
+      "Links": {},
+      "Message": "The process of installing an operating system or hypervisor is abruptly stopped either by the user or the installation infrastructure.",
+      "MessageId": "OSD064",
+      "Name": " Log Entry 2520",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2519",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T06:01:36-05:00",
+      "Description": " Log Entry 2519",
+      "EntryType": "Oem",
+      "Id": "2519",
+      "Links": {},
+      "Message": "The process of installing an operating system or hypervisor is successfully completed.",
+      "MessageId": "OSD063",
+      "Name": " Log Entry 2519",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2518",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T05:57:46-05:00",
+      "Description": " Log Entry 2518",
+      "EntryType": "Oem",
+      "Id": "2518",
+      "Links": {},
+      "Message": "The process of installing an operating system or hypervisor is started and is in progress.",
+      "MessageId": "OSD062",
+      "Name": " Log Entry 2518",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2517",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T05:54:32-05:00",
+      "Description": " Log Entry 2517",
+      "EntryType": "Oem",
+      "Id": "2517",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "The session for root from 10.228.101.7 using REDFISH is logged off.",
+      "MessageArgs": [
+        "root",
+        "10.228.101.7",
+        "REDFISH"
+      ],
+      "MessageArgs@odata.count": 3,
+      "MessageId": "USR0032",
+      "Name": " Log Entry 2517",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2516",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T05:54:29-05:00",
+      "Description": " Log Entry 2516",
+      "EntryType": "Oem",
+      "Id": "2516",
+      "Links": {},
+      "Message": "System is turning on.",
+      "MessageId": "SYS1000",
+      "Name": " Log Entry 2516",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2515",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T05:54:27-05:00",
+      "Description": " Log Entry 2515",
+      "EntryType": "Oem",
+      "Id": "2515",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "Requested system powerup.",
+      "MessageId": "RAC0701",
+      "Name": " Log Entry 2515",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2514",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T05:54:16-05:00",
+      "Description": " Log Entry 2514",
+      "EntryType": "Oem",
+      "Id": "2514",
+      "Links": {},
+      "Message": "System is turning off.",
+      "MessageId": "SYS1001",
+      "Name": " Log Entry 2514",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2513",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T05:54:16-05:00",
+      "Description": " Log Entry 2513",
+      "EntryType": "Oem",
+      "Id": "2513",
+      "Links": {},
+      "Message": "System CPU Resetting.",
+      "MessageId": "SYS1003",
+      "Name": " Log Entry 2513",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2512",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T05:54:16-05:00",
+      "Description": " Log Entry 2512",
+      "EntryType": "Oem",
+      "Id": "2512",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "Requested system powerdown.",
+      "MessageId": "RAC0704",
+      "Name": " Log Entry 2512",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2511",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T05:54:16-05:00",
+      "Description": " Log Entry 2511",
+      "EntryType": "Oem",
+      "Id": "2511",
+      "Links": {},
+      "Message": "The previous log entry was repeated 3 times.",
+      "MessageArgs": [
+        "3"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "LOG007",
+      "Name": " Log Entry 2511",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2510",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T05:54:15-05:00",
+      "Description": " Log Entry 2510",
+      "EntryType": "Oem",
+      "Id": "2510",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "Successfully logged in using root, from 10.228.101.7 and REDFISH.",
+      "MessageArgs": [
+        "root",
+        "10.228.101.7",
+        "REDFISH"
+      ],
+      "MessageArgs@odata.count": 3,
+      "MessageId": "USR0030",
+      "Name": " Log Entry 2510",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2509",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T05:51:29-05:00",
+      "Description": " Log Entry 2509",
+      "EntryType": "Oem",
+      "Id": "2509",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "Virtual Console session created.",
+      "MessageId": "VME0007",
+      "Name": " Log Entry 2509",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2508",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T05:51:29-05:00",
+      "Description": " Log Entry 2508",
+      "EntryType": "Oem",
+      "Id": "2508",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "Virtual Console session started.",
+      "MessageId": "VME0001",
+      "Name": " Log Entry 2508",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2507",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T05:51:29-05:00",
+      "Description": " Log Entry 2507",
+      "EntryType": "Oem",
+      "Id": "2507",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "Successfully logged in using root, from 10.228.103.249 and Virtual Console.",
+      "MessageArgs": [
+        "root",
+        "10.228.103.249",
+        "Virtual Console"
+      ],
+      "MessageArgs@odata.count": 3,
+      "MessageId": "USR0030",
+      "Name": " Log Entry 2507",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2506",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T05:51:19-05:00",
+      "Description": " Log Entry 2506",
+      "EntryType": "Oem",
+      "Id": "2506",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "Successfully logged in using root, from 10.228.103.249 and GUI.",
+      "MessageArgs": [
+        "root",
+        "10.228.103.249",
+        "GUI"
+      ],
+      "MessageArgs@odata.count": 3,
+      "MessageId": "USR0030",
+      "Name": " Log Entry 2506",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2505",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T05:37:26-05:00",
+      "Description": " Log Entry 2505",
+      "EntryType": "Oem",
+      "Id": "2505",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "The session for root from 10.228.101.7 using REDFISH is logged off.",
+      "MessageArgs": [
+        "root",
+        "10.228.101.7",
+        "REDFISH"
+      ],
+      "MessageArgs@odata.count": 3,
+      "MessageId": "USR0032",
+      "Name": " Log Entry 2505",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2504",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T05:37:23-05:00",
+      "Description": " Log Entry 2504",
+      "EntryType": "Oem",
+      "Id": "2504",
+      "Links": {},
+      "Message": "System is turning on.",
+      "MessageId": "SYS1000",
+      "Name": " Log Entry 2504",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2503",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T05:37:22-05:00",
+      "Description": " Log Entry 2503",
+      "EntryType": "Oem",
+      "Id": "2503",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "Requested system powerup.",
+      "MessageId": "RAC0701",
+      "Name": " Log Entry 2503",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2502",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T05:37:15-05:00",
+      "Description": " Log Entry 2502",
+      "EntryType": "Oem",
+      "Id": "2502",
+      "Links": {},
+      "Message": "System is turning off.",
+      "MessageId": "SYS1001",
+      "Name": " Log Entry 2502",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2501",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T05:37:15-05:00",
+      "Description": " Log Entry 2501",
+      "EntryType": "Oem",
+      "Id": "2501",
+      "Links": {},
+      "Message": "System CPU Resetting.",
+      "MessageId": "SYS1003",
+      "Name": " Log Entry 2501",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2500",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T05:37:11-05:00",
+      "Description": " Log Entry 2500",
+      "EntryType": "Oem",
+      "Id": "2500",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "Requested system powerdown.",
+      "MessageId": "RAC0704",
+      "Name": " Log Entry 2500",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2499",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T05:37:11-05:00",
+      "Description": " Log Entry 2499",
+      "EntryType": "Oem",
+      "Id": "2499",
+      "Links": {},
+      "Message": "The previous log entry was repeated 3 times.",
+      "MessageArgs": [
+        "3"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "LOG007",
+      "Name": " Log Entry 2499",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2498",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T05:37:09-05:00",
+      "Description": " Log Entry 2498",
+      "EntryType": "Oem",
+      "Id": "2498",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "Successfully logged in using root, from 10.228.101.7 and REDFISH.",
+      "MessageArgs": [
+        "root",
+        "10.228.101.7",
+        "REDFISH"
+      ],
+      "MessageArgs@odata.count": 3,
+      "MessageId": "USR0030",
+      "Name": " Log Entry 2498",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2497",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T05:25:17-05:00",
+      "Description": " Log Entry 2497",
+      "EntryType": "Oem",
+      "Id": "2497",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "The session for root from 10.228.103.249 using GUI is logged off.",
+      "MessageArgs": [
+        "root",
+        "10.228.103.249",
+        "GUI"
+      ],
+      "MessageArgs@odata.count": 3,
+      "MessageId": "USR0032",
+      "Name": " Log Entry 2497",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2496",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T04:56:02-05:00",
+      "Description": " Log Entry 2496",
+      "EntryType": "Oem",
+      "Id": "2496",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "The session for root from 10.228.103.249 using Virtual Console is logged off.",
+      "MessageArgs": [
+        "root",
+        "10.228.103.249",
+        "Virtual Console"
+      ],
+      "MessageArgs@odata.count": 3,
+      "MessageId": "USR0032",
+      "Name": " Log Entry 2496",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2495",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T04:56:02-05:00",
+      "Description": " Log Entry 2495",
+      "EntryType": "Oem",
+      "Id": "2495",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "Virtual Console session exited.",
+      "MessageId": "VME0005",
+      "Name": " Log Entry 2495",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2494",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T04:55:21-05:00",
+      "Description": " Log Entry 2494",
+      "EntryType": "Oem",
+      "Id": "2494",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "Virtual Console session created.",
+      "MessageId": "VME0007",
+      "Name": " Log Entry 2494",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2493",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T04:55:21-05:00",
+      "Description": " Log Entry 2493",
+      "EntryType": "Oem",
+      "Id": "2493",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "Virtual Console session started.",
+      "MessageId": "VME0001",
+      "Name": " Log Entry 2493",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2492",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T04:55:21-05:00",
+      "Description": " Log Entry 2492",
+      "EntryType": "Oem",
+      "Id": "2492",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "Successfully logged in using root, from 10.228.103.249 and Virtual Console.",
+      "MessageArgs": [
+        "root",
+        "10.228.103.249",
+        "Virtual Console"
+      ],
+      "MessageArgs@odata.count": 3,
+      "MessageId": "USR0030",
+      "Name": " Log Entry 2492",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2491",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T04:55:00-05:00",
+      "Description": " Log Entry 2491",
+      "EntryType": "Oem",
+      "Id": "2491",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "Successfully logged in using root, from 10.228.103.249 and GUI.",
+      "MessageArgs": [
+        "root",
+        "10.228.103.249",
+        "GUI"
+      ],
+      "MessageArgs@odata.count": 3,
+      "MessageId": "USR0030",
+      "Name": " Log Entry 2491",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2490",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-09T04:55:00-05:00",
+      "Description": " Log Entry 2490",
+      "EntryType": "Oem",
+      "Id": "2490",
+      "Links": {},
+      "Message": "The previous log entry was repeated 1 times.",
+      "MessageArgs": [
+        "1"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "LOG007",
+      "Name": " Log Entry 2490",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2489",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-07T10:30:11-05:00",
+      "Description": " Log Entry 2489",
+      "EntryType": "Oem",
+      "Id": "2489",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "The session for root from 10.228.101.7 using REDFISH is logged off.",
+      "MessageArgs": [
+        "root",
+        "10.228.101.7",
+        "REDFISH"
+      ],
+      "MessageArgs@odata.count": 3,
+      "MessageId": "USR0032",
+      "Name": " Log Entry 2489",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2488",
+      "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+      "Created": "2020-07-07T10:30:11-05:00",
+      "Description": " Log Entry 2488",
+      "EntryType": "Oem",
+      "Id": "2488",
+      "Links": {},
+      "Message": "The previous log entry was repeated 3 times.",
+      "MessageArgs": [
+        "3"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "LOG007",
+      "Name": " Log Entry 2488",
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    }
+  ],
+  "Members@odata.count": 3137,
+  "Members@odata.nextLink": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries?$skip=650",
+  "Name": "Log Entry Collection"
+}

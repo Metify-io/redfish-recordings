@@ -1,1 +1,19 @@
-{"@odata.context":"/redfish/v1/$metadata#LogEntry.LogEntry","@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2486","@odata.type":"#LogEntry.v1_4_0.LogEntry","Created":"2020-07-07T10:30:08-05:00","Description":" Log Entry 2486","EntryType":"Oem","Id":"2486","Links":{},"Message":"The previous log entry was repeated 3 times.","MessageArgs":["3"],"MessageArgs@odata.count":1,"MessageId":"LOG007","Name":" Log Entry 2486","OemRecordFormat":"Dell","Severity":"OK"}
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/2486",
+  "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+  "Created": "2020-07-07T10:30:08-05:00",
+  "Description": " Log Entry 2486",
+  "EntryType": "Oem",
+  "Id": "2486",
+  "Links": {},
+  "Message": "The previous log entry was repeated 3 times.",
+  "MessageArgs": [
+    "3"
+  ],
+  "MessageArgs@odata.count": 1,
+  "MessageId": "LOG007",
+  "Name": " Log Entry 2486",
+  "OemRecordFormat": "Dell",
+  "Severity": "OK"
+}
