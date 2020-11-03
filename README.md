@@ -38,8 +38,8 @@ And this is basically all there is to it.
 
 ## Using prebuilt docker image
 
-Docker image with two recordings is published in the xlabsi repository on
-hub.docker.com. We can use it to spin up a mock server that serves one of the
+Docker image with two recordings is published in the xlab-steampunk repository on
+quay.io. We can use it to spin up a mock server that serves one of the
 two mocks.
 
 We can start the container by running:
@@ -49,7 +49,7 @@ We can start the container by running:
         -p 8010:8000/tcp \
         -d \
         --rm \
-        xlabsi/redfish-mock
+        quay.io/xlab-steampunk/redfish-mock
 
 This will start a Redfish mock server that we can access by visiting
 http://localhost:8010/redfish/v1. By default, credentials that the mock server
@@ -68,7 +68,7 @@ container:
         -p 8010:8123/tcp \
         -d \
         --rm \
-        xlabsi/redfish-mock
+        quay.io/xlab-steampunk/redfish-mock
 
 When run like this, the mock server will serve a Lenovo recording, protected
 by the redfish/rfmock credentials on port 8123. Note that we still can access
@@ -83,10 +83,10 @@ of the time.
 
 We can build the docker image by running:
 
-    $ docker build --pull -t xlabsi/redfish-mock:latest .
+    $ docker build --pull -t quay.io/xlab-steampunk/redfish-mock:latest .
 
 Once we ave the image ready, we can publish it by running:
 
-    $ docker push xlabsi/redfish-mock:latest
+    $ docker push quay.io/xlab-steampunk/redfish-mock:latest
 
 And that is about it.
