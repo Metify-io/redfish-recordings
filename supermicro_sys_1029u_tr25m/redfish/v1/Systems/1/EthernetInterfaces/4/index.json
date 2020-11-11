@@ -1,0 +1,1 @@
+{"@odata.context":"/redfish/v1/$metadata#EthernetInterface.EthernetInterface","@odata.type":"#EthernetInterface.v1_0_0.EthernetInterface","@odata.id":"/redfish/v1/Systems/1/EthernetInterfaces/4","Id":"4","Name":"AOC LAN 2","Description":"AOC-SGP-i4 #2","Status":{"State":"Disabled","Health":"OK"},"MACAddress":"3c:ec:ef:3e:d8:41","SpeedMbps":0,"FQDN":""}
